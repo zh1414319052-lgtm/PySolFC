@@ -1,0 +1,4905 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PySolFC 3.6.1\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid "\tThis game:  "
+msgstr "\t本场比赛：  "
+
+msgid ""
+"\n"
+"\n"
+msgstr ""
+"\n"
+"\n"
+
+msgid ""
+"\n"
+"\n"
+"Enter new game number"
+msgstr ""
+"\n"
+"\n"
+"输入新牌局编号"
+
+msgid ""
+"\n"
+"5: T 2 7 Q 4 9 A 6 J 3 8 K\n"
+"6: Q 5 J 4 T 3 9 2 8 A 7 K\n"
+"7: A 8 2 9 3 T 4 J 5 Q 6 K\n"
+"8: 3 J 6 A 9 4 Q 7 2 T 5 K"
+msgstr ""
+"\n"
+"5: T 2 7 Q 4 9 A 6 J 3 8 K\n"
+"6: Q 5 J 4 T 3 9 2 8 A 7 K\n"
+"7: A 8 2 9 3 T 4 J 5 Q 6 K\n"
+"8: 3 J 6 A 9 4 Q 7 2 T 5 K"
+
+msgid ""
+"\n"
+"Cards in Foundations: "
+msgstr ""
+"\n"
+"基础卡牌： "
+
+msgid ""
+"\n"
+"Cards in Talon: "
+msgstr ""
+"\n"
+"利爪中的卡牌： "
+
+msgid ""
+"\n"
+"Cards in Waste: "
+msgstr ""
+"\n"
+"废弃的卡片： "
+
+msgid ""
+"\n"
+"Error while saving game.\n"
+"\n"
+"%s\n"
+msgstr ""
+"\n"
+"保存游戏时出错。\n"
+"\n"
+"%s\n"
+
+msgid ""
+"\n"
+"Game finished\n"
+msgstr ""
+"\n"
+"牌局结束\n"
+
+msgid ""
+"\n"
+"Game solved in %d move.\n"
+msgid_plural ""
+"\n"
+"Game solved in %d moves.\n"
+msgstr[0] ""
+"\n"
+"用了 %d 步解开牌局。\n"
+
+msgid ""
+"\n"
+"No games were found!!!\n"
+"\n"
+"Main data directory is:\n"
+"%(dir)s\n"
+"\n"
+"Please check your %(app)s installation.\n"
+msgstr ""
+"\n"
+"找不到游戏。\n"
+"\n"
+"主数据目录为：\n"
+"%(dir)s\n"
+"\n"
+"请检查 %(app)s 的安装。\n"
+
+msgid ""
+"\n"
+"Redeals: "
+msgstr ""
+"\n"
+"重做： "
+
+msgid ""
+"\n"
+"The cardset \"%(cs)s\" was not found.\n"
+"\n"
+"Please ensure that this cardset has been installed, and that your\n"
+"Cardsets package is up to date.\n"
+msgstr ""
+"\n"
+"找不到牌面“%(cs)s”。\n"
+"\n"
+"请确认已安装该牌面并使用最新版牌面资源包。\n"
+
+msgid ""
+"\n"
+"There are no moves left...\n"
+msgstr ""
+"\n"
+"已经没有可以移动的牌。\n"
+
+msgid ""
+"\n"
+"This may make games that use those types of cardsets unplayable. Please\n"
+"ensure that your Cardsets package is up to date."
+msgstr ""
+"\n"
+"这可能导致使用这些牌面的游戏无法运行。请确认牌面资源包已更新。"
+
+msgid ""
+"\n"
+"This won't come out...\n"
+msgstr ""
+"\n"
+"这局已经无法解开。\n"
+
+msgid ""
+"\n"
+"Unsupported game for export.\n"
+msgstr ""
+"\n"
+"不支持导出的游戏。\n"
+
+msgid ""
+"\n"
+"Unsupported game for import.\n"
+msgstr ""
+"\n"
+"不支持导入游戏。\n"
+
+msgid ""
+"\n"
+"You have reached\n"
+"# %(movesrank)d in the top %(tops)s of moves."
+msgstr ""
+"\n"
+"您已达到\n"
+"# %(movesrank)d 在 %(tops)s 的招式顶部。"
+
+msgid ""
+"\n"
+"You have reached\n"
+"# %(timerank)d in the top %(tops)d of playing time\n"
+"and # %(movesrank)d in the top %(tops)d of moves."
+msgstr ""
+"\n"
+"您已达到\n"
+"# %(timerank)d 的播放时间位居前列 %(tops)d\n"
+"和 # %(movesrank)d 在顶部 %(tops)d 的动作中。"
+
+msgid ""
+"\n"
+"You have reached\n"
+"# %(timerank)d in the top %(tops)d of playing time."
+msgstr ""
+"\n"
+"您已达到\n"
+"#%(timerank)d 的播放时间排在%(tops)d 的前面。"
+
+msgid " Ascending"
+msgstr " 升序"
+
+msgid " Deck"
+msgstr " 甲板"
+
+msgid " Descending"
+msgstr " 降序"
+
+msgid "# of cards dealt to the reserve:"
+msgstr "发给预备队的牌张数："
+
+msgid "# of cards dealt to the waste:"
+msgstr "发给废牌的牌张数："
+
+msgid "# of face-down cards dealt to the tableau pile:"
+msgstr "发到工作牌堆的面朝下的牌数量："
+
+msgid "# of face-up cards dealt to the tableau pile:"
+msgstr "发到工作牌堆的面朝上牌的数量："
+
+msgid "% won"
+msgstr "胜率"
+
+msgid "% won:"
+msgstr "获胜百分比："
+
+msgid "%(app)s - FreeCell Solver"
+msgstr "%(app)s - 空当接龙求解器"
+
+msgid "%(app)s Demo Full log"
+msgstr "%(app)s 演示完整日志"
+
+msgid "%(app)s Demo Session log"
+msgstr "%(app)s 演示会话日志"
+
+msgid "%(app)s Demo Statistics"
+msgstr "%(app)s 演示统计"
+
+msgid "%(app)s Demo Statistics for %(game)s"
+msgstr "%(app)s %(game)s 的演示统计"
+
+msgid "%(app)s Demo Top %(tops)d for %(game)s"
+msgstr "%(app)s 演示顶部 %(tops)d 适用于 %(game)s"
+
+msgid ""
+"%(app)s HTML limitation:\n"
+"The %(protocol)s protocol is not supported yet.\n"
+"\n"
+"Please use your standard web browser\n"
+"to open the following URL:\n"
+"%(url)s\n"
+msgstr ""
+"%(app)s HTML 限制：\n"
+"尚不支持%(protocol)s协议。\n"
+"\n"
+"请使用您的标准网络浏览器\n"
+"打开以下网址：\n"
+"%(url)s\n"
+
+msgid ""
+"%(app)s credits go to:\n"
+"\n"
+"Volker Weidner for getting me into Solitaire\n"
+"Guido van Rossum for the initial example program\n"
+"T. Kirk for lots of contributed games and cardsets\n"
+"Carl Larsson for the background music\n"
+"The Gnome AisleRiot team for parts of the documentation\n"
+"Natascha\n"
+"\n"
+"The Python, %(gui_library)s, SDL & Linux crews\n"
+"for making this program possible"
+msgstr ""
+"%(app)s 致谢：\n"
+"\n"
+"Volker Weidner，介绍单人纸牌玩法\n"
+"Guido van Rossum，提供最初的示例程序\n"
+"T. Kirk，贡献多种游戏与牌面\n"
+"Carl Larsson，创作背景音乐\n"
+"Gnome AisleRiot 团队，提供部分文档\n"
+"Natascha\n"
+"\n"
+"感谢 Python、%(gui_library)s、SDL 和 Linux 团队提供的技术基础。"
+
+msgid ""
+"%d\n"
+"Tile\n"
+"Remaining\n"
+"\n"
+msgid_plural ""
+"%d\n"
+"Tiles\n"
+"Remaining\n"
+"\n"
+msgstr[0] ""
+"剩余\n"
+"%d 张\n"
+"\n"
+
+msgid ""
+"%d\n"
+"Tile\n"
+"Removed\n"
+"\n"
+msgid_plural ""
+"%d\n"
+"Tiles\n"
+"Removed\n"
+"\n"
+msgstr[0] ""
+"已移除\n"
+"%d 张\n"
+"\n"
+
+msgid ""
+"%d Free\n"
+"Matching\n"
+"Pair"
+msgid_plural ""
+"%d Free\n"
+"Matching\n"
+"Pairs"
+msgstr[0] ""
+"%d 对\n"
+"可配对的牌"
+
+msgid "%d card"
+msgid_plural "%d cards"
+msgstr[0] "%d 张牌"
+
+msgid "%d redeal"
+msgid_plural "%d redeals"
+msgstr[0] "可重新发牌 %d 次"
+
+msgid "%s Autopilot"
+msgstr "%s 自动演示"
+
+msgid "%s HTML Problem"
+msgstr "%s 帮助文档错误"
+
+msgid "%s Help"
+msgstr "%s 帮助"
+
+msgid "%s Info"
+msgstr "%s 详情"
+
+msgid "%s files"
+msgstr "%s 文件"
+
+msgid "%s installation error"
+msgstr "%s 安装错误"
+
+msgid "&About %s"
+msgstr "关于%s(&A)"
+
+msgid "&About %s..."
+msgstr "关于%s..."
+
+msgid "&All games"
+msgstr "所有游戏(&A)"
+
+msgid "&All games by name"
+msgstr "所有游戏名称(&L)"
+
+msgid "&All games..."
+msgstr "所有游戏…"
+
+msgid "&Antialiasing"
+msgstr "抗锯齿(&A)"
+
+msgid "&Apply"
+msgstr "应用"
+
+msgid "&Assist"
+msgstr "协助(&A)"
+
+msgid "&Auto drop"
+msgstr "自动下降(&A)"
+
+msgid "&Auto scaling"
+msgstr "自动缩放(&A)"
+
+msgid "&Automatic play"
+msgstr "&自动播放"
+
+msgid "&Back to game"
+msgstr "回到牌局"
+
+msgid "&Bilinear"
+msgstr "双线性(&B)"
+
+msgid "&Button icons"
+msgstr "按钮图标(&N)"
+
+msgid "&Cancel"
+msgstr "取消"
+
+msgid "&Center layout"
+msgstr "中心布局(&C)"
+
+msgid "&Clear bookmarks"
+msgstr "清除书签(&C)"
+
+msgid "&Clear recent games"
+msgstr "清除最近的游戏(&C)"
+
+msgid "&Close"
+msgstr "关闭"
+
+msgid "&Colors..."
+msgstr "颜色(&C)..."
+
+msgid "&Comments..."
+msgstr "评论(&C)..."
+
+msgid "&Compact long stacks"
+msgstr "紧凑的长堆叠"
+
+msgid "&Contents"
+msgstr "目录(&C)"
+
+msgid "&Cool"
+msgstr "不错"
+
+msgid "&Credits"
+msgstr "致谢"
+
+msgid "&Custom games"
+msgstr "&定制游戏"
+
+msgid "&Deal all cards (in Accordion type games)"
+msgstr "发完所有牌（在手风琴类型游戏中）"
+
+msgid "&Deal cards"
+msgstr "发牌(&D)"
+
+msgid "&Decrease the card size"
+msgstr "减小卡片尺寸(&A)"
+
+msgid "&Delete current game"
+msgstr "删除当前游戏(&D)"
+
+msgid "&Demo"
+msgstr "演示(&D)"
+
+msgid "&Demo logo"
+msgstr "演示徽标(&D)"
+
+msgid "&Drag-and-Drop"
+msgstr "拖放(&D)"
+
+msgid "&Edit"
+msgstr "编辑"
+
+msgid "&Edit current game..."
+msgstr "编辑当前游戏(&A)..."
+
+msgid "&Enjoy"
+msgstr "开始玩"
+
+msgid "&Fast"
+msgstr "快速(&F)"
+
+msgid "&File"
+msgstr "文件(&F)"
+
+msgid "&Find card..."
+msgstr "查找卡(&F)..."
+
+msgid "&Fonts..."
+msgstr "字体(&F)..."
+
+msgid "&French games"
+msgstr "法国游戏"
+
+msgid "&Full log..."
+msgstr "完整日志(&N)..."
+
+msgid "&Fullscreen"
+msgstr "全屏(&F)"
+
+msgid "&Game"
+msgstr "游戏(&G)"
+
+msgid "&Games played"
+msgstr "玩过的游戏(&E)"
+
+msgid "&Great"
+msgstr "太棒了"
+
+msgid "&Hamming"
+msgstr "汉明(&H)"
+
+msgid "&Help"
+msgstr "帮助(&H)"
+
+msgid "&Hint"
+msgstr "提示(&H)"
+
+msgid "&Hmm"
+msgstr "知道了"
+
+msgid "&Hold and quit"
+msgstr "按住并退出(&H)"
+
+msgid "&How to use PySol"
+msgstr "如何使用 PySol"
+
+msgid "&Import starting layout..."
+msgstr "导入起始布局(&I)..."
+
+msgid "&Increase the card size"
+msgstr "增加卡片尺寸(&A)"
+
+msgid "&Info..."
+msgstr "详情…"
+
+msgid "&Keep dialogs on top"
+msgstr "将对话框保留在顶部(&K)"
+
+msgid "&Lanczos"
+msgstr "兰索斯"
+
+msgid "&License terms"
+msgstr "许可条款(&L)"
+
+msgid "&Load"
+msgstr "读取"
+
+msgid "&Mahjongg games"
+msgstr "麻将游戏"
+
+msgid "&Medium"
+msgstr "中(&M)"
+
+msgid "&Mouse"
+msgstr "鼠标(&M)"
+
+msgid "&Nearest Neighbor"
+msgstr "最近邻(&N)"
+
+msgid "&Negative cards bottom"
+msgstr "负卡底部(&N)"
+
+msgid "&New"
+msgstr "新建"
+
+msgid "&New game"
+msgstr "新牌局"
+
+msgid "&Next number"
+msgstr "下一个编号"
+
+msgid "&Nice"
+msgstr "好"
+
+msgid "&None"
+msgstr "无(&N)"
+
+msgid "&OK"
+msgstr "确定"
+
+msgid "&Oh well"
+msgstr "好吧"
+
+msgid "&Open..."
+msgstr "打开(&O)..."
+
+msgid "&Options"
+msgstr "选项(&O)"
+
+msgid "&Oriental games"
+msgstr "东方牌类"
+
+msgid "&Pause"
+msgstr "暂停(&P)"
+
+msgid "&Pause text"
+msgstr "暂停提示文字"
+
+msgid "&Piles description"
+msgstr "桩描述(&P)"
+
+msgid "&Play"
+msgstr "开始"
+
+msgid "&Play this game"
+msgstr "开始游戏"
+
+msgid "&Player options..."
+msgstr "玩家选项(&P)..."
+
+msgid "&Point-and-Click"
+msgstr "点击式​​(&G)"
+
+msgid "&Popular games"
+msgstr "热门游戏&热门游戏"
+
+msgid "&Preview scaling"
+msgstr "预览缩放"
+
+msgid "&Quick play"
+msgstr "快速出牌"
+
+msgid "&Quit"
+msgstr "退出"
+
+msgid "&Randomize card placement"
+msgstr "随机放置卡片(&R)"
+
+msgid "&Redeal animation"
+msgstr "重新动画(&R)"
+
+msgid "&Redeal icons"
+msgstr "重新显示图标(&R)"
+
+msgid "&Redo"
+msgstr "重做(&R)"
+
+msgid "&Reset all..."
+msgstr "重置全部(&R)..."
+
+msgid "&Reset the card size"
+msgstr "重置卡片尺寸(&R)"
+
+msgid "&Reset..."
+msgstr "重置…"
+
+msgid "&Restart"
+msgstr "重新开始"
+
+msgid "&Rules"
+msgstr "规则"
+
+msgid "&Rules for this game"
+msgstr "本游戏的规则(&R)"
+
+msgid "&Save"
+msgstr "保存"
+
+msgid "&Save to file"
+msgstr "保存到文件"
+
+msgid "&Select"
+msgstr "选择"
+
+msgid "&Set bookmark"
+msgstr "设置书签(&T)"
+
+msgid "&Show removed tiles (in Mahjongg games)"
+msgstr "显示已移除的牌(&S)（在麻将游戏中）"
+
+msgid "&Slow"
+msgstr "慢速(&S)"
+
+msgid "&Solid color..."
+msgstr "纯色…"
+
+msgid "&Solver..."
+msgstr "解算器(&S)..."
+
+msgid "&Sound..."
+msgstr "声音..."
+
+msgid "&Special games"
+msgstr "&特别游戏"
+
+msgid "&Spread stacks"
+msgstr "展开堆栈(&S)"
+
+msgid "&Start"
+msgstr "开始"
+
+msgid "&Statistics..."
+msgstr "统计…"
+
+msgid "&Sticky mouse"
+msgstr "粘性鼠标(&S)"
+
+msgid "&That's life"
+msgstr "知道了"
+
+msgid "&Toolbar"
+msgstr "工具栏(&T)"
+
+msgid "&Tree icons"
+msgstr "树图标(&T)"
+
+msgid "&Undo"
+msgstr "撤消​​(&R)"
+
+msgid "&Very fast"
+msgstr "非常快(&V)"
+
+msgid "&Winning animation"
+msgstr "获胜动画(&A)"
+
+msgid "&Wow"
+msgstr "真棒"
+
+msgid "&Yeah"
+msgstr "好"
+
+msgid "'You Are Stuck' indicator"
+msgstr "“你被困住了”指示器"
+
+msgid "(no cardsets)"
+msgstr "（无卡组）"
+
+msgid "(no games)"
+msgstr "（暂无游戏）"
+
+msgid "(no tiles)"
+msgstr "（无瓷砖）"
+
+msgid "(with %d or more cards)"
+msgstr "（至少 %d 张牌）"
+
+msgid "** ERROR **"
+msgstr "** 错误 **"
+
+msgid "** UNKNOWN %d **"
+msgstr "** 未知 %d **"
+
+msgid "1"
+msgstr "1"
+
+msgid "1 deck games"
+msgstr "一副牌"
+
+msgid "1 redeal"
+msgstr "可重新发牌 1 次"
+
+msgid "100%"
+msgstr "100%"
+
+msgid "104 cards"
+msgstr "104 张牌"
+
+msgid "10x10"
+msgstr "10×10"
+
+msgid "144 cards"
+msgstr "144 张牌"
+
+msgid ""
+"1: 2 3 4 5 6 7 8 9 A B C D E F T W\n"
+"2: 4 6 8 A C E T 1 3 5 7 9 B D F W\n"
+"3: 6 9 C F 1 4 7 A D T 2 5 8 B E W\n"
+"4: 8 C T 3 7 B F 2 6 A E 1 5 9 D W"
+msgstr ""
+"1: 2 3 4 5 6 7 8 9 A B C D E F T W\n"
+"2: 4 6 8 A C E T 1 3 5 7 9 B D F W\n"
+"3: 6 9 C F 1 4 7 A D T 2 5 8 B E W\n"
+"4: 8 C T 3 7 B F 2 6 A E 1 5 9 D W"
+
+msgid ""
+"1: 2 3 4 5 6 7 8 9 T J Q K\n"
+"2: 4 6 8 T Q A 3 5 7 9 J K\n"
+"3: 6 9 Q 2 5 8 J A 4 7 T K\n"
+"4: 8 Q 3 7 J 2 6 T A 5 9 K"
+msgstr ""
+"1: 2 3 4 5 6 7 8 9 T J Q K\n"
+"2: 4 6 8 T Q A 3 5 7 9 J K\n"
+"3: 6 9 Q 2 5 8 J A 4 7 T K\n"
+"4: 8 Q 3 7 J 2 6 T A 5 9 K"
+
+msgid "2 deck games"
+msgstr "两副牌"
+
+msgid "2 redeals"
+msgstr "可重新发牌 2 次"
+
+msgid "25%"
+msgstr "25%"
+
+msgid "3 deck games"
+msgstr "三副牌"
+
+msgid "3 redeals"
+msgstr "可重新发牌 3 次"
+
+msgid "32 cards"
+msgstr "32 张牌"
+
+msgid "3x3"
+msgstr "3x3"
+
+msgid "4 deck games"
+msgstr "四副牌"
+
+msgid "48 cards"
+msgstr "48 张牌"
+
+msgid "4K Green Felt"
+msgstr "4K 绿毡"
+
+msgid "4K Red Felt"
+msgstr "4K 红毡"
+
+msgid "4x4"
+msgstr "4x4"
+
+msgid "50%"
+msgstr "50%"
+
+msgid "52 cards"
+msgstr "52 张牌"
+
+msgid "5x5"
+msgstr "5x5"
+
+msgid "64 cards"
+msgstr "64 张牌"
+
+msgid "6x6"
+msgstr "6x6"
+
+msgid "75%"
+msgstr "75%"
+
+msgid "78 cards"
+msgstr "78 张牌"
+
+msgid "7x7"
+msgstr "7x7"
+
+msgid "8x8"
+msgstr "8x8"
+
+msgid "9x9"
+msgstr "9x9"
+
+msgid "<Add>"
+msgstr "添加"
+
+msgid "<Remove>"
+msgstr "移除"
+
+msgid "<none>"
+msgstr "无"
+
+msgid "A 2 4 8 3 6 Q J 9 5 T 7 A..."
+msgstr "A 2 4 8 3 6 Q J 9 5 T 7 A..."
+
+msgid "A Python Solitaire Game Collection"
+msgstr "基于 Python 的单人纸牌游戏合集"
+
+msgid "A World Domination Project"
+msgstr "开源单人纸牌游戏合集"
+
+msgid "A&dd to favorites"
+msgstr "添加至收藏夹(&D)"
+
+msgid "A&nimations"
+msgstr "动画​​(&N)"
+
+msgid "A&uto drop"
+msgstr "自动下降​​(&U)"
+
+msgid "A&uto-remove first card (in Pegged games)"
+msgstr "自动移除第一张牌(&U)（在固定游戏中）"
+
+msgid "About %s"
+msgstr "关于 %s"
+
+msgid "About %s..."
+msgstr "关于 %s…"
+
+msgid "About cardset"
+msgstr "关于卡组"
+
+msgid "About game"
+msgstr "关于游戏"
+
+msgid "Abstract"
+msgstr "摘要"
+
+msgid "Abstract Metallic"
+msgstr "抽象金属"
+
+msgid "Ace"
+msgstr "艾斯"
+
+msgid "Ace of Penguins"
+msgstr "企鹅王牌"
+
+msgid "Adam Selene"
+msgstr "亚当·塞勒涅"
+
+msgid "Adaptation to Kivy/Android"
+msgstr "Kivy／Android 适配"
+
+msgid "Adult"
+msgstr "成人"
+
+msgid "Advanced Search"
+msgstr "高级搜索"
+
+msgid "Advanced search"
+msgstr "高级搜索"
+
+msgid "Albert Morehead and Geoffrey Mott-Smith"
+msgstr "阿尔伯特·莫尔黑德和杰弗里·莫特-史密斯"
+
+msgid "All &games..."
+msgstr "所有游戏..."
+
+msgid "All Backgrounds"
+msgstr "所有背景"
+
+msgid "All Cardsets"
+msgstr "所有卡组"
+
+msgid "All Games"
+msgstr "全部游戏"
+
+msgid "All files"
+msgstr "所有文件"
+
+msgid "All games"
+msgstr "所有游戏"
+
+msgid "All time"
+msgstr "所有时间"
+
+msgid "Alt/Revitalized"
+msgstr "Alt/振兴"
+
+msgid "Alternate Names"
+msgstr "其他名称"
+
+msgid "Alternate Names:"
+msgstr "备用名称："
+
+msgid "Alternate color"
+msgstr "替代颜色"
+
+msgid "Alternate names:"
+msgstr "备用名称："
+
+msgid "Animals"
+msgstr "动物"
+
+msgid "Animations"
+msgstr "动效"
+
+msgid "Anime"
+msgstr "动漫"
+
+msgid "Ann Edwards"
+msgstr "安·爱德华兹"
+
+msgid "Any"
+msgstr "任意"
+
+msgid "Any suit but the same"
+msgstr "任何套装但都一样"
+
+msgid "Arcade"
+msgstr "街机风格"
+
+msgid "Are You Sure"
+msgstr "你确定吗"
+
+msgid "Argyle"
+msgstr "菱格纹"
+
+msgid "Arrow"
+msgstr "箭头"
+
+msgid "Art"
+msgstr "艺术"
+
+msgid "Art Cabral"
+msgstr "阿特·卡布拉尔"
+
+msgid "Assist"
+msgstr "辅助"
+
+msgid "Assist &level"
+msgstr "协助&等级"
+
+msgid "Assist level"
+msgstr "辅助级别"
+
+msgid "Assists"
+msgstr "辅助"
+
+msgid "Atari ST Patience"
+msgstr "Atari ST 接龙"
+
+msgid "Australia"
+msgstr "澳大利亚"
+
+msgid "Austria"
+msgstr "奥地利"
+
+msgid "Auto &deal"
+msgstr "汽车交易"
+
+msgid "Auto &face-up"
+msgstr "自动正面朝上(&F)"
+
+msgid "Auto deal"
+msgstr "自动发牌"
+
+msgid "Auto drop"
+msgstr "自动收牌"
+
+msgid "Auto drop cards"
+msgstr "自动收牌"
+
+msgid "Auto face-up"
+msgstr "自动翻牌"
+
+msgid "Auto flip"
+msgstr "自动翻转"
+
+msgid "Auto scaling"
+msgstr "自动缩放"
+
+msgid "Auto-remove first card (in Pegged games)"
+msgstr "自动移除第一枚棋子（跳棋解谜）"
+
+msgid "Autodrop"
+msgstr "自动收牌"
+
+msgid "Automatic play"
+msgstr "自动操作"
+
+msgid "Autopilot lost"
+msgstr "自动驾驶仪丢失"
+
+msgid "Autopilot won"
+msgstr "自动驾驶获胜"
+
+msgid "Average"
+msgstr "平均"
+
+msgid "Avg. win moves"
+msgstr "平均获胜步数"
+
+msgid "Avg. win moves:"
+msgstr "平均。获胜动作："
+
+msgid "Avg. win time"
+msgstr "平均获胜用时"
+
+msgid "Avg. win time:"
+msgstr "平均。获胜时间："
+
+msgid "Axe"
+msgstr "斧头"
+
+msgid "Azure"
+msgstr "天蓝"
+
+msgid "B&icubic"
+msgstr "三次方​​(&I)"
+
+msgid "B&ox"
+msgstr "框​​(&O)"
+
+msgid "Back"
+msgstr "返回"
+
+msgid "Baize"
+msgstr "桌毡"
+
+msgid "Baker's Dozen"
+msgstr "十三列"
+
+msgid "Baker's Dozen type"
+msgstr "十三列类"
+
+msgid "Balance $%d"
+msgstr "余额$%d"
+
+msgid "Balanced"
+msgstr "技巧与运气并重"
+
+msgid "Bamboo"
+msgstr "竹子"
+
+msgid "Base card - %s."
+msgstr "基准牌：%s。"
+
+msgid "Base card - Ace or King."
+msgstr "底牌 - A 或 K。"
+
+msgid "Base card:"
+msgstr "基卡："
+
+msgid "Base rank: "
+msgstr "基础等级： "
+
+msgid "Basket Weave"
+msgstr "篮编纹"
+
+msgid "Beleaguered Castle"
+msgstr "围城"
+
+msgid "Beleaguered Castle type"
+msgstr "围城类"
+
+msgid "Belgium"
+msgstr "比利时"
+
+msgid "Bill Taylor"
+msgstr "比尔·泰勒"
+
+msgid "Bit stack"
+msgstr "位堆栈"
+
+msgid "Black"
+msgstr "黑色"
+
+msgid "Blaren (7x7)"
+msgstr "落叶拼图（7×7）"
+
+msgid "Blocked on left by"
+msgstr "左侧被阻挡"
+
+msgid "Blocked on right by"
+msgstr "右侧被阻挡"
+
+msgid "Blue"
+msgstr "蓝色"
+
+msgid "Blue Fractal"
+msgstr "蓝色分形"
+
+msgid "Boar"
+msgstr "野猪"
+
+msgid "Bold"
+msgstr "大胆"
+
+msgid "Bookmark %d"
+msgstr "书签 %d"
+
+msgid "Bookmark moves: "
+msgstr "书签移动： "
+
+msgid "Bottom"
+msgstr "底部"
+
+msgid "Bram Tebbutt"
+msgstr "布拉姆·特布特"
+
+msgid "Bronze"
+msgstr "青铜色"
+
+msgid "Brown"
+msgstr "棕色"
+
+msgid "Brown Diamonds"
+msgstr "棕色菱格"
+
+msgid "Browser"
+msgstr "帮助浏览器"
+
+msgid "Bryan Stout"
+msgstr "布莱恩·斯托特"
+
+msgid "Bush Clover"
+msgstr "布什三叶草"
+
+msgid "Byte stack"
+msgstr "字节栈"
+
+msgid "C&lear"
+msgstr "清空"
+
+msgid "C.L. Baker"
+msgstr "C.L.贝克"
+
+msgid "Canada"
+msgstr "加拿大"
+
+msgid "Cancel"
+msgstr "取消"
+
+msgid "Canfield"
+msgstr "坎菲尔德"
+
+msgid "Canfield type"
+msgstr "坎菲尔德类"
+
+msgid ""
+"Cannot find help document\n"
+"%s"
+msgstr ""
+"找不到帮助文档\n"
+"%s"
+
+msgid ""
+"Cannot load games saved with\n"
+"%(app)s version %(ver)s"
+msgstr "无法读取由 %(app)s %(ver)s 版本创建的存档"
+
+msgid ""
+"Cannot load this game from version %s\n"
+"as the game rules have changed\n"
+"in the current implementation."
+msgstr ""
+"无法从 %s 版本加载此游戏\n"
+"随着游戏规则的改变\n"
+"在目前的实施中。"
+
+msgid "Captain Jeffrey T. Spaulding"
+msgstr "杰弗里·T·斯波尔丁船长"
+
+msgid "Card"
+msgstr "卡"
+
+msgid "Card &background"
+msgstr "卡片&背景"
+
+msgid "Card &view"
+msgstr "卡片&视图"
+
+msgid "Card Size"
+msgstr "卡片尺寸"
+
+msgid "Card back %d"
+msgstr "牌背 %d"
+
+msgid "Card shado&w"
+msgstr "卡阴影(&W)"
+
+msgid "Card shadow"
+msgstr "牌面阴影"
+
+msgid "Card si&ze"
+msgstr "卡片尺寸(&S)"
+
+msgid "Card view"
+msgstr "牌面显示"
+
+msgid "Cards&et..."
+msgstr "卡片等..."
+
+msgid "Cardset error"
+msgstr "牌面错误"
+
+msgid "Cardset load error"
+msgstr "加载牌面失败"
+
+msgid "Cardsets"
+msgstr "牌面"
+
+msgid "Cardsets list"
+msgstr "卡组列表"
+
+msgid "Cartoons"
+msgstr "卡通"
+
+msgid "Castle"
+msgstr "城堡"
+
+msgid ""
+"Castle.  From left to right, accepts the king, queen, and jack of the suit, "
+"in that order."
+msgstr "城堡。从左往右依次放入该花色的 K、Q、J。"
+
+msgid "Category:"
+msgstr "类别："
+
+msgid "Cavalier"
+msgstr "骑士"
+
+msgid "Change..."
+msgstr "改变..."
+
+msgid ""
+"Changing DirectX settings will take effect\n"
+"the next time you restart "
+msgstr ""
+"更改 DirectX 设置将会生效\n"
+"下次重新启动时 "
+
+msgid "Charles Jewell"
+msgstr "查尔斯·朱厄尔"
+
+msgid "Check alternate names"
+msgstr "检查备用名称"
+
+msgid "Check box"
+msgstr "复选框"
+
+msgid "Chequered Field"
+msgstr "棋盘田野"
+
+msgid "Cherry"
+msgstr "樱桃"
+
+msgid "Children"
+msgstr "儿童"
+
+msgid "Children's"
+msgstr "儿童的"
+
+msgid "China"
+msgstr "中国"
+
+msgid "Choose..."
+msgstr "选择..."
+
+msgid "Chrysanthemum"
+msgstr "菊花"
+
+msgid "Circle"
+msgstr "圆"
+
+msgid "Classic"
+msgstr "经典风格"
+
+msgid "Classic Look"
+msgstr "经典外观"
+
+msgid "Clear all bookmarks?"
+msgstr "清除全部书签？"
+
+msgid "Clear bookmarks"
+msgstr "清除书签"
+
+msgid "Clear recent games"
+msgstr "清除最近的游戏"
+
+msgid "Clear the recent games list?"
+msgstr "清空最近玩的游戏列表吗？"
+
+msgid "Close"
+msgstr "关闭"
+
+msgid "Club"
+msgstr "梅花"
+
+msgid ""
+"Club:    A 2 3 4 5 6 7 8 9 T J Q K\n"
+"Spade:   2 4 6 8 T Q A 3 5 7 9 J K\n"
+"Heart:   3 6 9 Q 2 5 8 J A 4 7 T K\n"
+"Diamond: 4 8 Q 3 7 J 2 6 T A 5 9 K"
+msgstr ""
+"俱乐部：A 2 3 4 5 6 7 8 9 T J Q K\n"
+"黑桃: 2 4 6 8 T QA 3 5 7 9 J K\n"
+"心形：3 6 9 Q 2 5 8 J A 4 7 T K\n"
+"钻石：4 8 Q 3 7 J 2 6 T A 5 9 K"
+
+msgid "Clubs"
+msgstr "梅花"
+
+msgid "Coins"
+msgstr "硬币"
+
+msgid "Collectors"
+msgstr "收藏家"
+
+msgid "Colored Cloud"
+msgstr "彩云"
+
+msgid ""
+"Comments for %(game)s %(id)s:\n"
+"\n"
+msgstr ""
+"%(game)s %(id)s 的评论：\n"
+"\n"
+
+msgid "Comments for %(id)s"
+msgstr "评论 %(id)s"
+
+msgid ""
+"Comments were appended to\n"
+"\n"
+"%(filename)s"
+msgstr ""
+"评论已附加到\n"
+"\n"
+"%(filename)s"
+
+msgid "Compatibility:"
+msgstr "兼容性："
+
+msgid "Compatible with current game"
+msgstr "兼容当前游戏"
+
+msgid "Compound"
+msgstr "化合物"
+
+msgid "Computers"
+msgstr "电脑"
+
+msgid "Confirm discard game"
+msgstr "确认弃牌游戏"
+
+msgid ""
+"Congratulations, this\n"
+"was a truly perfect game!"
+msgstr "恭喜！这是一局完美的游戏！"
+
+msgid "Congratulations, you did it!"
+msgstr "恭喜，你赢了！"
+
+msgid "Contents"
+msgstr "目录"
+
+msgid "Cosmos"
+msgstr "宇宙"
+
+msgid "Covered Tile"
+msgstr "覆盖瓷砖"
+
+msgid "Covered Tiles"
+msgstr "覆盖瓷砖"
+
+msgid "Covered by"
+msgstr "覆盖范围"
+
+msgid "Credits"
+msgstr "致谢"
+
+msgid "Cribbage"
+msgstr "克里比奇"
+
+msgid "Cribbage type"
+msgstr "克里比奇类"
+
+msgid "Crimson"
+msgstr "深红色"
+
+msgid "Crown"
+msgstr "皇冠"
+
+msgid "Crystal Mahjongg"
+msgstr "水晶麻将"
+
+msgid ""
+"Current Session:\n"
+"   won: %(won)s ... %(percentwon)s%%\n"
+"   lost: %(lost)s ... %(percentlost)s%%\n"
+msgstr ""
+"当前会话：\n"
+"   获胜：%(won)s ... %(percentwon)s%%\n"
+"   丢失：%(lost)s ... %(percentlost)s%%\n"
+
+msgid ""
+"Current Session:\n"
+"   won: %(won)s ... %(percentwon)s%%\n"
+"   lost: %(lost)s ... %(percentlost)s%%\n"
+"\n"
+msgstr ""
+"本次会话\n"
+"胜局  %(won)s  ·  %(percentwon)s%%\n"
+"败局  %(lost)s  ·  %(percentlost)s%%\n"
+"\n"
+
+msgid "Current game"
+msgstr "当前"
+
+msgid "Current game..."
+msgstr "当前游戏…"
+
+msgid "Current session"
+msgstr "当前会话"
+
+msgid "Custom"
+msgstr "自定义"
+
+msgid "Custom Games"
+msgstr "定制游戏"
+
+msgid "Cyan"
+msgstr "青色"
+
+msgid "Czech Republic"
+msgstr "捷克共和国"
+
+msgid "D&emo statistics..."
+msgstr "德莫统计(&E)..."
+
+msgid "D&ialog icons"
+msgstr "对话框图标(&A)"
+
+msgid "D&rag cards cursor"
+msgstr "拖布卡光标(&R)"
+
+msgid "DD-MM"
+msgstr "日-月"
+
+msgid "Dark Forest"
+msgstr "幽暗森林"
+
+msgid "Dashavatara Ganjifa"
+msgstr "十化身圆牌"
+
+msgid "Dashavatara Ganjifa XL"
+msgstr "大号十化身圆牌"
+
+msgid "Dashavatara Ganjifa type"
+msgstr "十化身圆牌类"
+
+msgid "Dashavatara Ganjifa type (120 cards)"
+msgstr "十化身圆牌类（120 张牌）"
+
+msgid "Date format"
+msgstr "日期格式"
+
+msgid "Date:"
+msgstr "日期："
+
+msgid "David Bernazzani"
+msgstr "大卫·伯纳扎尼"
+
+msgid "David Parlett"
+msgstr "大卫·帕莱特"
+
+msgid "Deal"
+msgstr "交易"
+
+msgid "Deal %d"
+msgstr "成交 %d"
+
+msgid "Deal all cards (in Accordion type games)"
+msgstr "一次发完（手风琴）"
+
+msgid "Deal all cards at the beginning"
+msgstr "一开始就发完所有牌"
+
+msgid "Deal cards"
+msgstr "发牌"
+
+msgid "Deal first cards to the foundations:"
+msgstr "将第一张牌发给基金会："
+
+msgid "Deal to first tableau"
+msgstr "处理第一个画面"
+
+msgid "Deal to reserves"
+msgstr "交易至储备金"
+
+msgid "Deal to tableau"
+msgstr "交易到画面"
+
+msgid "Deal to waste"
+msgstr "处理浪费"
+
+msgid "Deal waste"
+msgstr "处理废物"
+
+msgid "Decks:"
+msgstr "套牌："
+
+msgid "Default"
+msgstr "默认"
+
+msgid "Delete game"
+msgstr "删除游戏"
+
+msgid "Delete the game %s?"
+msgstr "删除游戏%s？"
+
+msgid "Demo"
+msgstr "演示"
+
+msgid "Demo (&all games)"
+msgstr "演示（以及所有游戏）"
+
+msgid "Demo Log"
+msgstr "演示日志"
+
+msgid "Demo Statistics"
+msgstr "演示统计"
+
+msgid "Demo games"
+msgstr "演示牌局"
+
+msgid "Demo log..."
+msgstr "演示日志..."
+
+msgid "Demo logo"
+msgstr "演示标识"
+
+msgid "Demo moves: "
+msgstr "演示动作： "
+
+msgid ""
+"Demo statistics were appended to\n"
+"\n"
+"%(filename)s"
+msgstr ""
+"演示统计数据已附加到\n"
+"\n"
+"%(filename)s"
+
+msgid "Demo:"
+msgstr "演示："
+
+msgid "Denmark"
+msgstr "丹麦"
+
+msgid "Depth:"
+msgstr "深度："
+
+msgid "Diamond"
+msgstr "方块"
+
+msgid "Diamonds"
+msgstr "方块"
+
+msgid "Direction:"
+msgstr "方向："
+
+msgid "Discard current game?"
+msgstr "放弃当前牌局？"
+
+msgid "Divination"
+msgstr "占卜"
+
+msgid "Document"
+msgstr "文件"
+
+msgid "Dojouji Ukiyo E (3x3)"
+msgstr "道成寺浮世绘（3×3）"
+
+msgid "Dondorf"
+msgstr "东多夫扑克牌"
+
+msgid "Done"
+msgstr "完成"
+
+msgid "Down"
+msgstr "向下"
+
+msgid "Drag-and-Drop"
+msgstr "拖放"
+
+msgid "Dragon"
+msgstr "龙"
+
+msgid "Draw"
+msgstr "抽奖"
+
+msgid "Drop"
+msgstr "掉落"
+
+msgid "Drop pair"
+msgstr "掉对"
+
+msgid "Dungeon"
+msgstr "地下城"
+
+msgid ""
+"Dungeon.  Accepts the ace (dragon) of the suit, but only once the tower and "
+"castle are filled."
+msgstr "地牢。塔楼和城堡填满后，才能放入该花色的 A（龙）。"
+
+msgid "Dwarf"
+msgstr "矮人"
+
+msgid "E&xport current layout..."
+msgstr "导出当前布局(&X)..."
+
+msgid "East"
+msgstr "东"
+
+msgid "East Wind"
+msgstr "东风"
+
+msgid "Edge of layout"
+msgstr "布局边缘"
+
+msgid "Empty"
+msgstr "空"
+
+msgid "Empty row cannot be filled."
+msgstr "空列不可补牌。"
+
+msgid "Empty stack"
+msgstr "空牌堆"
+
+msgid "Enable"
+msgstr "启用"
+
+msgid "Enable &bookmarks"
+msgstr "启用书签(&B)"
+
+msgid "Enable &hint"
+msgstr "启用提示(&H)"
+
+msgid "Enable &undo"
+msgstr "启用&撤消"
+
+msgid "Enable bookmarks"
+msgstr "启用书签"
+
+msgid "Enable face-down &peek"
+msgstr "启用面朝下&窥视"
+
+msgid "Enable face-down peek"
+msgstr "允许查看盖住的牌"
+
+msgid "Enable highlight &cards"
+msgstr "启用突出显示卡片(&C)"
+
+msgid "Enable highlight cards"
+msgstr "高亮牌张"
+
+msgid "Enable highlight p&iles"
+msgstr "启用高光堆(&I)"
+
+msgid "Enable highlight piles"
+msgstr "高亮牌堆"
+
+msgid "Enable highlight same &rank"
+msgstr "启用突出显示相同排名(&R)"
+
+msgid "Enable highlight same rank"
+msgstr "高亮同点数的牌"
+
+msgid "Enable hint"
+msgstr "启用提示"
+
+msgid "Enable samles"
+msgstr "启用样本"
+
+msgid "Enable samples"
+msgstr "启用示例"
+
+msgid "Enable shu&ffle"
+msgstr "启用随机播放(&F)"
+
+msgid "Enable shuffle"
+msgstr "启用洗牌"
+
+msgid "Enable undo"
+msgstr "启用撤销"
+
+msgid "Engines"
+msgstr "发动机"
+
+msgid "England"
+msgstr "英格兰"
+
+msgid "English"
+msgstr "英语"
+
+msgid "Erik den Hollander"
+msgstr "埃里克·登·霍兰德"
+
+msgid "Error"
+msgstr "错误"
+
+msgid "Error while loading cardset"
+msgstr "读取牌面时出错"
+
+msgid "Error while loading game"
+msgstr "读取牌局时出错"
+
+msgid ""
+"Error while loading game.\n"
+"\n"
+"Probably the game file is damaged,\n"
+"but this could also be a bug you might want to report."
+msgstr ""
+"加载游戏时出错。\n"
+"\n"
+"可能是游戏文件损坏了\n"
+"但这也可能是您想要报告的错误。"
+
+msgid "Error while saving game"
+msgstr "保存牌局时出错"
+
+msgid "Error while writing to file"
+msgstr "写入文件时出错"
+
+msgid "Eternal Dragon (10x10)"
+msgstr "永恒之龙（10×10）"
+
+msgid "Eularia"
+msgstr "尤拉利亚"
+
+msgid "Export game error"
+msgstr "导出游戏错误"
+
+msgid "Extra Large"
+msgstr "特大"
+
+msgid "Extra Large cardsets"
+msgstr "超大卡组"
+
+msgid "Extra large icons"
+msgstr "超大图标"
+
+msgid "F&lip animation"
+msgstr "翻转动画(&L)"
+
+msgid "Fa&vorite games"
+msgstr "最喜欢的游戏(&F)"
+
+msgid "Face-down"
+msgstr "背面朝上"
+
+msgid "Face-down peeks: "
+msgstr "正面朝下看： "
+
+msgid "Face-up"
+msgstr "面朝上"
+
+msgid "Fade Blue"
+msgstr "渐变蓝"
+
+msgid "Fade Green"
+msgstr "渐变绿"
+
+msgid "Fade Pink"
+msgstr "渐变粉"
+
+msgid "Fade Red"
+msgstr "渐变红"
+
+msgid "Fade White"
+msgstr "渐变白"
+
+msgid "Fade Yellow"
+msgstr "渐变黄"
+
+msgid "Failed to import file."
+msgstr "导入文件失败。"
+
+msgid "Fall"
+msgstr "秋天"
+
+msgid "Fan"
+msgstr "扇形接龙"
+
+msgid "Fan type"
+msgstr "扇形接龙类"
+
+msgid "Fantasy"
+msgstr "奇幻"
+
+msgid "Fast"
+msgstr "快"
+
+msgid "Favorite"
+msgstr "最爱"
+
+msgid "Favorite games"
+msgstr "收藏游戏"
+
+msgid "Felt Blue"
+msgstr "蓝毡"
+
+msgid "Felt Green"
+msgstr "绿毡"
+
+msgid "Felt Red"
+msgstr "红毡"
+
+msgid "File"
+msgstr "牌局"
+
+msgid "File Menu"
+msgstr "牌局管理"
+
+msgid "Filled"
+msgstr "充满"
+
+msgid "Find card"
+msgstr "找卡"
+
+msgid "First card sets base cards:"
+msgstr "第一套卡组基础卡："
+
+msgid "Fish"
+msgstr "鱼"
+
+msgid "Fixed: "
+msgstr "固定： "
+
+msgid "Flip"
+msgstr "翻转"
+
+msgid "Flip animation"
+msgstr "翻牌动效"
+
+msgid "Floral"
+msgstr "花纹"
+
+msgid "Font size"
+msgstr "字号"
+
+msgid "Fonts list"
+msgstr "字体列表"
+
+msgid "Fool/Skiz"
+msgstr "傻瓜/滑雪"
+
+msgid "Forty Thieves"
+msgstr "四十大盗"
+
+msgid "Forty Thieves type"
+msgstr "四十大盗类"
+
+msgid "Forward"
+msgstr "前进"
+
+msgid "Foundation"
+msgstr "收牌堆"
+
+msgid "Foundation."
+msgstr "收牌堆。"
+
+msgid "Foundation. Build by same rank."
+msgstr "收牌堆，按相同点数叠放。"
+
+msgid "Foundation. Build down by alternate color."
+msgstr "收牌堆，按红黑交替叠放，点数递减。"
+
+msgid "Foundation. Build down by color."
+msgstr "收牌堆，按相同颜色叠放，点数递减。"
+
+msgid "Foundation. Build down by suit."
+msgstr "收牌堆，按相同花色叠放，点数递减。"
+
+msgid "Foundation. Build down in any suit but the same."
+msgstr "收牌堆，按不同花色叠放，点数递减。"
+
+msgid "Foundation. Build down regardless of suit."
+msgstr "收牌堆，按不限花色叠放，点数递减。"
+
+msgid "Foundation. Build in suit regardless of rank."
+msgstr "基础。无论等级如何，都穿着西装。"
+
+msgid "Foundation. Build up by alternate color."
+msgstr "收牌堆，按红黑交替叠放，点数递增。"
+
+msgid "Foundation. Build up by color."
+msgstr "收牌堆，按相同颜色叠放，点数递增。"
+
+msgid "Foundation. Build up by suit."
+msgstr "收牌堆，按相同花色叠放，点数递增。"
+
+msgid "Foundation. Build up in any suit but the same."
+msgstr "收牌堆，按不同花色叠放，点数递增。"
+
+msgid "Foundation. Build up or down by same color."
+msgstr "基础。用相同的颜色向上或向下构建。"
+
+msgid "Foundation. Build up or down regardless of suit."
+msgstr "收牌堆，按不限花色叠放，点数递增或递减。"
+
+msgid "Foundation. Build up regardless of suit."
+msgstr "收牌堆，按不限花色叠放，点数递增。"
+
+msgid "Foundation. Place cards here that match the declared rank."
+msgstr "基础。将与声明的等级相匹配的卡放在这里。"
+
+msgid "Foundations"
+msgstr "收牌区"
+
+msgid "Four"
+msgstr "四"
+
+msgid "Four Color"
+msgstr "四色"
+
+msgid "Four-Deck games"
+msgstr "四副牌游戏"
+
+msgid "Fractal Blue"
+msgstr "蓝色分形图"
+
+msgid "Fractal Green"
+msgstr "绿色分形图"
+
+msgid "Fractal Rose"
+msgstr "玫红分形图"
+
+msgid "France"
+msgstr "法国"
+
+msgid "Fred Lunde"
+msgstr "弗莱德·伦德"
+
+msgid "Free cell."
+msgstr "空位。"
+
+msgid "Free hin&ts"
+msgstr "免费提示(&T)"
+
+msgid "Free hints"
+msgstr "不限提示次数"
+
+msgid "FreeCell"
+msgstr "空当接龙"
+
+msgid "FreeCell type"
+msgstr "空当接龙类"
+
+msgid "French"
+msgstr "法式扑克牌"
+
+msgid "French Games"
+msgstr "扑克牌游戏"
+
+msgid "French games"
+msgstr "法国游戏"
+
+msgid "French type"
+msgstr "法式扑克牌类"
+
+msgid "French type (52-54 cards)"
+msgstr "法式扑克牌类（52-54 张牌）"
+
+msgid "Full log"
+msgstr "完整日志"
+
+msgid "Full log for %(player)s"
+msgstr "%(player)s 的完整记录"
+
+msgid "Full picture"
+msgstr "完整图案"
+
+msgid "Game"
+msgstr "游戏"
+
+msgid "Game Info"
+msgstr "游戏信息"
+
+msgid "Game Statistics"
+msgstr "游戏统计"
+
+msgid "Game finished"
+msgstr "牌局结束"
+
+msgid "Game finished, but not without my help..."
+msgstr "牌局结束，本局使用了辅助……"
+
+msgid "Game la&yout"
+msgstr "游戏布局(&Y)"
+
+msgid "Game lost"
+msgstr "比赛输了"
+
+msgid "Game number"
+msgstr "牌局编号"
+
+msgid "Game status"
+msgstr "游戏状态"
+
+msgid "Game won"
+msgstr "获胜"
+
+msgid "Game:"
+msgstr "游戏："
+
+msgid "Games"
+msgstr "游戏"
+
+msgid "Games for Children (very easy)"
+msgstr "儿童游戏（很简单）"
+
+msgid "Games list"
+msgstr "游戏列表"
+
+msgid "Games not &played"
+msgstr "未玩过的游戏"
+
+msgid "Games played and &not won"
+msgstr "已玩过但未获胜的游戏"
+
+msgid "Games played and &won"
+msgstr "玩过的游戏和获胜的游戏"
+
+msgid "Games played: won/lost"
+msgstr "参加的比赛：赢/输"
+
+msgid "Games with Jokers"
+msgstr "使用王牌"
+
+msgid "Games with Scoring"
+msgstr "计分游戏"
+
+msgid "Games with Separate Decks"
+msgstr "分副用牌"
+
+msgid "Games with Stripped Decks"
+msgstr "使用精简牌组"
+
+msgid "Games/day"
+msgstr "比赛/天"
+
+msgid "Games/week"
+msgstr "比赛/周"
+
+msgid "Gammi"
+msgstr "伽米纹"
+
+msgid "Ganjifa"
+msgstr "赶集发"
+
+msgid "Ganjifa type"
+msgstr "印度圆牌类"
+
+msgid "General"
+msgstr "一般"
+
+msgid "German"
+msgstr "德语"
+
+msgid "Germany"
+msgstr "德国"
+
+msgid "Gnome AisleRiot"
+msgstr "GNOME 纸牌游戏"
+
+msgid "Gnome Mahjongg 1"
+msgstr "经典麻将 1"
+
+msgid "Go&to bookmark"
+msgstr "转到书签​​(&T)"
+
+msgid "Goal card: "
+msgstr "目标卡： "
+
+msgid "Goal: %d"
+msgstr "目标：%d"
+
+msgid "Gold"
+msgstr "金色"
+
+msgid "Golden Ratio"
+msgstr "黄金比例"
+
+msgid "Golf"
+msgstr "高尔夫接龙"
+
+msgid "Golf type"
+msgstr "高尔夫接龙类"
+
+msgid "Gordon Bower"
+msgstr "戈登·鲍尔"
+
+msgid "Goto bookmark"
+msgstr "跳转到书签"
+
+msgid "Goto bookmark %d?"
+msgstr "跳转到书签 %d？"
+
+msgid "Great Britain"
+msgstr "英国"
+
+msgid "Green"
+msgstr "绿色"
+
+msgid "Green and gold"
+msgstr "深绿金纹"
+
+msgid "Gregg Seelhoff"
+msgstr "格雷格·西尔霍夫"
+
+msgid "Grey"
+msgstr "灰色"
+
+msgid "Grounds for a Divorce"
+msgstr "离婚的理由"
+
+msgid "Guest"
+msgstr "嘉宾"
+
+msgid ""
+"Guest Chambers.  A free cell, but only accepts cards of the suit, and only "
+"once the king and queen are in the castle."
+msgstr "客房。城堡中放好 K 和 Q 后，才可将该花色的牌放入这个备用格。"
+
+msgid "Gypsy"
+msgstr "吉卜赛接龙"
+
+msgid "Gypsy type"
+msgstr "吉卜赛接龙类"
+
+msgid "HTML: "
+msgstr "HTML: "
+
+msgid "Hanafuda"
+msgstr "花札"
+
+msgid "Hanafuda 200 Years"
+msgstr "花札二百年"
+
+msgid "Hanafuda type"
+msgstr "花札类"
+
+msgid "Hanafuda type (48 cards)"
+msgstr "花札类（48 张牌）"
+
+msgid "Hand Score %d"
+msgstr "手牌分数%d"
+
+msgid "Harp"
+msgstr "竖琴"
+
+msgid "Heart"
+msgstr "红桃"
+
+msgid "Hearts"
+msgstr "红桃"
+
+msgid "Help"
+msgstr "帮助"
+
+msgid "Hex A Deck"
+msgstr "六花色牌"
+
+msgid "Hex A Deck type"
+msgstr "六角牌类"
+
+msgid "Hex A Deck type (68 cards)"
+msgstr "六角牌类（68 张牌）"
+
+msgid "Hi-Res"
+msgstr "高分辨率"
+
+msgid "Hi-Res cardsets"
+msgstr "高分辨率卡组"
+
+msgid "Hide"
+msgstr "隐藏"
+
+msgid "Highlight &no matching"
+msgstr "突出显示&无匹配"
+
+msgid "Highlight cards 1:"
+msgstr "亮点卡1："
+
+msgid "Highlight cards 2:"
+msgstr "亮点卡2："
+
+msgid "Highlight cards:"
+msgstr "亮点卡："
+
+msgid "Highlight cards: "
+msgstr "亮点卡： "
+
+msgid "Highlight no matching"
+msgstr "提示无匹配"
+
+msgid "Highlight not matching:"
+msgstr "突出显示不匹配："
+
+msgid "Highlight p&iles"
+msgstr "高亮显示桩(&I)"
+
+msgid "Highlight piles"
+msgstr "高亮牌堆"
+
+msgid "Highlight piles:"
+msgstr "突出显示桩："
+
+msgid "Highlight piles: "
+msgstr "突出显示桩： "
+
+msgid "Highlight same rank 1:"
+msgstr "突出显示相同的排名 1："
+
+msgid "Highlight same rank 2:"
+msgstr "突出显示相同的排名 2："
+
+msgid "Highlight same rank:"
+msgstr "突出显示相同的排名："
+
+msgid "Highlight same rank: "
+msgstr "突出显示相同的排名： "
+
+msgid "Hint"
+msgstr "提示"
+
+msgid "Hint arrow:"
+msgstr "提示箭头："
+
+msgid "Hint:"
+msgstr "提示："
+
+msgid "Hints: "
+msgstr "提示： "
+
+msgid "Hofamterspiel (9x9)"
+msgstr "宫廷牌（9×9）"
+
+msgid "Hokusai Ukiyo E (6x6)"
+msgstr "北斋浮世绘（6×6）"
+
+msgid "Holiday"
+msgstr "假期"
+
+msgid "Horse"
+msgstr "马"
+
+msgid "How to use PySol"
+msgstr "操作指南"
+
+msgid "Hoyle Card Games"
+msgstr "霍伊尔纸牌游戏"
+
+msgid "Hungary"
+msgstr "匈牙利"
+
+msgid "I could not solve this game."
+msgstr "我无法解决这个游戏。"
+
+msgid "ITFT1"
+msgstr "ITFT1"
+
+msgid "Ice"
+msgstr "冰面"
+
+msgid "Icon size"
+msgstr "图标大小"
+
+msgid "Icon style"
+msgstr "图标风格"
+
+msgid "Icons only"
+msgstr "仅图标"
+
+msgid "Image scaling:"
+msgstr "图像缩放："
+
+msgid "Images"
+msgstr "图片背景"
+
+msgid "Import"
+msgstr "进口"
+
+msgid "Import File"
+msgstr "导入文件"
+
+msgid "Import game error"
+msgstr "导入游戏错误"
+
+msgid "Incompatible cardset"
+msgstr "牌面不兼容"
+
+msgid "Index"
+msgstr "目录"
+
+msgid "India"
+msgstr "印度"
+
+msgid "Initial setting:"
+msgstr "初始设置："
+
+msgid ""
+"Internal error while loading game.\n"
+"\n"
+"Please report this bug."
+msgstr ""
+"加载游戏时出现内部错误。\n"
+"\n"
+"请报告此错误。"
+
+msgid "Invalid game number"
+msgstr "牌局编号无效"
+
+msgid "Invalid game number\n"
+msgstr "牌局编号无效\n"
+
+msgid "Invalid or damaged %s save file"
+msgstr "%s 存档无效或已损坏"
+
+msgid "Inventor:"
+msgstr "发明人："
+
+msgid "Iris"
+msgstr "鸢尾花"
+
+msgid "Ishido"
+msgstr "石道"
+
+msgid "Ishido type"
+msgstr "石道类"
+
+msgid "Ishido type (36 tiles)"
+msgstr "石道类（36 张牌）"
+
+msgid "Isometric Blocks"
+msgstr "等距方块"
+
+msgid "Italian"
+msgstr "意大利语"
+
+msgid "Italic"
+msgstr "斜体"
+
+msgid "Italy"
+msgstr "意大利"
+
+msgid "Iteration:"
+msgstr "迭代："
+
+msgid "Iterations count exceeded (Intractable)"
+msgstr "迭代次数超出（棘手）"
+
+msgid "Jack"
+msgstr "杰克"
+
+msgid "Jan Wolter"
+msgstr "简·沃尔特"
+
+msgid "Japan"
+msgstr "日本"
+
+msgid "Jean"
+msgstr "牛仔布"
+
+msgid "Jim Sizelove"
+msgstr "吉姆·塞兹洛夫"
+
+msgid "Joe R."
+msgstr "乔·R。"
+
+msgid "John Stoneham"
+msgstr "约翰·斯托纳姆"
+
+msgid "Joker"
+msgstr "王牌"
+
+msgid "Joker Deck"
+msgstr "含王牌"
+
+msgid "KMahjongg"
+msgstr "KDE 麻将"
+
+msgid "KPatience"
+msgstr "KPatience 纸牌"
+
+msgid "Katharine Turner"
+msgstr "凯瑟琳·特纳"
+
+msgid "Keyboard selector:"
+msgstr "键盘选择器："
+
+msgid "King"
+msgstr "国王"
+
+msgid "Kings: %d"
+msgstr "国王：%d"
+
+msgid "Klondike"
+msgstr "经典接龙"
+
+msgid "Klondike type"
+msgstr "经典接龙类"
+
+msgid "Knave of Hearts (4x4)"
+msgstr "红桃侍从（4×4）"
+
+msgid "Komika"
+msgstr "漫画风格"
+
+msgid "Kyodai Mahjongg"
+msgstr "兄弟麻将"
+
+msgid "Language"
+msgstr "语言"
+
+msgid "Language follows Android"
+msgstr "语言跟随 Android 系统"
+
+msgid "Large"
+msgstr "大"
+
+msgid "Large cardsets"
+msgstr "大卡组"
+
+msgid "Large icons"
+msgstr "大图标"
+
+msgid "Last 7 days"
+msgstr "过去 7 天"
+
+msgid "Last month"
+msgstr "上个月"
+
+msgid "Last year"
+msgstr "去年"
+
+msgid "Layer: %d"
+msgstr "层数：%d"
+
+msgid "Layout:"
+msgstr "布局："
+
+msgid "Leaf"
+msgstr "叶片"
+
+msgid "Left"
+msgstr "左侧"
+
+msgid "License terms"
+msgstr "许可条款"
+
+msgid "Lights Out"
+msgstr "关灯"
+
+msgid "Lights Out type"
+msgstr "关灯类"
+
+msgid "Lillian Davies and Christa Baran"
+msgstr "莉莲·戴维斯和克里斯塔·巴兰"
+
+msgid "Lime"
+msgstr "青柠色"
+
+msgid "Lion"
+msgstr "狮子"
+
+msgid "Load"
+msgstr "读取"
+
+msgid "Load game"
+msgstr "读取牌局"
+
+msgid "Load game error"
+msgstr "读取牌局失败"
+
+msgid "Loaded"
+msgstr "已读取"
+
+msgid "Loading cardset %s..."
+msgstr "正在载入牌面 %s…"
+
+msgid "Log"
+msgstr "日志"
+
+msgid "Log..."
+msgstr "记录..."
+
+msgid "Lost"
+msgstr "败局"
+
+msgid "Lost:"
+msgstr "败局："
+
+msgid "Lotus"
+msgstr "莲花"
+
+msgid "Louie Mantia Hanafuda"
+msgstr "路易·曼蒂亚花札"
+
+msgid "Luck only"
+msgstr "全靠运气"
+
+msgid "MM-DD"
+msgstr "月-日"
+
+msgid "Magenta"
+msgstr "品红"
+
+msgid "Mahjongg"
+msgstr "麻将消除"
+
+msgid "Mahjongg Games"
+msgstr "麻将消除"
+
+msgid "Mahjongg type (42 tiles)"
+msgstr "麻将消除类（42 张牌）"
+
+msgid "Main Menu"
+msgstr "主菜单"
+
+msgid "Maple"
+msgstr "枫木"
+
+msgid "Marble"
+msgstr "大理石"
+
+msgid "Mark Masten"
+msgstr "马克·马斯滕"
+
+msgid "Mark S. Ball"
+msgstr "马克·S·鲍尔"
+
+msgid "Mary Whitmore Jones"
+msgstr "玛丽·惠特莫尔·琼斯"
+
+msgid "Match Three"
+msgstr "三消"
+
+msgid "Match Three type"
+msgstr "三消类"
+
+msgid "Matching"
+msgstr "配对"
+
+msgid "Matching XL"
+msgstr "大号配对牌"
+
+msgid "Matching type (variable cards)"
+msgstr "配对类（牌张数可变）"
+
+msgid "Matrix"
+msgstr "数字矩阵"
+
+msgid "Matrix type"
+msgstr "数字华容道类"
+
+msgid "Max # of accepted cards:"
+msgstr "接受卡的最大数量："
+
+msgid "Max # of dealt cards:"
+msgstr "最大发牌张数："
+
+msgid "Max iterations:"
+msgstr "最大迭代次数："
+
+msgid "Maximum"
+msgstr "最大"
+
+msgid "Medium"
+msgstr "中等"
+
+msgid "Medium cardsets"
+msgstr "中型卡组"
+
+msgid "Memory"
+msgstr "记忆翻牌"
+
+msgid "Memory type"
+msgstr "记忆翻牌类"
+
+msgid "Menu"
+msgstr "菜单"
+
+msgid "Metal Plate"
+msgstr "金属板"
+
+msgid "Michael Keller"
+msgstr "迈克尔·凯勒"
+
+msgid "Microsoft Solitaire Collection"
+msgstr "微软纸牌合集"
+
+msgid "Mid Winter's Eve (8x8)"
+msgstr "仲冬夜（8×8）"
+
+msgid "Mini Ishido"
+msgstr "迷你石道"
+
+msgid "Minimum"
+msgstr "最低"
+
+msgid "Modern"
+msgstr "现代风格"
+
+msgid "Monochrome"
+msgstr "单色"
+
+msgid "Montana"
+msgstr "蒙大拿"
+
+msgid "Montana type"
+msgstr "蒙大拿类"
+
+msgid "Mostly luck"
+msgstr "运气为主"
+
+msgid "Mostly skill"
+msgstr "技巧为主"
+
+msgid "Mountains"
+msgstr "群山"
+
+msgid "Move"
+msgstr "移动"
+
+msgid "Move %s to %s"
+msgstr "将 %s 移到 %s"
+
+msgid "Move:"
+msgstr "移动："
+
+msgid "Moves"
+msgstr "动作"
+
+msgid "Moves left: %d"
+msgstr "向左移动：%d"
+
+msgid "Moves/Total moves"
+msgstr "步数/总步数"
+
+msgid "Moves:"
+msgstr "动作："
+
+msgid "Moves: "
+msgstr "动作： "
+
+msgid "Movies"
+msgstr "电影"
+
+msgid "Mughal Ganjifa"
+msgstr "莫卧儿圆牌"
+
+msgid "Mughal Ganjifa XL"
+msgstr "大号莫卧儿圆牌"
+
+msgid "Mughal Ganjifa type"
+msgstr "莫卧儿圆牌类"
+
+msgid "Mughal Ganjifa type (96 cards)"
+msgstr "莫卧儿圆牌类（96 张牌）"
+
+msgid "Music"
+msgstr "音乐"
+
+msgid "Music enabled"
+msgstr "启用音乐"
+
+msgid "Music volume"
+msgstr "音乐音量"
+
+msgid "Music volume:"
+msgstr "音乐音量："
+
+msgid "My Double Klondike"
+msgstr "我的双重经典接龙"
+
+msgid "My FreeCell"
+msgstr "我的空当接龙"
+
+msgid "My Game"
+msgstr "我的游戏"
+
+msgid "My Grounds for a Divorce"
+msgstr "我离婚的理由"
+
+msgid "My Gypsy"
+msgstr "我的吉普赛人"
+
+msgid "My Klondike"
+msgstr "我的经典接龙"
+
+msgid "My Simple Simon"
+msgstr "我的简单西蒙"
+
+msgid "My Somerset"
+msgstr "我的萨默塞特"
+
+msgid "My Spider"
+msgstr "我的蜘蛛"
+
+msgid "N"
+msgstr "N"
+
+msgid "NE"
+msgstr "NE"
+
+msgid "NW"
+msgstr "NW"
+
+msgid "Name:"
+msgstr "姓名："
+
+msgid "Napoleon"
+msgstr "拿破仑"
+
+msgid "Napoleon type"
+msgstr "拿破仑类"
+
+msgid "Nationality:"
+msgstr "国籍："
+
+msgid "Nature"
+msgstr "自然"
+
+msgid "Navagraha Ganjifa"
+msgstr "九曜圆牌"
+
+msgid "Navagraha Ganjifa type"
+msgstr "九曜圆牌类"
+
+msgid "Navagraha Ganjifa type (108 cards)"
+msgstr "九曜圆牌类（108 张牌）"
+
+msgid "Navy"
+msgstr "藏蓝"
+
+msgid "Negative cards bottom"
+msgstr "牌堆底图反色"
+
+msgid "Neo"
+msgstr "新式扑克牌"
+
+msgid "Neo Hex"
+msgstr "新式六花色牌"
+
+msgid "Neo Tarock"
+msgstr "新式塔罗牌"
+
+msgid "Netherlands"
+msgstr "荷兰"
+
+msgid "New"
+msgstr "新局"
+
+msgid "New game"
+msgstr "新牌局"
+
+msgid "New games in v. %(version)s"
+msgstr "%(version)s 版新增游戏"
+
+msgid "Next Matrix"
+msgstr "进阶数字矩阵"
+
+msgid "Next game by num&ber"
+msgstr "按编号下一场比赛(&B)"
+
+msgid "Night Forest"
+msgstr "夜林"
+
+msgid ""
+"No Free\n"
+"Matching\n"
+"Pairs"
+msgstr ""
+"没有免费\n"
+"配套\n"
+"对"
+
+msgid "No Jokers"
+msgstr "无王牌"
+
+msgid "No TOP for all games"
+msgstr "所有游戏均无 TOP"
+
+msgid "No TOP for this game"
+msgstr "这个游戏没有TOP"
+
+msgid "No building"
+msgstr "没有建筑物"
+
+msgid "No cards"
+msgstr "没有牌"
+
+msgid ""
+"No cardsets were found!!!\n"
+"\n"
+"Cardsets should be installed into:\n"
+"%(dir)s\n"
+"\n"
+"Please check your %(app)s installation.\n"
+msgstr ""
+"找不到牌面。\n"
+"\n"
+"牌面应安装在：\n"
+"%(dir)s\n"
+"\n"
+"请检查 %(app)s 的安装。\n"
+
+msgid ""
+"No cardsets were found!!!\n"
+"\n"
+"Main data directory is:\n"
+"%(dir)s\n"
+"\n"
+"Please check your %(app)s installation.\n"
+msgstr ""
+"找不到牌面。\n"
+"\n"
+"主数据目录为：\n"
+"%(dir)s\n"
+"\n"
+"请检查 %(app)s 的安装。\n"
+
+msgid "No games"
+msgstr "没有游戏"
+
+msgid "No move"
+msgstr "没有动静"
+
+msgid "No moves found"
+msgstr "未找到可用走法"
+
+msgid "No redeal"
+msgstr "不可重新发牌"
+
+msgid "No redeals"
+msgstr "没有重新发牌"
+
+msgid "None"
+msgstr "无"
+
+msgid "North"
+msgstr "北"
+
+msgid "North Wind"
+msgstr "北风"
+
+msgid "Nostalgy"
+msgstr "怀旧纹理"
+
+msgid "Not won"
+msgstr "未获胜"
+
+msgid "Note"
+msgstr "提示"
+
+msgid "Num. cards:"
+msgstr "编号。卡："
+
+msgid "Number of cards"
+msgstr "卡数"
+
+msgid "Number of decks:"
+msgstr "甲板数量："
+
+msgid "Number of redeals:"
+msgstr "重发次数："
+
+msgid "Number of reserves:"
+msgstr "储备数量："
+
+msgid "Number of tableau piles:"
+msgstr "工作栏数量："
+
+msgid "Numerica"
+msgstr "数字接龙"
+
+msgid "Numerica type"
+msgstr "数字接龙类"
+
+msgid "Olive"
+msgstr "橄榄绿"
+
+msgid "Olive Fossils"
+msgstr "橄榄色化石"
+
+msgid "One"
+msgstr "一"
+
+msgid "One redeal"
+msgstr "一次重发"
+
+msgid "One-Deck games"
+msgstr "一副牌游戏"
+
+msgid "Open"
+msgstr "打开"
+
+msgid "Open Game"
+msgstr "开放游戏"
+
+msgid "Open Games (all cards visible)"
+msgstr "明牌游戏（所有牌可见）"
+
+msgid ""
+"Open a\n"
+"saved game"
+msgstr ""
+"打开一个\n"
+"保存的游戏"
+
+msgid "Open game"
+msgstr "打开牌局"
+
+msgid "Opening deal"
+msgstr "开仓交易"
+
+msgid "Operating Systems"
+msgstr "操作系统"
+
+msgid "Options"
+msgstr "设置"
+
+msgid "Orange"
+msgstr "橙色"
+
+msgid "Orange Abstract"
+msgstr "橙色抽象纹"
+
+msgid "Orange Ornaments"
+msgstr "橙色饰纹"
+
+msgid "Orchid"
+msgstr "兰花"
+
+msgid "Oriental Games"
+msgstr "东方牌类"
+
+msgid "Original"
+msgstr "原创"
+
+msgid "Original Games"
+msgstr "原创游戏"
+
+msgid "Othe&r graphics"
+msgstr "其他图形(&R)"
+
+msgid "Other"
+msgstr "其他"
+
+msgid "Other Categories"
+msgstr "其他分类"
+
+msgid "Other graphics"
+msgstr "其他图形"
+
+msgid "Other number"
+msgstr "其他数量"
+
+msgid "Other number of redeals"
+msgstr "其他重新发牌次数"
+
+msgid "Oxymoron"
+msgstr "反语主题牌"
+
+msgid "Pairing"
+msgstr "配对"
+
+msgid "Pairing type"
+msgstr "配对类"
+
+msgid "Pale Satin"
+msgstr "浅色缎面"
+
+msgid "Paradise Wide"
+msgstr "天堂全景"
+
+msgid "Paul Alfille"
+msgstr "保罗·阿尔菲尔"
+
+msgid "Paulownia"
+msgstr "泡桐"
+
+msgid "Pause"
+msgstr "暂停"
+
+msgid "Pause game"
+msgstr "暂停游戏"
+
+msgid "Pause text"
+msgstr "暂停文字"
+
+msgid "Paused"
+msgstr "已暂停"
+
+msgid "Pegged"
+msgstr "跳棋解谜"
+
+msgid "Pegged type"
+msgstr "跳棋解谜类"
+
+msgid "Pentagon"
+msgstr "五角大楼"
+
+msgid "Peony"
+msgstr "牡丹"
+
+msgid "People"
+msgstr "人"
+
+msgid "Perfect"
+msgstr "完美"
+
+msgid "Perfect game"
+msgstr "完美的游戏"
+
+msgid "Peter Voke"
+msgstr "彼得·沃克"
+
+msgid "Picture Gallery"
+msgstr "画廊"
+
+msgid "Picture Gallery type"
+msgstr "画廊类"
+
+msgid "Pine"
+msgstr "松树"
+
+msgid "Pine Felt"
+msgstr "松绿桌毡"
+
+msgid "Pink"
+msgstr "粉色"
+
+msgid "Pink Hearts"
+msgstr "粉色爱心"
+
+msgid "Places"
+msgstr "地点"
+
+msgid "Plain"
+msgstr "平原"
+
+msgid "Play demo"
+msgstr "播放演示"
+
+msgid "Play history:"
+msgstr "播放历史："
+
+msgid "Played"
+msgstr "局数"
+
+msgid "Played:"
+msgstr "玩过："
+
+msgid "Player"
+msgstr "玩家"
+
+msgid "Player\n"
+msgstr "玩家\n"
+
+msgid "Player options"
+msgstr "玩家选项"
+
+msgid "Playing time"
+msgstr "游玩时间"
+
+msgid "Playing time:"
+msgstr "游玩时间："
+
+msgid "Playing time: "
+msgstr "游玩时间： "
+
+msgid "Please enter your name"
+msgstr "请输入您的姓名"
+
+msgid "Please select a %s type cardset"
+msgstr "请选择 %s 类型的牌面"
+
+msgid "Plow"
+msgstr "犁"
+
+msgid "Plum"
+msgstr "梅子"
+
+msgid "Point-and-Click"
+msgstr "点选再放置"
+
+msgid "Points: %d"
+msgstr "积分：%d"
+
+msgid "Poker"
+msgstr "扑克"
+
+msgid "Poker type"
+msgstr "扑克类"
+
+msgid "Polish"
+msgstr "波兰语"
+
+msgid "Popular"
+msgstr "热门"
+
+msgid "Popular Games"
+msgstr "热门游戏"
+
+msgid "Portugal"
+msgstr "葡萄牙"
+
+msgid "Pr&eserve aspect ratio"
+msgstr "保留纵横比(&E)"
+
+msgid "Pradhan"
+msgstr "普拉丹"
+
+msgid "Preserve aspect ratio"
+msgstr "保持纵横比"
+
+msgid "Preset:"
+msgstr "预设："
+
+msgid "Preview scaling"
+msgstr "预览缩放"
+
+msgid "Preview:"
+msgstr "预览："
+
+msgid "Products"
+msgstr "产品展示"
+
+msgid "Progress"
+msgstr "进展"
+
+msgid "Progression"
+msgstr "进展"
+
+msgid "Purple"
+msgstr "紫色"
+
+msgid "Purple Mosaic"
+msgstr "紫色马赛克"
+
+msgid "Puzzle"
+msgstr "拼图"
+
+msgid "Puzzle type"
+msgstr "拼图类"
+
+msgid "Puzzle type (variable pieces)"
+msgstr "拼图类（块数可变）"
+
+msgid ""
+"PySol Fan Club edition\n"
+"%(description)s\n"
+"%(versioninfo)s\n"
+"\n"
+"Copyright (C) 1998 - 2003 Markus F.X.J. Oberhumer.\n"
+"Copyright (C) 2003 Mt. Hood Playing Card Co.\n"
+"Copyright (C) 2005 - 2009 Skomoroh.\n"
+"Copyright (C) 2020 - 2026 PySolFC.\n"
+"All Rights Reserved.\n"
+"\n"
+"PySol is free software distributed under the terms\n"
+"of the GNU General Public License.\n"
+"\n"
+"For more information about this application visit"
+msgstr ""
+"PySolFC（PySol Fan Club 版）\n"
+"%(description)s\n"
+"%(versioninfo)s\n"
+"\n"
+"Copyright (C) 1998 - 2003 Markus F.X.J. Oberhumer.\n"
+"Copyright (C) 2003 Mt. Hood Playing Card Co.\n"
+"Copyright (C) 2005 - 2009 Skomoroh.\n"
+"Copyright (C) 2020 - 2026 PySolFC.\n"
+"保留所有权利。\n"
+"\n"
+"PySol 是自由软件，依据 GNU 通用公共许可证分发。\n"
+"\n"
+"更多信息请访问"
+
+msgid "PySol cannot find cardsets of the following types:"
+msgstr "找不到以下类型的牌面："
+
+msgid "PySol version:"
+msgstr "皮索尔版本："
+
+msgid "PySolFC"
+msgstr "皮索尔纸牌合集"
+
+msgid "Pyramid"
+msgstr "金字塔接龙"
+
+msgid "Queen"
+msgstr "女王"
+
+msgid "Quick play"
+msgstr "快速操作"
+
+msgid "Quit"
+msgstr "退出"
+
+msgid "Quit %s"
+msgstr "退出 %s"
+
+msgid "R&ecent games"
+msgstr "最近的游戏​​(&E)"
+
+msgid "R&eport a bug"
+msgstr "报告错误(&E)"
+
+msgid "R&esampling"
+msgstr "重新采样​​(&E)"
+
+msgid "RGB"
+msgstr "三原色"
+
+msgid "Radio button"
+msgstr "单选按钮"
+
+msgid "Raglan"
+msgstr "拉格伦"
+
+msgid "Raglan type"
+msgstr "拉格伦类"
+
+msgid "Rainbow"
+msgstr "彩虹"
+
+msgid "Raise card:"
+msgstr "升卡："
+
+msgid "Raja"
+msgstr "拉惹"
+
+msgid "Random game"
+msgstr "随机游戏"
+
+msgid "Randy Rasa"
+msgstr "兰迪·拉萨"
+
+msgid "Rank"
+msgstr "排名"
+
+msgid "Recent"
+msgstr "最近"
+
+msgid "Recent games"
+msgstr "最近玩过"
+
+msgid "Rectangle"
+msgstr "矩形"
+
+msgid "Red"
+msgstr "红色"
+
+msgid "Redeal"
+msgstr "重新发牌"
+
+msgid "Redeal animation"
+msgstr "重新发牌动效"
+
+msgid "Redeal icons"
+msgstr "重新发牌图标"
+
+msgid "Redeals:"
+msgstr "重做："
+
+msgid "Redo"
+msgstr "重做"
+
+msgid "Redo &all"
+msgstr "重做(&A)"
+
+msgid "Redo all"
+msgstr "重做全部"
+
+msgid "Redo last move"
+msgstr "重做上一步"
+
+msgid "Relaxed"
+msgstr "轻松"
+
+msgid "Relaxed Variants"
+msgstr "宽松规则"
+
+msgid "Remix"
+msgstr "混搭风格"
+
+msgid "Remove &from favorites"
+msgstr "从收藏夹中删除​​(&N)"
+
+msgid "Replace existing bookmark %d?"
+msgstr "替换已有的书签 %d？"
+
+msgid "Reserve. Build down by suit."
+msgstr "预订。按花色向下构建。"
+
+msgid "Reserve. Build up regardless of suit."
+msgstr "预订。无论花色如何，都要建立。"
+
+msgid "Reserve. No building."
+msgstr "备用牌堆，不可叠牌。"
+
+msgid "Reserve. Only Kings are acceptable."
+msgstr "预订。只有国王是可以接受的。"
+
+msgid "Reserves"
+msgstr "备用格"
+
+msgid ""
+"Reset ALL statistics and logs for player\n"
+"%(player)s?"
+msgstr ""
+"重置玩家的所有统计数据和日志\n"
+"%(player)s？"
+
+msgid "Reset all statistics"
+msgstr "清空全部统计"
+
+msgid "Reset game statistics"
+msgstr "清空该游戏统计"
+
+msgid ""
+"Reset statistics and logs for player\n"
+"%(player)s\n"
+"and game\n"
+"%(game)s?"
+msgstr "清除玩家 %(player)s 在游戏 %(game)s 中的统计和记录？"
+
+msgid "Reset zoom"
+msgstr "重置缩放"
+
+msgid "Restart"
+msgstr "重来"
+
+msgid "Restart game"
+msgstr "重开牌局"
+
+msgid ""
+"Restart the\n"
+"current game"
+msgstr ""
+"重新开始\n"
+"当前牌局"
+
+msgid "Restart this game?"
+msgstr "重新开始这局游戏？"
+
+msgid "Result"
+msgstr "结果"
+
+msgid "Richard A. Canfield"
+msgstr "理查德·坎菲尔德"
+
+msgid "Rick Holzgrafe"
+msgstr "里克·霍尔兹格拉夫"
+
+msgid "Right"
+msgstr "右侧"
+
+msgid "Rising"
+msgstr "瑞星"
+
+msgid "Robert Harbin"
+msgstr "罗伯特·哈尔滨"
+
+msgid "Robert Hogue"
+msgstr "罗伯特·霍格"
+
+msgid "Round %(round)d/%(max_rounds)d"
+msgstr "圆形%(round)d/%(max_rounds)d"
+
+msgid "Round %d"
+msgstr "第 %d 轮"
+
+msgid "Round Cardsets"
+msgstr "圆形卡组"
+
+msgid "Row: %d, Column: %d"
+msgstr "行：%d，列：%d"
+
+msgid "Row: %d, Column: %d, Current hand: %s"
+msgstr "行：%d，列：%d，当前手牌：%s"
+
+msgid "Row: %d, Score %d, Column: %d, Score %d"
+msgstr "行：%d，得分 %d，列：%d，得分 %d"
+
+msgid ""
+"Royal Flush\n"
+"Straight Flush\n"
+"4 of a Kind\n"
+"Full House\n"
+"Flush\n"
+"Straight\n"
+"3 of a Kind\n"
+"Two Pair\n"
+"One Pair"
+msgstr ""
+"皇家同花顺\n"
+"同花顺\n"
+"4 个同类\n"
+"满屋\n"
+"冲洗\n"
+"直\n"
+"3 个同类\n"
+"两对\n"
+"一对"
+
+msgid "Rules"
+msgstr "规则"
+
+msgid "Rules for this game"
+msgstr "本局游戏规则"
+
+msgid "Russia"
+msgstr "俄罗斯"
+
+msgid "Russian"
+msgstr "俄语"
+
+msgid "S&tatus..."
+msgstr "状态(&S)..."
+
+msgid "SE"
+msgstr "SE"
+
+msgid "SW"
+msgstr "SW"
+
+msgid "Saber"
+msgstr "军刀"
+
+msgid "Same color"
+msgstr "相同颜色"
+
+msgid "Same rank"
+msgstr "相同等级"
+
+msgid "Same suit"
+msgstr "同款套装"
+
+msgid "Samegame"
+msgstr "同色消除"
+
+msgid "Samegame type"
+msgstr "同色消除类"
+
+msgid "Sample volume"
+msgstr "样品量"
+
+msgid "Sample volume:"
+msgstr "样品体积："
+
+msgid "Samples"
+msgstr "音效"
+
+msgid "Save"
+msgstr "保存"
+
+msgid "Save &as..."
+msgstr "保存为..."
+
+msgid "Save Game"
+msgstr "保存游戏"
+
+msgid "Save game"
+msgstr "保存牌局"
+
+msgid "Save game error"
+msgstr "保存牌局失败"
+
+msgid "Save games &geometry"
+msgstr "保存游戏和几何图形"
+
+msgid "Scale X:"
+msgstr "规模 X："
+
+msgid "Scale Y:"
+msgstr "比例 Y："
+
+msgid "Scaling:"
+msgstr "缩放比例："
+
+msgid "Scid Blue"
+msgstr "赛德蓝"
+
+msgid "Scid Green"
+msgstr "西德·格林"
+
+msgid "Scid Grey"
+msgstr "赛德·格雷"
+
+msgid "Scid Mint"
+msgstr "西德薄荷"
+
+msgid "Scid Pink"
+msgstr "赛德粉红"
+
+msgid "Scid Purple"
+msgstr "西德紫"
+
+msgid "Scid Sand"
+msgstr "赛德砂"
+
+msgid "Science Fiction"
+msgstr "科幻小说"
+
+msgid "Score %6d"
+msgstr "得分 %6d"
+
+msgid "Score:\tThis hand:  "
+msgstr "得分： 此手牌：  "
+
+msgid "Scored"
+msgstr "得分"
+
+msgid "Search"
+msgstr "搜索"
+
+msgid "Search:"
+msgstr "搜索："
+
+msgid "Select "
+msgstr "选择 "
+
+msgid "Select &random game"
+msgstr "选择随机游戏"
+
+msgid "Select File..."
+msgstr "选择文件..."
+
+msgid "Select Game - %(game)s"
+msgstr "选择游戏 - %(game)s"
+
+msgid "Select box"
+msgstr "选择框"
+
+msgid "Select cardset"
+msgstr "选择牌面"
+
+msgid "Select color"
+msgstr "选择颜色"
+
+msgid "Select font"
+msgstr "选择字体"
+
+msgid "Select game"
+msgstr "选择游戏"
+
+msgid "Select game by nu&mber..."
+msgstr "按数字选择游戏(&M)..."
+
+msgid "Select name"
+msgstr "选择姓名"
+
+msgid "Select new game number"
+msgstr "选择新牌局编号"
+
+msgid "Select next game"
+msgstr "选择下一款游戏"
+
+msgid "Select next game number"
+msgstr "选择下一个牌局编号"
+
+msgid "Select random game"
+msgstr "选择随机游戏"
+
+msgid "Select table background"
+msgstr "选择表格背景"
+
+msgid "Select table color"
+msgstr "选择表格颜色"
+
+msgid "Selected"
+msgstr "已选中"
+
+msgid "Separate Decks"
+msgstr "独立甲板"
+
+msgid "Sequence"
+msgstr "序列"
+
+msgid "Servant"
+msgstr "仆人"
+
+msgid "Session &log..."
+msgstr "会话&日志..."
+
+msgid "Session log"
+msgstr "会话日志"
+
+msgid "Session log for %(player)s"
+msgstr "%(player)s 的本次记录"
+
+msgid "Set bookmark"
+msgstr "设置书签"
+
+msgid "Set colors"
+msgstr "设置颜色"
+
+msgid "Set delays in seconds"
+msgstr "设置延迟（以秒为单位）"
+
+msgid "Set font"
+msgstr "设置字体"
+
+msgid "Set fonts"
+msgstr "设置字体"
+
+msgid "Set player options"
+msgstr "设置播放器选项"
+
+msgid "Set t&heme"
+msgstr "设置主题(&H)"
+
+msgid "Set timeouts"
+msgstr "设置超时"
+
+msgid "Setting"
+msgstr "设置"
+
+msgid "Sh&ow full picture..."
+msgstr "显示完整图片(&O)..."
+
+msgid "Shade &filled stacks"
+msgstr "阴影和填充堆栈"
+
+msgid "Shade &legal moves"
+msgstr "阴影和合法举动"
+
+msgid "Shade filled stacks"
+msgstr "标记已填满的牌堆"
+
+msgid "Shade legal moves"
+msgstr "标记可放置位置"
+
+msgid "Shisen-Sho"
+msgstr "连连看"
+
+msgid "Shisen-Sho type"
+msgstr "连连看类"
+
+msgid "Show &statusbar"
+msgstr "显示状态栏(&S)"
+
+msgid "Show ca&scade (in Match Three games)"
+msgstr "显示级联(&S)（在三消游戏中）"
+
+msgid "Show cascade (in Match Three games)"
+msgstr "显示连锁消除（三消）"
+
+msgid "Show full picture..."
+msgstr "查看完整图案…"
+
+msgid "Show graphs"
+msgstr "显示图表"
+
+msgid "Show hint &arrow (in Shisen-Sho games)"
+msgstr "显示提示和箭头（在 Shisen-Sho 游戏中）"
+
+msgid "Show hint arrow (in Shisen-Sho games)"
+msgstr "显示提示箭头（连连看）"
+
+msgid "Show progress"
+msgstr "显示进度"
+
+msgid "Show removed tiles (in Mahjongg games)"
+msgstr "显示已移除的牌（麻将消除）"
+
+msgid "Show this on startup"
+msgstr "在启动时显示此内容"
+
+msgid "Shrink face-down cards"
+msgstr "缩小未翻开的牌"
+
+msgid "Shu&ffle tiles"
+msgstr "随机排列​​(&F) 瓷砖"
+
+msgid "Shuffle"
+msgstr "洗牌"
+
+msgid "Shuffle during redeal:"
+msgstr "重发期间随机播放："
+
+msgid "Shuffle tiles"
+msgstr "重排牌块"
+
+msgid "Silver"
+msgstr "银色"
+
+msgid "Simple Ishido"
+msgstr "简约石道"
+
+msgid "Simple games"
+msgstr "简单游戏"
+
+msgid "Single card waste:"
+msgstr "单卡浪费："
+
+msgid "Size:"
+msgstr "尺寸："
+
+msgid "Skill Level:"
+msgstr "技能等级："
+
+msgid "Skill level:"
+msgstr "技能等级："
+
+msgid "Skill only"
+msgstr "全靠技巧"
+
+msgid "Slow"
+msgstr "慢"
+
+msgid "Small"
+msgstr "小"
+
+msgid "Small cardsets"
+msgstr "小卡组"
+
+msgid "Small icons"
+msgstr "小图标"
+
+msgid "Small: "
+msgstr "小： "
+
+msgid "Solid Colors"
+msgstr "纯色"
+
+msgid "Solid color"
+msgstr "纯色"
+
+msgid "Solid colors"
+msgstr "纯色"
+
+msgid "Solitaire &Wizard..."
+msgstr "纸牌与巫师..."
+
+msgid "Solitaire Royale"
+msgstr "皇家接龙"
+
+msgid "Solitaire Wizard"
+msgstr "自定义接龙"
+
+msgid "Solitude for Windows"
+msgstr "Windows 单人接龙"
+
+msgid "Solver not found in the PATH"
+msgstr "在路径中找不到求解器"
+
+msgid ""
+"Sorry, I can't find\n"
+"a solvable configuration."
+msgstr ""
+"抱歉，我找不到\n"
+"可解的配置。"
+
+msgid "Sound"
+msgstr "声音"
+
+msgid "Sound enabled"
+msgstr "声音已启用"
+
+msgid "Sound preferences info"
+msgstr "声音偏好信息"
+
+msgid "Sound settings"
+msgstr "声音设置"
+
+msgid "South"
+msgstr "南"
+
+msgid "South Wind"
+msgstr "南风"
+
+msgid "Spade"
+msgstr "黑桃"
+
+msgid "Spades"
+msgstr "黑桃"
+
+msgid "Spain"
+msgstr "西班牙"
+
+msgid "Special Games"
+msgstr "其他牌类"
+
+msgid "Spider"
+msgstr "蜘蛛纸牌"
+
+msgid "Spider alternate color"
+msgstr "蜘蛛交替颜色"
+
+msgid "Spider any suit but the same"
+msgstr "蜘蛛任何套装但相同"
+
+msgid "Spider rank"
+msgstr "蜘蛛等级"
+
+msgid "Spider same color"
+msgstr "蜘蛛同色"
+
+msgid "Spider same suit"
+msgstr "蜘蛛同款套装"
+
+msgid "Spider type"
+msgstr "蜘蛛纸牌类"
+
+msgid "Spin box"
+msgstr "纺纱箱"
+
+msgid "Sports"
+msgstr "体育运动"
+
+msgid "Spring"
+msgstr "春天"
+
+msgid "Square"
+msgstr "广场"
+
+msgid "Standard"
+msgstr "标准扑克牌"
+
+msgid "Star"
+msgstr "明星"
+
+msgid "Start drag"
+msgstr "开始拖动"
+
+msgid "Started at"
+msgstr "开始时间"
+
+msgid "Started at: "
+msgstr "开始于： "
+
+msgid "Startup splash screen"
+msgstr "启动画面"
+
+msgid "Stat&usbar"
+msgstr "状态栏(&U)"
+
+msgid "Statistics"
+msgstr "统计"
+
+msgid "Statistics for"
+msgstr "统计数据"
+
+msgid "Statistics for %(game)s"
+msgstr "%(game)s 的统计"
+
+msgid "Statistics for %(player)s"
+msgstr "%(player)s 的统计"
+
+msgid "Statistics progression"
+msgstr "统计趋势"
+
+msgid "Status"
+msgstr "状态"
+
+msgid "Sticks"
+msgstr "棍棒"
+
+msgid "Stone Wall"
+msgstr "石墙"
+
+msgid "Stop"
+msgstr "停止"
+
+msgid "Stored-States:"
+msgstr "存储状态："
+
+msgid "Stores"
+msgstr "商店"
+
+msgid "Strings"
+msgstr "弦乐"
+
+msgid "Stripped Deck"
+msgstr "剥离甲板"
+
+msgid "Strong"
+msgstr "强"
+
+msgid "Stuc&k notification"
+msgstr "卡住通知(&K)"
+
+msgid "Stuck notification"
+msgstr "无路可走时提示"
+
+msgid "Style:"
+msgstr "风格："
+
+msgid "Styles:"
+msgstr "款式："
+
+msgid "Subcategory:"
+msgstr "子类别："
+
+msgid "Subjects"
+msgstr "科目"
+
+msgid ""
+"Subjects.  Builds down by suit from 9 to 2, but can only be built to once "
+"the castle is filled."
+msgstr "臣民区。城堡填满后，才可按同花色从 9 递减排到 2。"
+
+msgid "Subtype:"
+msgstr "亚型："
+
+msgid "Summary"
+msgstr "总结"
+
+msgid "Summer"
+msgstr "夏季"
+
+msgid "Sunset"
+msgstr "日落"
+
+msgid "Sweden"
+msgstr "瑞典"
+
+msgid "Switzerland"
+msgstr "瑞士"
+
+msgid "System language changed. Reopen the app to apply it."
+msgstr "系统语言已更改。退出并重新打开应用即可切换语言。"
+
+msgid "Tab"
+msgstr "选项卡"
+
+msgid "Table"
+msgstr "牌桌"
+
+msgid "Table t&ile..."
+msgstr "桌子瓷砖(&I)..."
+
+msgid "Tableau"
+msgstr "列牌区"
+
+msgid "Tableau default: "
+msgstr "表格默认值： "
+
+msgid "Tableau fixed: "
+msgstr "画面已修复： "
+
+msgid "Tableau large: "
+msgstr "大画面： "
+
+msgid "Tableau small: "
+msgstr "小画面： "
+
+msgid ""
+"Tableau. Build by same rank, can move any face-up cards regardless of "
+"sequence."
+msgstr "牌列，按相同点数叠放。任意正面朝上的牌均可移动，无需组成序列。"
+
+msgid "Tableau. Build by same rank."
+msgstr "牌列，按相同点数叠放。"
+
+msgid ""
+"Tableau. Build down by alternate color, can move any face-up cards "
+"regardless of sequence."
+msgstr "牌列，按红黑交替叠放，点数递减。任意正面朝上的牌均可移动，无需组成序列。"
+
+msgid "Tableau. Build down by alternate color."
+msgstr "牌列，按红黑交替叠放，点数递减。"
+
+msgid ""
+"Tableau. Build down by any suit but the same, can move any face-up cards "
+"regardless of sequence."
+msgstr "牌列，按不同花色叠放，点数递减。任意正面朝上的牌均可移动，无需组成序列。"
+
+msgid ""
+"Tableau. Build down by color, can move any face-up cards regardless of "
+"sequence."
+msgstr "牌列，按相同颜色叠放，点数递减。任意正面朝上的牌均可移动，无需组成序列。"
+
+msgid "Tableau. Build down by color."
+msgstr "牌列，按相同颜色叠放，点数递减。"
+
+msgid ""
+"Tableau. Build down by color. Sequences of cards in the same suit can be "
+"moved as a unit."
+msgstr "牌列，按相同颜色叠放，点数递减。同花色的连续牌可成组移动。"
+
+msgid "Tableau. Build down by suit or of the same rank."
+msgstr "画面。按花色或同等级逐级递减。"
+
+msgid ""
+"Tableau. Build down by suit, can move any face-up cards regardless of "
+"sequence."
+msgstr "牌列，按相同花色叠放，点数递减。任意正面朝上的牌均可移动，无需组成序列。"
+
+msgid "Tableau. Build down by suit."
+msgstr "牌列，按相同花色叠放，点数递减。"
+
+msgid "Tableau. Build down in any suit but the same."
+msgstr "牌列，按不同花色叠放，点数递减。"
+
+msgid ""
+"Tableau. Build down regardless of suit, can move any face-up cards "
+"regardless of sequence."
+msgstr "牌列，按不限花色叠放，点数递减。任意正面朝上的牌均可移动，无需组成序列。"
+
+msgid "Tableau. Build down regardless of suit."
+msgstr "牌列，按不限花色叠放，点数递减。"
+
+msgid ""
+"Tableau. Build down regardless of suit. Sequences of cards in alternate "
+"color can be moved as a unit."
+msgstr "牌列，按不限花色叠放，点数递减。红黑交替的连续牌可成组移动。"
+
+msgid ""
+"Tableau. Build down regardless of suit. Sequences of cards in any suit but "
+"the same can be moved as a unit."
+msgstr "牌列，按不限花色叠放，点数递减。不同花色的连续牌可成组移动。"
+
+msgid ""
+"Tableau. Build down regardless of suit. Sequences of cards in the same color"
+" can be moved as a unit."
+msgstr "牌列，按不限花色叠放，点数递减。同颜色的连续牌可成组移动。"
+
+msgid ""
+"Tableau. Build down regardless of suit. Sequences of cards in the same suit "
+"can be moved as a unit."
+msgstr "牌列，按不限花色叠放，点数递减。同花色的连续牌可成组移动。"
+
+msgid "Tableau. Build regardless of rank and suit."
+msgstr "画面。建造时不考虑等级和花色。"
+
+msgid ""
+"Tableau. Build up by alternate color, can move any face-up cards regardless "
+"of sequence."
+msgstr "牌列，按红黑交替叠放，点数递增。任意正面朝上的牌均可移动，无需组成序列。"
+
+msgid "Tableau. Build up by alternate color."
+msgstr "牌列，按红黑交替叠放，点数递增。"
+
+msgid ""
+"Tableau. Build up by any suit but the same, can move any face-up cards "
+"regardless of sequence."
+msgstr "牌列，按不同花色叠放，点数递增。任意正面朝上的牌均可移动，无需组成序列。"
+
+msgid ""
+"Tableau. Build up by color, can move any face-up cards regardless of "
+"sequence."
+msgstr "牌列，按相同颜色叠放，点数递增。任意正面朝上的牌均可移动，无需组成序列。"
+
+msgid "Tableau. Build up by color."
+msgstr "牌列，按相同颜色叠放，点数递增。"
+
+msgid ""
+"Tableau. Build up by suit, can move any face-up cards regardless of "
+"sequence."
+msgstr "牌列，按相同花色叠放，点数递增。任意正面朝上的牌均可移动，无需组成序列。"
+
+msgid "Tableau. Build up by suit."
+msgstr "牌列，按相同花色叠放，点数递增。"
+
+msgid "Tableau. Build up in any suit but the same."
+msgstr "牌列，按不同花色叠放，点数递增。"
+
+msgid ""
+"Tableau. Build up or down by alternate color, can move any face-up cards "
+"regardless of sequence."
+msgstr "牌列，按红黑交替叠放，点数递增或递减。任意正面朝上的牌均可移动，无需组成序列。"
+
+msgid "Tableau. Build up or down by alternate color."
+msgstr "牌列，按红黑交替叠放，点数递增或递减。"
+
+msgid "Tableau. Build up or down by color."
+msgstr "牌列，按相同颜色叠放，点数递增或递减。"
+
+msgid ""
+"Tableau. Build up or down by suit, can move any face-up cards regardless of "
+"sequence."
+msgstr "牌列，按相同花色叠放，点数递增或递减。任意正面朝上的牌均可移动，无需组成序列。"
+
+msgid "Tableau. Build up or down by suit."
+msgstr "牌列，按相同花色叠放，点数递增或递减。"
+
+msgid "Tableau. Build up or down in any suit but the same."
+msgstr "牌列，按不同花色叠放，点数递增或递减。"
+
+msgid "Tableau. Build up or down regardless of suit."
+msgstr "牌列，按不限花色叠放，点数递增或递减。"
+
+msgid ""
+"Tableau. Build up regardless of suit, can move any face-up cards regardless "
+"of sequence."
+msgstr "牌列，按不限花色叠放，点数递增。任意正面朝上的牌均可移动，无需组成序列。"
+
+msgid "Tableau. Build up regardless of suit."
+msgstr "牌列，按不限花色叠放，点数递增。"
+
+msgid ""
+"Tableau. Build up regardless of suit. Sequences of cards in alternate color "
+"can be moved as a unit."
+msgstr "牌列，按不限花色叠放，点数递增。红黑交替的连续牌可成组移动。"
+
+msgid ""
+"Tableau. Build up regardless of suit. Sequences of cards in any suit but the"
+" same can be moved as a unit."
+msgstr "牌列，按不限花色叠放，点数递增。不同花色的连续牌可成组移动。"
+
+msgid ""
+"Tableau. Build up regardless of suit. Sequences of cards in the same color "
+"can be moved as a unit."
+msgstr "牌列，按不限花色叠放，点数递增。同颜色的连续牌可成组移动。"
+
+msgid ""
+"Tableau. Build up regardless of suit. Sequences of cards in the same suit "
+"can be moved as a unit."
+msgstr "牌列，按不限花色叠放，点数递增。同花色的连续牌可成组移动。"
+
+msgid "Tableau. Empty piles can be filled with any card."
+msgstr "画面。空的牌堆可以用任何牌来填充。"
+
+msgid "Tableau. No building."
+msgstr "牌列，不可叠牌。"
+
+msgid "Talon"
+msgstr "发牌堆"
+
+msgid "Talon."
+msgstr "发牌堆。"
+
+msgid ""
+"Talon. Unlimited redeals, until running through the deck twice with no hits."
+msgstr "利爪。无限次重发，直到两次穿过牌堆且没有命中为止。"
+
+msgid "Tan"
+msgstr "谭"
+
+msgid "Tarock"
+msgstr "塔罗克"
+
+msgid "Tarock type"
+msgstr "塔罗克类"
+
+msgid "Tarock type (78 cards)"
+msgstr "塔罗克类（78 张牌）"
+
+msgid "Teal"
+msgstr "蓝绿色"
+
+msgid "Terrace"
+msgstr "阶梯接龙"
+
+msgid "Terrace type"
+msgstr "阶梯接龙类"
+
+msgid "Text above icons"
+msgstr "图标上方的文字"
+
+msgid "Text area"
+msgstr "文字区"
+
+msgid "Text below icons"
+msgstr "图标下方的文字"
+
+msgid "Text beside icons"
+msgstr "图标旁边的文字"
+
+msgid "Text box"
+msgstr "文本框"
+
+msgid "Text foreground:"
+msgstr "文本前景："
+
+msgid "Text only"
+msgstr "仅文本"
+
+msgid ""
+"The currently selected cardset %(cardset)s\n"
+"        is not compatible with the game\n"
+"        %(game)s\n"
+"\n"
+"        Please select a %(correct_type)s %(subcategory)stype cardset.\n"
+"        %(cardcount)s\n"
+"        "
+msgstr ""
+"当前牌面 %(cardset)s 不适用于 %(game)s。\n"
+"\n"
+"请选择 %(correct_type)s %(subcategory)s类型的牌面。\n"
+"%(cardcount)s"
+
+msgid "The selected file no longer exists."
+msgstr "所选文件不再存在。"
+
+msgid ""
+"These settings will take effect\n"
+"the next time you restart the %(app)s"
+msgstr "这些设置会在下次启动 %(app)s 时生效。"
+
+msgid "This game can be hinted in %d move."
+msgid_plural "This game can be hinted in %d moves."
+msgstr[0] "这个游戏可以用 %d 动作来暗示。"
+
+msgid "This game is solvable in %d move."
+msgid_plural "This game is solvable in %d moves."
+msgstr[0] "该游戏可以用 %d 步法解决。"
+
+msgid "Thomas Warfield"
+msgstr "托马斯·沃菲尔德"
+
+msgid "Three"
+msgstr "三"
+
+msgid "Three redeals"
+msgstr "三次重做"
+
+msgid "Three-Deck games"
+msgstr "三副牌游戏"
+
+msgid "Tiles"
+msgstr "平铺背景"
+
+msgid "Tiles list"
+msgstr "瓷砖列表"
+
+msgid "Time&outs..."
+msgstr "时间&超时..."
+
+msgid "Tiny"
+msgstr "极小"
+
+msgid "Tiny cardsets"
+msgstr "小卡片组"
+
+msgid "Toby Ord"
+msgstr "托比·奥德"
+
+msgid "Toolbar"
+msgstr "工具栏"
+
+msgid "Tools"
+msgstr "工具"
+
+msgid "Top"
+msgstr "顶部"
+
+msgid "Top %(tops)d for %(game)s"
+msgstr "%(game)s 的前 %(tops)d 名"
+
+msgid "Top 10"
+msgstr "前 10 名"
+
+msgid "Top card"
+msgstr "顶卡"
+
+msgid "Tortoise"
+msgstr "乌龟"
+
+msgid "Total"
+msgstr "总计"
+
+msgid "Total (%(played)d out of %(total)d games)"
+msgstr "合计（%(total)d 种游戏中玩过 %(played)d 种）"
+
+msgid "Total moves"
+msgstr "总步数"
+
+msgid "Total moves in this game: "
+msgstr "本场比赛的总步数： "
+
+msgid "Total moves:"
+msgstr "总动作："
+
+msgid "Total player moves: "
+msgstr "球员总移动次数： "
+
+msgid "Total:"
+msgstr "总计："
+
+msgid ""
+"Total:\n"
+"   won: %(won)s ... %(percentwon)s%%\n"
+"   lost: %(lost)s ... %(percentlost)s%%\n"
+"\n"
+msgstr ""
+"总计\n"
+"胜局  %(won)s  ·  %(percentwon)s%%\n"
+"败局  %(lost)s  ·  %(percentlost)s%%\n"
+"\n"
+
+msgid "Total: %d"
+msgstr "总计：%d"
+
+msgid "Touch mode"
+msgstr "触控方式"
+
+msgid "Tower"
+msgstr "塔"
+
+msgid "Tower of Hanoi"
+msgstr "汉诺塔"
+
+msgid "Tower of Hanoi type"
+msgstr "汉诺塔类"
+
+msgid "Tower.  Accepts the ten (wizard) of the suit."
+msgstr "塔楼。可放入该花色的 10（法师）。"
+
+msgid "Tree View"
+msgstr "树视图"
+
+msgid "Triangle"
+msgstr "三角形"
+
+msgid "Trump"
+msgstr "特朗普"
+
+msgid "Trumps"
+msgstr "王牌"
+
+msgid "Trumps only"
+msgstr "仅用将牌"
+
+msgid "Trumps only type (variable cards)"
+msgstr "仅用将牌类（牌张数可变）"
+
+msgid "Turn waste"
+msgstr "变废为宝"
+
+msgid "Tuxedo"
+msgstr "燕尾服扑克牌"
+
+msgid "Two"
+msgstr "两个"
+
+msgid "Two redeals"
+msgstr "两次重新成交"
+
+msgid "Two-Deck games"
+msgstr "两副牌游戏"
+
+msgid "Type:"
+msgstr "类型："
+
+msgid "USA"
+msgstr "USA"
+
+msgid "Unable to service request:\n"
+msgstr "无法服务请求：\n"
+
+msgid "Uncategorized"
+msgstr "未分类"
+
+msgid "Undo"
+msgstr "撤销"
+
+msgid "Undo last move"
+msgstr "撤销上一步"
+
+msgid "Undo moves: "
+msgstr "撤消动作： "
+
+msgid "Uni Mahjongg"
+msgstr "统一麻将"
+
+msgid "Unknown"
+msgstr "未知"
+
+msgid "Unlimited"
+msgstr "无限"
+
+msgid "Unlimited redeals"
+msgstr "不限重新发牌次数"
+
+msgid "Unlimited redeals."
+msgstr "不限重新发牌次数。"
+
+msgid "Unpaused"
+msgstr "继续游戏"
+
+msgid "Unselected"
+msgstr "已取消选择"
+
+msgid "Up"
+msgstr "向上"
+
+msgid "Up or down by alternate color"
+msgstr "按替代颜色向上或向下"
+
+msgid "Up or down by any suit but the same"
+msgstr "任何花色向上或向下但相同"
+
+msgid "Up or down by rank"
+msgstr "按等级上升或下降"
+
+msgid "Up or down by same color"
+msgstr "向上或向下相同颜色"
+
+msgid "Up or down by same suit"
+msgstr "同花色向上或向下"
+
+msgid "Update statistics and logs"
+msgstr "更新统计数据和日志"
+
+msgid ""
+"Usage: %s [OPTIONS] [FILE]\n"
+"  -g    --game=GAMENAME        start game GAMENAME\n"
+"  -i    --gameid=GAMEID        start game with ID GAMEID\n"
+"        --deal=DEAL            start game deal by number DEAL\n"
+"        --random-game          start a random game\n"
+"        --french-only          disable non-french games\n"
+"        --sound-mod=MOD        use a certain sound module\n"
+"        --nosound              disable sound support\n"
+"        --noplugins            disable loading plugins\n"
+"        --version              display PySol version and exit\n"
+"  -h    --help                 display this help and exit\n"
+"\n"
+"  FILE - file name of a saved game\n"
+"  MOD - one of following: pss(default), pygame, oss, win\n"
+msgstr ""
+"用法：%s [选项] [文件]\n"
+"  -g --game=GAMENAME 开始游戏 GAMENAME\n"
+"  -i --gameid=GAMEID 以 ID GAMEID 开始游戏\n"
+"        --deal=DEAL 按DEAL号码开始游戏\n"
+"        --random-game 开始随机游戏\n"
+"        --french-only 禁用非法语游戏\n"
+"        --sound-mod=MOD 使用某个声音模块\n"
+"        --nosound 禁用声音支持\n"
+"        --noplugins 禁用加载插件\n"
+"        --version 显示PySol版本并退出\n"
+"  -h --help 显示此帮助并退出\n"
+"\n"
+"  FILE - 已保存游戏的文件名\n"
+"  MOD - 以下之一：pss（默认）、pygame、oss、win\n"
+
+msgid "Use \"Super Move\" feature:"
+msgstr "使用“超级移动”功能："
+
+msgid "Use DirectX for sound playing"
+msgstr "使用 DirectX 进行声音播放"
+
+msgid "Use mouse for undo/redo"
+msgstr "使用鼠标撤消/重做"
+
+msgid "V&ery slow"
+msgstr "非常慢(&E)"
+
+msgid "Variable"
+msgstr "变量"
+
+msgid "Variable redeals"
+msgstr "可变发牌次数"
+
+msgid "Variable redeals."
+msgstr "可变发牌次数。"
+
+msgid "Vehicles"
+msgstr "车辆"
+
+msgid "Version %s"
+msgstr "版本 %s"
+
+msgid "Very fast"
+msgstr "很快"
+
+msgid "Very slow"
+msgstr "很慢"
+
+msgid "Victoria Falls (5x5)"
+msgstr "维多利亚瀑布（5×5）"
+
+msgid "Video Games"
+msgstr "电子游戏"
+
+msgid "Vienna 2K"
+msgstr "维也纳塔罗 2K"
+
+msgid "View statistics"
+msgstr "查看统计数据"
+
+msgid "Violet"
+msgstr "紫罗兰色"
+
+msgid "Visible buttons"
+msgstr "显示的按钮"
+
+msgid "Volume"
+msgstr "音量"
+
+msgid "Vortex"
+msgstr "旋涡"
+
+msgid ""
+"WON\n"
+"\n"
+msgstr ""
+"获胜\n"
+"\n"
+
+msgid "Warning"
+msgstr "警告"
+
+msgid "Waste"
+msgstr "翻牌堆"
+
+msgid "Waste."
+msgstr "翻牌堆。"
+
+msgid "Waste. Build up or down by alternate color."
+msgstr "浪费。通过交替颜色向上或向下构建。"
+
+msgid "Waste. Build up or down by suit."
+msgstr "浪费。按花色增减。"
+
+msgid "Waste. Build up or down regardless of suit."
+msgstr "浪费。无论花色如何，向上或向下构建。"
+
+msgid "Weak"
+msgstr "弱"
+
+msgid "Welcome to %s"
+msgstr "欢迎使用 %s"
+
+msgid "West"
+msgstr "西"
+
+msgid "West Wind"
+msgstr "西风"
+
+msgid "What's &new?"
+msgstr "有什么新内容？"
+
+msgid "White"
+msgstr "白色"
+
+msgid "Willow"
+msgstr "柳树"
+
+msgid "Windows Native"
+msgstr "Windows 本机"
+
+msgid "Windows XP Blue"
+msgstr "Windows XP 蓝色"
+
+msgid "Winning animation"
+msgstr "胜利动效"
+
+msgid "Winning splash"
+msgstr "胜利画面"
+
+msgid "Winter"
+msgstr "冬天"
+
+msgid "Wisteria"
+msgstr "紫藤"
+
+msgid "With %(cards)d or more cards)"
+msgstr "带有%(cards)d或更多卡）"
+
+msgid "Wizard"
+msgstr "向导"
+
+msgid "Won"
+msgstr "胜局"
+
+msgid "Won:"
+msgstr "胜局："
+
+msgid "Wood"
+msgstr "木纹"
+
+msgid "Wood Gloss"
+msgstr "亮面木纹"
+
+msgid "Wrapping:"
+msgstr "包装："
+
+msgid "X"
+msgstr "X"
+
+msgid "X offset:"
+msgstr "X 偏移："
+
+msgid "XM Solitaire"
+msgstr "XM 接龙"
+
+msgid "XMahjongg"
+msgstr "X 麻将"
+
+msgid "XP Native"
+msgstr "XP本机"
+
+msgid "Y offset:"
+msgstr "Y 偏移："
+
+msgid "Year:"
+msgstr "年份："
+
+msgid "Yellow"
+msgstr "黄色"
+
+msgid "You are Stuck"
+msgstr "无路可走"
+
+msgid "You used %(h)s hint(s) and the demo during this game."
+msgstr "您在此游戏中使用了 %(h)s 提示和演示。"
+
+msgid "You used %(h)s hint(s) during this game."
+msgstr "您在此游戏中使用了 %(h)s 提示。"
+
+msgid "You used the demo during this game."
+msgstr "本局使用过演示。"
+
+msgid ""
+"Your playing time is %(time)s\n"
+"for %(n)d move."
+msgid_plural ""
+"Your playing time is %(time)s\n"
+"for %(n)d moves."
+msgstr[0] ""
+"用时 %(time)s\n"
+"共 %(n)d 步。"
+
+msgid ""
+"Your statistics were appended to\n"
+"\n"
+"%(filename)s"
+msgstr ""
+"您的统计数据已附加到\n"
+"\n"
+"%(filename)s"
+
+msgid "Yukon"
+msgstr "育空接龙"
+
+msgid "Yukon alternate color"
+msgstr "育空地区替代颜色"
+
+msgid "Yukon any suit but the same"
+msgstr "育空任何西装但都一样"
+
+msgid "Yukon rank"
+msgstr "育空排名"
+
+msgid "Yukon same color"
+msgstr "育空地区同色系"
+
+msgid "Yukon same suit"
+msgstr "育空同款套装"
+
+msgid "Yukon type"
+msgstr "育空接龙类"
+
+msgid "Z Minimal"
+msgstr "Z 极简扑克牌"
+
+msgid "abcdefghABCDEFGH"
+msgstr "abcdefghABCDEFGH"
+
+msgid "any card"
+msgstr "任意牌张"
+
+msgid "are you sure"
+msgstr "确认操作"
+
+msgid "auto drop"
+msgstr "自动收牌"
+
+msgid "auto flip"
+msgstr "自动翻牌"
+
+msgid "auto pilot lost"
+msgstr "演示失败"
+
+msgid "auto pilot won"
+msgstr "演示获胜"
+
+msgid "black"
+msgstr "黑色"
+
+msgid "by Compatibility"
+msgstr "按兼容系列"
+
+msgid "by Date"
+msgstr "按日期"
+
+msgid "by Game Feature"
+msgstr "按玩法特征"
+
+msgid "by Inventors"
+msgstr "按设计者"
+
+msgid "by Nationality"
+msgstr "按国籍"
+
+msgid "by Number of Cards"
+msgstr "按牌张数"
+
+msgid "by Number of Decks"
+msgstr "按副数"
+
+msgid "by Number of Redeals"
+msgstr "按重新发牌次数"
+
+msgid "by PySol version"
+msgstr "按 PySol 版本"
+
+msgid "by Size"
+msgstr "按尺寸"
+
+msgid "by Skill Level"
+msgstr "按技巧要求"
+
+msgid "by Style"
+msgstr "按风格"
+
+msgid "by Type"
+msgstr "按类型"
+
+msgid "can't find game: %(game)s"
+msgstr "找不到游戏：%(game)s"
+
+msgid "cardset"
+msgstr "牌面"
+
+msgid "deal"
+msgstr "发牌"
+
+msgid "deal waste"
+msgstr "翻出一张牌"
+
+msgid "default"
+msgstr "默认"
+
+msgid "drop"
+msgstr "收牌"
+
+msgid "drop pair"
+msgstr "移除一对"
+
+msgid "error loading plugin %(file)s: %(err)s"
+msgstr "加载插件 %(file)s 时出错：%(err)s"
+
+msgid "flip"
+msgstr "翻牌"
+
+msgid "game finished"
+msgstr "牌局结束"
+
+msgid "game lost"
+msgstr "牌局失败"
+
+msgid "game perfect"
+msgstr "完美获胜"
+
+msgid "game saved to:"
+msgstr "牌局已保存至："
+
+msgid "game won"
+msgstr "牌局获胜"
+
+msgid "hold on ..."
+msgstr "请继续按住…"
+
+msgid "huge"
+msgstr "极大"
+
+msgid ""
+"invalid file name\n"
+"try %s --help for more information"
+msgstr ""
+"文件名无效\n"
+"尝试 %s --help 获取更多信息"
+
+msgid "invalid font name: "
+msgstr "无效的字体名称： "
+
+msgid "invalid game id: "
+msgstr "无效的游戏ID： "
+
+msgid "invalid theme name: "
+msgstr "无效的主题名称： "
+
+msgid "large"
+msgstr "大"
+
+msgid "loading game from:"
+msgstr "正在读取牌局："
+
+msgid "move"
+msgstr "移牌"
+
+msgid "nd"
+msgstr "号"
+
+msgid "no move"
+msgstr "无效移动"
+
+msgid "normal"
+msgstr "标准"
+
+msgid "ok to release"
+msgstr "可以松手"
+
+msgid "rd"
+msgstr "号"
+
+msgid "red"
+msgstr "红色"
+
+msgid "redo"
+msgstr "重做"
+
+msgid "screen rotation disabled"
+msgstr "已锁定屏幕方向"
+
+msgid "screen rotation enabled"
+msgstr "已解除屏幕方向锁定"
+
+msgid "small"
+msgstr "小"
+
+msgid "st"
+msgstr "号"
+
+msgid "start drag"
+msgstr "开始拖动"
+
+msgid "th"
+msgstr "号"
+
+msgid "tiny"
+msgstr "极小"
+
+msgid ""
+"too many files\n"
+"try %s --help for more information"
+msgstr ""
+"文件太多\n"
+"尝试 %s --help 获取更多信息"
+
+msgid "try %s --help for more information"
+msgstr "尝试 %s --help 获取更多信息"
+
+msgid "turn waste"
+msgstr "翻转弃牌堆"
+
+msgid "undo"
+msgstr "撤销"
+
+msgid "unlimited"
+msgstr "无限"
+
+msgid "variable"
+msgstr "变量"
+
+msgid "xpat2"
+msgstr "xpat2 接龙"
+
+msgctxt "size"
+msgid "Medium"
+msgstr "中等"

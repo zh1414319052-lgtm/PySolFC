@@ -405,7 +405,8 @@ class Options:
         self.toolbar_size = 0
         self.toolbar_vars = {}
         for w in TOOLBAR_BUTTONS:
-            self.toolbar_vars[w] = True  # show all buttons
+            self.toolbar_vars[w] = TOOLKIT != 'kivy' or w in (
+                'new', 'undo', 'redo', 'hint', 'shuffle')
         self.statusbar_vars = {}
         for w, x in STATUSBAR_ITEMS:
             self.statusbar_vars[w] = True
@@ -589,7 +590,9 @@ class Options:
                           top.winfo_screenheight(),
                           top.winfo_screendepth())
         # bg
-        if sd > 8:
+        if TOOLKIT == 'kivy':
+            self.tabletile_name = "Pine Felt"
+        elif sd > 8:
             self.tabletile_name = "Felt Green"  # name
         else:
             self.tabletile_name = None
@@ -848,7 +851,8 @@ class Options:
             for key, label in STATUSBAR_ITEMS:
                 self.statusbar_vars[key] = (key in visible_status)
 
-        myGettext.language = self.language
+        if not hasattr(sys, 'getandroidapilevel'):
+            myGettext.language = self.language
 
         # solver
         solver_presets = self._getOption('general', 'solver_presets', 'list')

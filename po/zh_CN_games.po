@@ -1,0 +1,5553 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PySolFC 3.6.1\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid "1-2-3-4"
+msgstr "1-2-3-4"
+
+msgid "10 x 8"
+msgstr "10×8"
+
+msgid "23 Skidoo"
+msgstr "23 斯基杜"
+
+msgid "8 x 8"
+msgstr "8×8"
+
+msgid "Abacus"
+msgstr "算盘"
+
+msgid "Abandon Hope"
+msgstr "放弃希望"
+
+msgid "Abstract"
+msgstr "摘要"
+
+msgid "Accordion"
+msgstr "手风琴"
+
+msgid "Accordion's Revenge"
+msgstr "手风琴的复仇"
+
+msgid "Ace Through King"
+msgstr "王牌到国王"
+
+msgid "Ace of Hearts"
+msgstr "红心王牌"
+
+msgid "Aces High"
+msgstr "王牌高"
+
+msgid "Aces Square"
+msgstr "王牌广场"
+
+msgid "Aces Up"
+msgstr "四张A"
+
+msgid "Aces Up 5"
+msgstr "王牌向上 5"
+
+msgid "Aces and Kings"
+msgstr "A 和 K"
+
+msgid "Acey and Kingsley"
+msgstr "艾西和金斯利"
+
+msgid "Acht Karten"
+msgstr "阿赫特卡滕"
+
+msgid "Achtmal Acht"
+msgstr "阿赫特马尔阿赫特"
+
+msgid "Acme"
+msgstr "埃克梅"
+
+msgid "Acquaintance"
+msgstr "相识"
+
+msgid "Add Up Tens"
+msgstr "加十"
+
+msgid "Addiction"
+msgstr "成瘾"
+
+msgid "Adela"
+msgstr "阿德拉"
+
+msgid "Admiral's Patience"
+msgstr "海军上将的耐心"
+
+msgid "Affinity"
+msgstr "亲和力"
+
+msgid "Aglet"
+msgstr "肩带"
+
+msgid "Agnes Bernauer"
+msgstr "艾格尼丝·贝尔诺尔"
+
+msgid "Agnes Sorel"
+msgstr "艾格尼丝·索雷尔"
+
+msgid "Agnes Two"
+msgstr "艾格尼丝二号"
+
+msgid "Akbar's Conquest"
+msgstr "阿克巴的征服"
+
+msgid "Akbar's Triumph"
+msgstr "阿克巴的胜利"
+
+msgid "Alaska"
+msgstr "阿拉斯加"
+
+msgid "Alexander the Great"
+msgstr "亚历山大大帝"
+
+msgid "Algerian Patience"
+msgstr "阿尔及利亚的耐心"
+
+msgid "Algerian Patience (3 Decks)"
+msgstr "阿尔及利亚的耐心（3 副牌）"
+
+msgid "Alhambra"
+msgstr "阿罕布拉"
+
+msgid "Ali Baba"
+msgstr "阿里巴巴"
+
+msgid "All in a Row"
+msgstr "全部连续"
+
+msgid "All in a Row II"
+msgstr "连贯II"
+
+msgid "Altar"
+msgstr "祭坛"
+
+msgid "Alternation"
+msgstr "交替接龙"
+
+msgid "Amazons"
+msgstr "亚马逊人"
+
+msgid "American Canister"
+msgstr "美国罐"
+
+msgid "American Patience"
+msgstr "美国人的耐心"
+
+msgid "American Toad"
+msgstr "美国蟾蜍"
+
+msgid "Amphibian"
+msgstr "两栖类"
+
+msgid "Anno Domini"
+msgstr "纪元"
+
+msgid "Another Round"
+msgstr "又一轮"
+
+msgid "Antares"
+msgstr "安塔瑞斯"
+
+msgid "Ants"
+msgstr "蚂蚁"
+
+msgid "Apophis"
+msgstr "阿波菲斯"
+
+msgid "Appachan's Waterfall"
+msgstr "阿帕坎瀑布"
+
+msgid "Applegate"
+msgstr "阿普尔盖特"
+
+msgid "Appreciate"
+msgstr "欣赏"
+
+msgid "Aqab's"
+msgstr "阿卡布的"
+
+msgid "Arabella"
+msgstr "阿拉贝拉"
+
+msgid "Arachnida"
+msgstr "蛛形纲"
+
+msgid "Archway"
+msgstr "拱门"
+
+msgid "Arena 1"
+msgstr "竞技场1"
+
+msgid "Arena 2"
+msgstr "竞技场2"
+
+msgid "Arizona"
+msgstr "亚利桑那州"
+
+msgid "Arrow"
+msgstr "箭头"
+
+msgid "Art Moderne"
+msgstr "现代艺术"
+
+msgid "Artic Garden"
+msgstr "北极花园"
+
+msgid "As You Like It"
+msgstr "如你所愿"
+
+msgid "Ashrafi"
+msgstr "阿什拉菲"
+
+msgid "Ashta Dikapala"
+msgstr "阿什塔·迪卡帕拉"
+
+msgid "Ashwapati"
+msgstr "阿什瓦帕蒂"
+
+msgid "Assembly"
+msgstr "集合接龙"
+
+msgid "Astrocyte"
+msgstr "星形胶质细胞"
+
+msgid "Athena"
+msgstr "雅典娜"
+
+msgid "Auld Lang Syne"
+msgstr "友谊地久天长"
+
+msgid "Aunt Mary"
+msgstr "玛丽阿姨"
+
+msgid "Australian Patience"
+msgstr "澳大利亚人的耐心"
+
+msgid "Autumn Leaves"
+msgstr "秋天的落叶"
+
+msgid "Auxiliary Sequences"
+msgstr "辅助序列"
+
+msgid "Axis"
+msgstr "轴"
+
+msgid "Baby Spiderette"
+msgstr "小蜘蛛"
+
+msgid "Backbone"
+msgstr "骨干网"
+
+msgid "Backbone +"
+msgstr "骨干+"
+
+msgid "Bad Seven"
+msgstr "坏七"
+
+msgid "Baker's Dozen"
+msgstr "贝克的十几个"
+
+msgid "Baker's Dozen (2 Decks)"
+msgstr "贝克的十几个（2 副牌）"
+
+msgid "Baker's Game"
+msgstr "贝克接龙"
+
+msgid "Balance"
+msgstr "平衡"
+
+msgid "Balarama"
+msgstr "巴拉茹阿玛"
+
+msgid "Banner"
+msgstr "横幅"
+
+msgid "Baroness"
+msgstr "男爵夫人"
+
+msgid "Barrier"
+msgstr "屏障"
+
+msgid "Bastille Day"
+msgstr "巴士底日"
+
+msgid "Bastion"
+msgstr "棱堡"
+
+msgid "Bat"
+msgstr "蝙蝠"
+
+msgid "Bath"
+msgstr "巴斯"
+
+msgid "Batsford"
+msgstr "巴茨福德"
+
+msgid "Batsford Again"
+msgstr "再次巴特斯福德"
+
+msgid "Bavarian Patience"
+msgstr "巴伐利亚的耐心"
+
+msgid "Bayan"
+msgstr "巴彦"
+
+msgid "Beacon"
+msgstr "灯塔"
+
+msgid "Beak and Flipper"
+msgstr "喙和鳍状肢"
+
+msgid "Bear River"
+msgstr "熊河"
+
+msgid "Beautiful Lutecia"
+msgstr "美丽的卢特西亚"
+
+msgid "Bebop"
+msgstr "贝博普"
+
+msgid "Beehive"
+msgstr "蜂巢"
+
+msgid "Beeswax"
+msgstr "蜂蜡"
+
+msgid "Beetle"
+msgstr "甲虫"
+
+msgid "Beleaguered Castle"
+msgstr "被围困的城堡"
+
+msgid "Belvedere"
+msgstr "丽城"
+
+msgid "Betrothal"
+msgstr "订婚"
+
+msgid "Betsy Ross"
+msgstr "贝特西·罗斯"
+
+msgid "Bezique"
+msgstr "贝齐克"
+
+msgid "Big Alhambra"
+msgstr "大阿尔罕布拉宫"
+
+msgid "Big Ben"
+msgstr "大本钟"
+
+msgid "Big Bertha"
+msgstr "大伯莎"
+
+msgid "Big Braid"
+msgstr "大辫子"
+
+msgid "Big Castle"
+msgstr "大城堡"
+
+msgid "Big Cell"
+msgstr "大细胞"
+
+msgid "Big Courtyard"
+msgstr "大庭院"
+
+msgid "Big Deal"
+msgstr "大事"
+
+msgid "Big Divorce"
+msgstr "大离婚"
+
+msgid "Big Easy"
+msgstr "大易"
+
+msgid "Big Forty"
+msgstr "大四十"
+
+msgid "Big Harp"
+msgstr "大竖琴"
+
+msgid "Big Hole"
+msgstr "大洞"
+
+msgid "Big Mountain"
+msgstr "大山"
+
+msgid "Big Parade"
+msgstr "大游行"
+
+msgid "Big Picture Gallery"
+msgstr "大图片库"
+
+msgid "Big Spider"
+msgstr "大蜘蛛"
+
+msgid "Big Spider (1 Suit)"
+msgstr "大蜘蛛（1套装）"
+
+msgid "Big Spider (2 Suits)"
+msgstr "大蜘蛛（2套装）"
+
+msgid "Big Square"
+msgstr "大广场"
+
+msgid "Big Storeroom"
+msgstr "大储藏室"
+
+msgid "Big Streets"
+msgstr "大街道"
+
+msgid "Big Sumo"
+msgstr "大相扑"
+
+msgid "Big Terrace"
+msgstr "大露台"
+
+msgid "Big Traditional"
+msgstr "大传统"
+
+msgid "Big X"
+msgstr "大X"
+
+msgid "Big York"
+msgstr "大约克"
+
+msgid "Bim Bom"
+msgstr "宾邦"
+
+msgid "Binary Star"
+msgstr "双星"
+
+msgid "Bisley"
+msgstr "比斯利"
+
+msgid "Bisley 13"
+msgstr "比斯利 13"
+
+msgid "Bits n Bytes"
+msgstr "位 n 字节"
+
+msgid "Bizarre"
+msgstr "奇怪的"
+
+msgid "Black Hole"
+msgstr "黑洞接龙"
+
+msgid "Black Holes"
+msgstr "黑洞"
+
+msgid "Black Widow"
+msgstr "黑寡妇"
+
+msgid "Blind Alleys"
+msgstr "死胡同"
+
+msgid "Blind Patience"
+msgstr "盲目的耐心"
+
+msgid "Block Ten"
+msgstr "第十区"
+
+msgid "Blockade"
+msgstr "封锁"
+
+msgid "Blondes and Brunettes"
+msgstr "金发女郎和黑发女郎"
+
+msgid "Blue Jacket"
+msgstr "蓝色夹克"
+
+msgid "Blue Moon"
+msgstr "蓝月亮"
+
+msgid "Boar"
+msgstr "野猪"
+
+msgid "Board Patience"
+msgstr "董事会耐心"
+
+msgid "Boat"
+msgstr "船"
+
+msgid "Bobby"
+msgstr "鲍比"
+
+msgid "Bonaparte"
+msgstr "波拿巴"
+
+msgid "Boomerang"
+msgstr "回旋镖"
+
+msgid "Boost"
+msgstr "升压"
+
+msgid "Boudoir"
+msgstr "闺房"
+
+msgid "Box Fan"
+msgstr "箱式风扇"
+
+msgid "Box Kite"
+msgstr "箱式风筝"
+
+msgid "Boxing the Compass"
+msgstr "拳击指南针"
+
+msgid "Braid"
+msgstr "发辫"
+
+msgid "Brazilian Patience"
+msgstr "巴西人的耐心"
+
+msgid "Breakwater"
+msgstr "防波堤"
+
+msgid "Bridesmaids"
+msgstr "伴娘"
+
+msgid "Bridge 1"
+msgstr "桥1"
+
+msgid "Bridge 2"
+msgstr "桥2"
+
+msgid "Bridget's Game"
+msgstr "布丽吉特的游戏"
+
+msgid "Bridget's Game Doubled"
+msgstr "布里奇特的游戏加倍"
+
+msgid "Brigade"
+msgstr "旅"
+
+msgid "Brisbane"
+msgstr "布里斯班"
+
+msgid "Bristol"
+msgstr "布里斯托尔"
+
+msgid "British Blockade"
+msgstr "英国封锁"
+
+msgid "British Canister"
+msgstr "英国罐"
+
+msgid "British Constitution"
+msgstr "英国宪法"
+
+msgid "British Square"
+msgstr "英国广场"
+
+msgid "Broken Intervals"
+msgstr "断断续续的间隔"
+
+msgid "Brunswick"
+msgstr "不伦瑞克"
+
+msgid "Brush"
+msgstr "刷子"
+
+msgid "Buffalo Bill"
+msgstr "水牛比尔"
+
+msgid "Bug"
+msgstr "错误"
+
+msgid "Busy Aces"
+msgstr "忙碌的王牌"
+
+msgid "Busy Cards"
+msgstr "忙碌卡"
+
+msgid "Butterfly 1"
+msgstr "蝴蝶1"
+
+msgid "Butterfly 2"
+msgstr "蝴蝶2"
+
+msgid "Calculation"
+msgstr "计算接龙"
+
+msgid "Camelot"
+msgstr "卡美洛"
+
+msgid "Can Can"
+msgstr "可以可以"
+
+msgid "Canberra"
+msgstr "堪培拉"
+
+msgid "Candike"
+msgstr "坎迪克"
+
+msgid "Candy"
+msgstr "糖果"
+
+msgid "Canfield"
+msgstr "坎菲尔德"
+
+msgid "Canfield Rush"
+msgstr "坎菲尔德拉什"
+
+msgid "Canister"
+msgstr "罐"
+
+msgid "Capricieuse"
+msgstr "随想曲"
+
+msgid "Capricious"
+msgstr "反复无常"
+
+msgid "Captive Queens"
+msgstr "俘虏皇后"
+
+msgid "Capuchin"
+msgstr "嘉布遣会"
+
+msgid "Carcassonne"
+msgstr "卡尔卡松"
+
+msgid "Carlton"
+msgstr "卡尔顿"
+
+msgid "Carnation"
+msgstr "康乃馨"
+
+msgid "Carousel"
+msgstr "轮播"
+
+msgid "Carpet"
+msgstr "地毯"
+
+msgid "Carre Napoleon"
+msgstr "卡雷·拿破仑"
+
+msgid "Carthage"
+msgstr "迦太基"
+
+msgid "Cascade"
+msgstr "级联"
+
+msgid "Casino Canfield"
+msgstr "坎菲尔德赌场"
+
+msgid "Casino Klondike"
+msgstr "经典接龙赌场"
+
+msgid "Casket"
+msgstr "棺材"
+
+msgid "Cassim"
+msgstr "卡西姆"
+
+msgid "Castle"
+msgstr "城堡"
+
+msgid "Castle Mount"
+msgstr "城堡山"
+
+msgid "Castle of Indolence"
+msgstr "懒惰城堡"
+
+msgid "Castles End"
+msgstr "城堡尽头"
+
+msgid "Castles in Spain"
+msgstr "西班牙的城堡"
+
+msgid "Cat and Mouse"
+msgstr "猫和老鼠"
+
+msgid "Cat's Tail"
+msgstr "猫的尾巴"
+
+msgid "Catherine the Great"
+msgstr "凯瑟琳大帝"
+
+msgid "Cavalcade"
+msgstr "队列"
+
+msgid "Cavalier"
+msgstr "骑士"
+
+msgid "Ceiling Fan"
+msgstr "吊扇"
+
+msgid "Cell 11"
+msgstr "11号牢房"
+
+msgid "Ceremonial"
+msgstr "仪式感"
+
+msgid "Challenge FreeCell"
+msgstr "挑战空当接龙"
+
+msgid "Chamberlain"
+msgstr "张伯伦"
+
+msgid "Chameleon"
+msgstr "变色龙"
+
+msgid "Checkered"
+msgstr "方格"
+
+msgid "Chelicera"
+msgstr "螯肢动物"
+
+msgid "Cheops"
+msgstr "基奥普斯"
+
+msgid "Chequers"
+msgstr "跳棋"
+
+msgid "Cherry Bomb"
+msgstr "樱桃炸弹"
+
+msgid "ChessMania"
+msgstr "国际象棋狂热"
+
+msgid "Chessboard"
+msgstr "棋盘"
+
+msgid "Chinaman"
+msgstr "中国人"
+
+msgid "Chinese Discipline"
+msgstr "中国纪律"
+
+msgid "Chinese Klondike"
+msgstr "中国经典接龙"
+
+msgid "Chinese Solitaire"
+msgstr "中国纸牌"
+
+msgid "Chinese Spider"
+msgstr "中国蜘蛛"
+
+msgid "Chip"
+msgstr "芯片"
+
+msgid "Choice"
+msgstr "选择"
+
+msgid "Churchill"
+msgstr "丘吉尔"
+
+msgid "Cicely"
+msgstr "西西莉"
+
+msgid "Circle Eight"
+msgstr "八圈"
+
+msgid "Circle Nine"
+msgstr "九圈"
+
+msgid "Citadel"
+msgstr "内城堡垒"
+
+msgid "Classic Solitaire"
+msgstr "经典纸牌"
+
+msgid "Clear the Dungeon"
+msgstr "清除地牢"
+
+msgid "Clink"
+msgstr "叮叮当当"
+
+msgid "Clock"
+msgstr "钟表接龙"
+
+msgid "Clover Leaf"
+msgstr "三叶草叶"
+
+msgid "Club"
+msgstr "俱乐部"
+
+msgid "Cluitjar's Lair"
+msgstr "克卢特贾尔的巢穴"
+
+msgid "Cobweb"
+msgstr "蛛丝网"
+
+msgid "Cockroach"
+msgstr "蟑螂"
+
+msgid "Colonel"
+msgstr "上校"
+
+msgid "Colorado"
+msgstr "科罗拉多州"
+
+msgid "Colours"
+msgstr "颜色"
+
+msgid "Columns"
+msgstr "专栏"
+
+msgid "Concentration"
+msgstr "浓度"
+
+msgid "Cone"
+msgstr "锥体"
+
+msgid "Congress"
+msgstr "国会"
+
+msgid "Constitution"
+msgstr "宪法"
+
+msgid "Contradance"
+msgstr "对比度"
+
+msgid "Convolution"
+msgstr "卷积"
+
+msgid "Coquette"
+msgstr "风骚"
+
+msgid "Corkscrew"
+msgstr "开瓶器"
+
+msgid "Corner Card"
+msgstr "角卡"
+
+msgid "Corner Patience"
+msgstr "角落耐心"
+
+msgid "Corner Suite"
+msgstr "角落套房"
+
+msgid "Corners"
+msgstr "角球"
+
+msgid "Cornerstones"
+msgstr "基石"
+
+msgid "Corona"
+msgstr "科罗娜"
+
+msgid "Cotillion"
+msgstr "舞会"
+
+msgid "Courtyard"
+msgstr "庭院"
+
+msgid "Cover"
+msgstr "封面"
+
+msgid "Crescent"
+msgstr "新月"
+
+msgid "Cribbage Patience"
+msgstr "克里比奇接龙"
+
+msgid "Cribbage Patience II"
+msgstr "克里比奇接龙Ⅱ"
+
+msgid "Cribbage Shuffle"
+msgstr "克里比奇换位"
+
+msgid "Cribbage Square"
+msgstr "克里比奇方阵"
+
+msgid "Cribbage Square (1 Reserve)"
+msgstr "克里比奇方阵（1 个备用格）"
+
+msgid "Cribbage Square (2 Reserves)"
+msgstr "克里比奇方阵（2 个备用格）"
+
+msgid "Cribbage Square (Waste)"
+msgstr "克里比奇方阵（弃牌堆）"
+
+msgid "Cringle"
+msgstr "克林格尔"
+
+msgid "Crispy"
+msgstr "脆皮"
+
+msgid "Cromwell"
+msgstr "克伦威尔"
+
+msgid "Cross"
+msgstr "克罗斯"
+
+msgid "Cross Currents"
+msgstr "横流"
+
+msgid "Crossroads"
+msgstr "十字路口"
+
+msgid "Crossword"
+msgstr "填字游戏"
+
+msgid "Crown"
+msgstr "皇冠"
+
+msgid "Cruel"
+msgstr "残酷"
+
+msgid "Cupido's Heart"
+msgstr "丘比特之心"
+
+msgid "Cupola"
+msgstr "冲天炉"
+
+msgid "Curds and Whey"
+msgstr "凝乳和乳清"
+
+msgid "Czarina"
+msgstr "沙里娜"
+
+msgid "Daddy Longlegs"
+msgstr "长腿爸爸"
+
+msgid "Danda"
+msgstr "丹达"
+
+msgid "Dashavatara"
+msgstr "达沙瓦塔拉"
+
+msgid "Dashavatara Circles"
+msgstr "达沙瓦塔拉圆"
+
+msgid "Dead King Golf"
+msgstr "死王高尔夫"
+
+msgid "Deauville"
+msgstr "多维尔"
+
+msgid "Decade"
+msgstr "十年"
+
+msgid "Deck"
+msgstr "甲板"
+
+msgid "Deep"
+msgstr "深"
+
+msgid "Deep Well"
+msgstr "深井"
+
+msgid "Delivery"
+msgstr "发货"
+
+msgid "Demon"
+msgstr "恶魔"
+
+msgid "Demon Fan"
+msgstr "魔扇"
+
+msgid "Demons and Thieves"
+msgstr "恶魔与盗贼"
+
+msgid "Der Katzenschwanz"
+msgstr "卡岑天鹅"
+
+msgid "Der Zopf"
+msgstr "德尔佐普夫"
+
+msgid "Der freie Napoleon"
+msgstr "自由拿破仑"
+
+msgid "Der grose Zopf"
+msgstr "玫瑰佐普夫"
+
+msgid "Der kleine Napoleon"
+msgstr "小拿破仑（德语名）"
+
+msgid "Der lange Zopf"
+msgstr "德兰格·佐普夫"
+
+msgid "Der letzte Monarch"
+msgstr "君主之书"
+
+msgid "Desert Island"
+msgstr "荒岛"
+
+msgid "Deuces"
+msgstr "平局"
+
+msgid "Deuces and Queens"
+msgstr "平分和皇后"
+
+msgid "Devil's Grip"
+msgstr "恶魔之握"
+
+msgid "Devil's Solitaire"
+msgstr "恶魔接龙"
+
+msgid "Dhanpati"
+msgstr "丹帕蒂"
+
+msgid "Dial"
+msgstr "拨号"
+
+msgid "Diamond"
+msgstr "钻石"
+
+msgid "Diamond Mine"
+msgstr "钻石矿"
+
+msgid "Die Bildgallerie"
+msgstr "画报画廊"
+
+msgid "Die Koenigsbergerin"
+msgstr "王妃"
+
+msgid "Die Pyramide"
+msgstr "金字塔（德语名）"
+
+msgid "Die Russische"
+msgstr "俄罗斯人"
+
+msgid "Die Schlange"
+msgstr "世界遗产"
+
+msgid "Die Uhr"
+msgstr "乌尔"
+
+msgid "Die boese Sieben"
+msgstr "死神"
+
+msgid "Die grosse Harfe"
+msgstr "大哈夫"
+
+msgid "Die kleine Harfe"
+msgstr "小哈夫"
+
+msgid "Dieppe"
+msgstr "迪耶普"
+
+msgid "Dimensions"
+msgstr "尺寸"
+
+msgid "Diplomat"
+msgstr "外交官"
+
+msgid "Discard"
+msgstr "丢弃"
+
+msgid "Display"
+msgstr "显示"
+
+msgid "Dnieper"
+msgstr "第聂伯河"
+
+msgid "Dnipro"
+msgstr "第聂伯罗"
+
+msgid "Dog"
+msgstr "狗"
+
+msgid "Dojouji's Game"
+msgstr "道成寺的游戏"
+
+msgid "Dojouji's Game Doubled"
+msgstr "道成寺的游戏加倍"
+
+msgid "Dolphin"
+msgstr "海豚"
+
+msgid "Doorway"
+msgstr "门口"
+
+msgid "Double Acquaintance"
+msgstr "双相识"
+
+msgid "Double Bisley"
+msgstr "双比斯利"
+
+msgid "Double Blue Moon"
+msgstr "双蓝月"
+
+msgid "Double Canfield"
+msgstr "双坎菲尔德"
+
+msgid "Double Cockroach"
+msgstr "双蟑螂"
+
+msgid "Double Dolphin"
+msgstr "双海豚"
+
+msgid "Double Dot"
+msgstr "双点"
+
+msgid "Double Drawbridge"
+msgstr "双吊桥"
+
+msgid "Double Easthaven"
+msgstr "东港双人房"
+
+msgid "Double Eight Off"
+msgstr "双八关"
+
+msgid "Double Fan"
+msgstr "双风扇"
+
+msgid "Double Fives"
+msgstr "双五"
+
+msgid "Double Footling"
+msgstr "双脚"
+
+msgid "Double Fourteen"
+msgstr "双十四"
+
+msgid "Double FreeCell"
+msgstr "双副空当接龙"
+
+msgid "Double FreeCell (Traditional)"
+msgstr "双副空当接龙（传统版）"
+
+msgid "Double Gold Mine"
+msgstr "双金矿"
+
+msgid "Double Golf"
+msgstr "双高尔夫球"
+
+msgid "Double Grasshopper"
+msgstr "双蝈蝈"
+
+msgid "Double Kingsley"
+msgstr "双金斯利"
+
+msgid "Double Klondike"
+msgstr "双副经典接龙"
+
+msgid "Double Klondike (Draw 3)"
+msgstr "双副经典接龙（翻 3 张）"
+
+msgid "Double Line"
+msgstr "双线"
+
+msgid "Double Mahjongg Big Castle"
+msgstr "双副麻将大城堡"
+
+msgid "Double Mahjongg Big Square"
+msgstr "双副麻将大方格"
+
+msgid "Double Mahjongg Big Traditional"
+msgstr "双副麻将大传统"
+
+msgid "Double Mahjongg Eight Squares"
+msgstr "双麻将八格"
+
+msgid "Double Mahjongg Faro"
+msgstr "法鲁双副麻将"
+
+msgid "Double Mahjongg Roost"
+msgstr "双副麻将馆"
+
+msgid "Double Mahjongg Rows"
+msgstr "双排麻将"
+
+msgid "Double Mahjongg Sphere"
+msgstr "双麻将球"
+
+msgid "Double Mahjongg Twin Picks"
+msgstr "双麻将双选"
+
+msgid "Double Mahjongg Two Squares"
+msgstr "双麻将二格"
+
+msgid "Double Measure"
+msgstr "双重测量"
+
+msgid "Double Montana"
+msgstr "双蒙大拿"
+
+msgid "Double Nestor"
+msgstr "双内斯特"
+
+msgid "Double Putt"
+msgstr "双推杆"
+
+msgid "Double Pyramid"
+msgstr "双金字塔"
+
+msgid "Double Rail"
+msgstr "双轨"
+
+msgid "Double Red Moon"
+msgstr "双红月"
+
+msgid "Double Russian Solitaire"
+msgstr "双俄罗斯纸牌"
+
+msgid "Double Russian Spider"
+msgstr "双俄罗斯蜘蛛"
+
+msgid "Double Samuri"
+msgstr "双武士"
+
+msgid "Double Scorpion"
+msgstr "双蝎子"
+
+msgid "Double Seahaven Towers"
+msgstr "双海天堂塔"
+
+msgid "Double Trigon"
+msgstr "双三角"
+
+msgid "Double Uintah"
+msgstr "双尤因塔"
+
+msgid "Double Your Fun"
+msgstr "双倍乐趣"
+
+msgid "Double Yukon"
+msgstr "双副育空接龙"
+
+msgid "Double or Quits"
+msgstr "加倍或退出"
+
+msgid "Doublets"
+msgstr "双峰"
+
+msgid "Doublets II"
+msgstr "双峰II"
+
+msgid "Dover"
+msgstr "多佛"
+
+msgid "Dragon 1"
+msgstr "龙1"
+
+msgid "Dragon 2"
+msgstr "龙2"
+
+msgid "Drawbridge"
+msgstr "吊桥"
+
+msgid "Dress Parade"
+msgstr "着装游行"
+
+msgid "Drivel"
+msgstr "胡德尔"
+
+msgid "Duchess"
+msgstr "公爵夫人"
+
+msgid "Duchess de Luynes"
+msgstr "吕讷公爵夫人"
+
+msgid "Dude"
+msgstr "伙计"
+
+msgid "Duke"
+msgstr "公爵"
+
+msgid "Dumfries"
+msgstr "邓弗里斯"
+
+msgid "Dutch Solitaire"
+msgstr "荷兰纸牌"
+
+msgid "Dutchess"
+msgstr "达奇斯"
+
+msgid "Eagle"
+msgstr "鹰"
+
+msgid "Eagle Wing"
+msgstr "鹰翼"
+
+msgid "Eastcliff"
+msgstr "伊斯特克利夫"
+
+msgid "Easthaven"
+msgstr "东港"
+
+msgid "Easy Supreme"
+msgstr "易至尊"
+
+msgid "Easy x One"
+msgstr "简单×一"
+
+msgid "Eclipse"
+msgstr "日食"
+
+msgid "Egyptian Solitaire"
+msgstr "埃及纸牌"
+
+msgid "Eiffel Tower"
+msgstr "埃菲尔铁塔"
+
+msgid "Eight Cards"
+msgstr "八张牌"
+
+msgid "Eight Guardians"
+msgstr "八位守护者"
+
+msgid "Eight Legions"
+msgstr "八军团"
+
+msgid "Eight Off"
+msgstr "八空位接龙"
+
+msgid "Eight Packs"
+msgstr "八块装"
+
+msgid "Eight Sages"
+msgstr "八贤"
+
+msgid "Eight Squares"
+msgstr "八个方格"
+
+msgid "Eight Times Eight"
+msgstr "八乘八"
+
+msgid "Eight by Eight"
+msgstr "八行八列"
+
+msgid "Eighteens"
+msgstr "十八岁"
+
+msgid "Eights"
+msgstr "八点牌"
+
+msgid "Eighty Thieves"
+msgstr "八十大盗"
+
+msgid "Elba"
+msgstr "厄尔巴岛"
+
+msgid "Elevator"
+msgstr "电梯"
+
+msgid "Eleven Away"
+msgstr "十一客场"
+
+msgid "Eleven Triangle"
+msgstr "十一三角形"
+
+msgid "Elevens"
+msgstr "十一人"
+
+msgid "Elevens Too"
+msgstr "也是十一人"
+
+msgid "Eliminator"
+msgstr "消除器"
+
+msgid "Emperor"
+msgstr "皇帝"
+
+msgid "Emperor of Germany"
+msgstr "德国皇帝"
+
+msgid "Empress of Italy"
+msgstr "意大利皇后"
+
+msgid "Empty Pyramids"
+msgstr "空金字塔"
+
+msgid "Enterprise"
+msgstr "企业"
+
+msgid "Escalator"
+msgstr "自动扶梯"
+
+msgid "Eternal Triangle"
+msgstr "永恒三角"
+
+msgid "Eularia"
+msgstr "尤拉利亚"
+
+msgid "Excuse"
+msgstr "对不起"
+
+msgid "Exiled Kings"
+msgstr "流亡国王"
+
+msgid "Exit"
+msgstr "退出"
+
+msgid "Express"
+msgstr "快递"
+
+msgid "Eye"
+msgstr "眼睛"
+
+msgid "F-15 Eagle"
+msgstr "F-15 鹰"
+
+msgid "Faerie Queen"
+msgstr "精灵女王"
+
+msgid "Fair Lucy"
+msgstr "美丽的露西"
+
+msgid "Fair Maids"
+msgstr "美丽的女仆"
+
+msgid "Fairest"
+msgstr "公平"
+
+msgid "Falling Star"
+msgstr "流星"
+
+msgid "Families"
+msgstr "家庭"
+
+msgid "Famous Fifty"
+msgstr "著名五十人"
+
+msgid "Fan"
+msgstr "风扇"
+
+msgid "Fan Fifteen"
+msgstr "范十五"
+
+msgid "Fanny"
+msgstr "范妮"
+
+msgid "Farandole"
+msgstr "法兰多尔"
+
+msgid "Farmer's Wife"
+msgstr "农民的妻子"
+
+msgid "Faro"
+msgstr "法鲁"
+
+msgid "Fascination Fan"
+msgstr "迷魂扇"
+
+msgid "Fastness"
+msgstr "牢度"
+
+msgid "Father Time"
+msgstr "父亲时间"
+
+msgid "Fatimeh's Game"
+msgstr "法蒂梅的游戏"
+
+msgid "Fatimeh's Game Relaxed"
+msgstr "法蒂梅的游戏轻松"
+
+msgid "Fechter's Game"
+msgstr "费希特的游戏"
+
+msgid "Fifteen"
+msgstr "十五"
+
+msgid "Fifteen Plus"
+msgstr "十五加"
+
+msgid "Fifteen Puzzle"
+msgstr "十五谜题"
+
+msgid "Fifteen Puzzle Cell"
+msgstr "十五个谜题单元"
+
+msgid "Fifteens"
+msgstr "凑十五"
+
+msgid "Final Battle"
+msgstr "最终之战"
+
+msgid "Financier"
+msgstr "金融家"
+
+msgid "Finnish Solitaire"
+msgstr "芬兰纸牌"
+
+msgid "Fire and Ice"
+msgstr "火与冰"
+
+msgid "Firecracker"
+msgstr "鞭炮"
+
+msgid "Firing Squad"
+msgstr "行刑队"
+
+msgid "First Law"
+msgstr "第一定律"
+
+msgid "Fish"
+msgstr "鱼"
+
+msgid "Fish Face"
+msgstr "鱼脸"
+
+msgid "Fission"
+msgstr "裂变"
+
+msgid "Five Aces"
+msgstr "五张王牌"
+
+msgid "Five Piles"
+msgstr "五桩"
+
+msgid "Five Pyramids 1"
+msgstr "五金字塔 1"
+
+msgid "Five Pyramids 2"
+msgstr "五金字塔2"
+
+msgid "Flake"
+msgstr "片状"
+
+msgid "Flake (2 Decks)"
+msgstr "片状（2 副牌）"
+
+msgid "Flamboyant"
+msgstr "华丽"
+
+msgid "Flamenco"
+msgstr "弗拉门戈"
+
+msgid "Flipper"
+msgstr "脚蹼"
+
+msgid "Floating City"
+msgstr "漂浮城市"
+
+msgid "Floradora"
+msgstr "弗洛拉多拉"
+
+msgid "Florentine Patience"
+msgstr "佛罗伦萨的耐心"
+
+msgid "Flourish"
+msgstr "蓬勃发展"
+
+msgid "Flow"
+msgstr "流量"
+
+msgid "Flower Arrangement"
+msgstr "插花"
+
+msgid "Flower Clock"
+msgstr "花钟"
+
+msgid "Flower Garden"
+msgstr "花园接龙"
+
+msgid "Flowers 1"
+msgstr "鲜花1"
+
+msgid "Flowers 2"
+msgstr "花2"
+
+msgid "Fly"
+msgstr "飞翔"
+
+msgid "Following"
+msgstr "正在关注"
+
+msgid "Fool's Up"
+msgstr "傻瓜起来"
+
+msgid "Foothold"
+msgstr "立足点"
+
+msgid "Footling"
+msgstr "福特林"
+
+msgid "ForeCell"
+msgstr "前细胞"
+
+msgid "Forest Glade"
+msgstr "森林空地"
+
+msgid "Formic"
+msgstr "甲酸"
+
+msgid "Fort"
+msgstr "要塞"
+
+msgid "Fortress"
+msgstr "堡垒"
+
+msgid "Fortress Towers"
+msgstr "堡垒塔"
+
+msgid "Fortune's Favor"
+msgstr "财富的眷顾"
+
+msgid "Fortunes"
+msgstr "财富"
+
+msgid "Forty Bandits"
+msgstr "四十强盗"
+
+msgid "Forty Thieves"
+msgstr "四十大盗"
+
+msgid "Forty and Eight"
+msgstr "四十又八"
+
+msgid "Forty-Nine"
+msgstr "四十九"
+
+msgid "Four Colours"
+msgstr "四种颜色"
+
+msgid "Four Corners"
+msgstr "四个角"
+
+msgid "Four Free"
+msgstr "四免费"
+
+msgid "Four Kingdoms"
+msgstr "四个王国"
+
+msgid "Four Kings"
+msgstr "四王"
+
+msgid "Four Leaf Clovers"
+msgstr "四叶草"
+
+msgid "Four Packs"
+msgstr "四件装"
+
+msgid "Four Rivers (No Gravity) 14x6"
+msgstr "四河（无重力）14x6"
+
+msgid "Four Rivers (No Gravity) 18x8"
+msgstr "四河（无重力）18x8"
+
+msgid "Four Rivers (No Gravity) 24x12"
+msgstr "四河（无重力）24x12"
+
+msgid "Four Rivers 14x6"
+msgstr "四河 14x6"
+
+msgid "Four Rivers 18x8"
+msgstr "四河 18x8"
+
+msgid "Four Rivers 24x12"
+msgstr "四河 24x12"
+
+msgid "Four Seasons"
+msgstr "四个季节"
+
+msgid "Four Stacks"
+msgstr "四栈"
+
+msgid "Four Winds"
+msgstr "四风"
+
+msgid "Four by Four"
+msgstr "四乘四"
+
+msgid "Foursome"
+msgstr "四人组"
+
+msgid "Fourteen"
+msgstr "十四"
+
+msgid "Fourteen Out"
+msgstr "十四出局"
+
+msgid "Fourteen Puzzle"
+msgstr "十四谜题"
+
+msgid "Foxfire 13"
+msgstr "狐火13"
+
+msgid "Frames"
+msgstr "镜框"
+
+msgid "Fred's Spider"
+msgstr "弗雷德的蜘蛛"
+
+msgid "Fred's Spider (3 Decks)"
+msgstr "弗雷德的蜘蛛（3 副牌）"
+
+msgid "Free Fan"
+msgstr "免费风扇"
+
+msgid "Free Ishido"
+msgstr "自由石户"
+
+msgid "Free Ishido Relaxed"
+msgstr "自由石户放松"
+
+msgid "Free Napoleon"
+msgstr "释放拿破仑"
+
+msgid "Free Parking"
+msgstr "免费停车"
+
+msgid "FreeCell"
+msgstr "空当接龙"
+
+msgid "FreeCell (2 Reserves)"
+msgstr "空当接龙（2 个备用格）"
+
+msgid "FreeCell (No Reserve)"
+msgstr "空当接龙（无备用格）"
+
+msgid "Frog"
+msgstr "青蛙"
+
+msgid "Full Vision 1"
+msgstr "全视野1"
+
+msgid "Full Vision 2"
+msgstr "全视野2"
+
+msgid "Full Vision 3"
+msgstr "全视野3"
+
+msgid "Funnel"
+msgstr "漏斗"
+
+msgid "Future"
+msgstr "未来"
+
+msgid "Gajapati"
+msgstr "加贾帕蒂"
+
+msgid "Gaji"
+msgstr "嘎吉"
+
+msgid "Galary"
+msgstr "加拉里"
+
+msgid "Galloway"
+msgstr "加洛韦"
+
+msgid "Gaps"
+msgstr "填空接龙"
+
+msgid "Garden"
+msgstr "庭园"
+
+msgid "Gargantua"
+msgstr "卡冈图亚"
+
+msgid "Garhpati"
+msgstr "加尔帕蒂"
+
+msgid "Gate"
+msgstr "大门"
+
+msgid "Gay Gordons"
+msgstr "盖伊·戈登斯"
+
+msgid "Gayle's"
+msgstr "盖尔的"
+
+msgid "General's Patience"
+msgstr "将军的耐心"
+
+msgid "Genesis"
+msgstr "创世纪"
+
+msgid "Genesis +"
+msgstr "创世纪+"
+
+msgid "Geoffrey"
+msgstr "杰弗里"
+
+msgid "German Clock"
+msgstr "德国时钟"
+
+msgid "German FreeCell"
+msgstr "德国空当接龙"
+
+msgid "German Patience"
+msgstr "德国人的耐心"
+
+msgid "Ghulam"
+msgstr "古拉姆"
+
+msgid "Giant"
+msgstr "巨人"
+
+msgid "Giza"
+msgstr "吉萨"
+
+msgid "Glacier"
+msgstr "冰川"
+
+msgid "Glade"
+msgstr "空地"
+
+msgid "Glencoe"
+msgstr "格伦科"
+
+msgid "Glenwood"
+msgstr "格伦伍德"
+
+msgid "Gloaming"
+msgstr "暮光"
+
+msgid "Gloria"
+msgstr "格洛丽亚"
+
+msgid "Gloucestershire"
+msgstr "格洛斯特郡"
+
+msgid "Gnat"
+msgstr "蚊虫"
+
+msgid "Gold Mine"
+msgstr "金矿"
+
+msgid "Gold Rush"
+msgstr "淘金热"
+
+msgid "Golf"
+msgstr "高尔夫"
+
+msgid "Good Measure"
+msgstr "好措施"
+
+msgid "Good Thirteen"
+msgstr "好十三"
+
+msgid "Gotham"
+msgstr "哥谭"
+
+msgid "Grampus"
+msgstr "鲸八"
+
+msgid "Granada"
+msgstr "格拉纳达"
+
+msgid "Grand Duchess"
+msgstr "大公爵夫人"
+
+msgid "Grand Duchess +"
+msgstr "大公夫人+"
+
+msgid "Grandee"
+msgstr "格兰迪"
+
+msgid "Grandfather"
+msgstr "祖父"
+
+msgid "Grandfather's Clock"
+msgstr "老爷钟接龙"
+
+msgid "Grandmamma's Patience"
+msgstr "奶奶的耐心"
+
+msgid "Grandmother's Game"
+msgstr "祖母的游戏"
+
+msgid "Grant's Reinforcement"
+msgstr "格兰特的强化"
+
+msgid "Grasshopper"
+msgstr "蚱蜢"
+
+msgid "Great Wall"
+msgstr "万里长城"
+
+msgid "Great Wheel"
+msgstr "大轮"
+
+msgid "Greater Queue"
+msgstr "更大的队列"
+
+msgid "Greater Wheel"
+msgstr "更大的轮子"
+
+msgid "Griffon"
+msgstr "狮鹫"
+
+msgid "Grounds for a Divorce"
+msgstr "离婚的理由"
+
+msgid "Guardian"
+msgstr "守护者"
+
+msgid "Gypsy"
+msgstr "吉普赛人"
+
+msgid "Gypsy (3 Decks)"
+msgstr "吉普赛人（3 副牌）"
+
+msgid "H for Haga"
+msgstr "H代表哈加"
+
+msgid "H for Haga Traditional"
+msgstr "H 代表 Haga 传统"
+
+msgid "Half Klondike"
+msgstr "半经典接龙"
+
+msgid "Half Mahjongg Abstract"
+msgstr "半麻将摘要"
+
+msgid "Half Mahjongg Happy New Year"
+msgstr "半麻将新年快乐"
+
+msgid "Half Mahjongg K 2"
+msgstr "半麻将 K 2"
+
+msgid "Half Mahjongg Smile"
+msgstr "半麻将微笑"
+
+msgid "Half Mahjongg Star"
+msgstr "半麻将星"
+
+msgid "Half Mahjongg Wall"
+msgstr "半麻将墙"
+
+msgid "Hanafuda Four Seasons"
+msgstr "花札四个季节"
+
+msgid "Hanafuda Four Winds"
+msgstr "花札四风"
+
+msgid "Hanoi Puzzle 3"
+msgstr "河内之谜 3"
+
+msgid "Hanoi Puzzle 4"
+msgstr "河内谜题 4"
+
+msgid "Hanoi Puzzle 5"
+msgstr "河内谜题 5"
+
+msgid "Hanoi Puzzle 6"
+msgstr "河内谜题 6"
+
+msgid "Hanoi Puzzle 7"
+msgstr "河内拼图 7"
+
+msgid "Hanoi Puzzle 8"
+msgstr "河内谜题 8"
+
+msgid "Hanoi Sequence"
+msgstr "河内序列"
+
+msgid "Happy New Year"
+msgstr "新年快乐"
+
+msgid "Hare"
+msgstr "野兔"
+
+msgid "Harp"
+msgstr "竖琴"
+
+msgid "Harvestman"
+msgstr "收割者"
+
+msgid "Hawaiian"
+msgstr "夏威夷语"
+
+msgid "Hayagriva"
+msgstr "哈亚贵瓦"
+
+msgid "Haystack"
+msgstr "干草堆"
+
+msgid "Headquarters"
+msgstr "总部"
+
+msgid "Heads and Tails"
+msgstr "头和尾"
+
+msgid "Helios"
+msgstr "赫利俄斯"
+
+msgid "Helsinki"
+msgstr "赫尔辛基"
+
+msgid "Hemispheres"
+msgstr "半球"
+
+msgid "Herz zu Herz"
+msgstr "赫兹祖赫兹"
+
+msgid "Hex A Klon"
+msgstr "六角克隆"
+
+msgid "Hex A Klon (Draw 3)"
+msgstr "六角克隆（翻 3 张）"
+
+msgid "Hex Labyrinth"
+msgstr "六角迷宫"
+
+msgid "Hex Yukon"
+msgstr "六角育空地区"
+
+msgid "Hex of Hearts"
+msgstr "红心六角形"
+
+msgid "Hidden Passages"
+msgstr "隐藏通道"
+
+msgid "Hidden Words"
+msgstr "隐藏的话"
+
+msgid "High and Low"
+msgstr "高与低"
+
+msgid "Hiranyaksha"
+msgstr "黑兰亚克沙"
+
+msgid "Hit or Miss"
+msgstr "命中或错过"
+
+msgid "Hit or Miss Unlimited"
+msgstr "命中或错过无限"
+
+msgid "Hope"
+msgstr "希望"
+
+msgid "Hope Deferred"
+msgstr "希望推迟"
+
+msgid "Hopscotch"
+msgstr "跳房子"
+
+msgid "Horse"
+msgstr "马"
+
+msgid "Hospital Patience"
+msgstr "医院耐心"
+
+msgid "Hot Coffee"
+msgstr "热咖啡"
+
+msgid "Hourglass"
+msgstr "沙漏"
+
+msgid "House in the Wood"
+msgstr "树林里的房子"
+
+msgid "House of Commons"
+msgstr "下议院"
+
+msgid "House on the Hill"
+msgstr "山上的房子"
+
+msgid "Housefly"
+msgstr "家蝇"
+
+msgid "Hovercraft"
+msgstr "气垫船"
+
+msgid "How They Run"
+msgstr "他们如何跑步"
+
+msgid "Huge Picture Gallery"
+msgstr "巨大的画廊"
+
+msgid "Hunter"
+msgstr "猎人"
+
+msgid "Hurdles"
+msgstr "跨栏"
+
+msgid "Hurricane"
+msgstr "飓风"
+
+msgid "Hussars"
+msgstr "骠骑兵"
+
+msgid "Hypotenuse"
+msgstr "斜边"
+
+msgid "I Love U"
+msgstr "我爱你"
+
+msgid "Ides of March"
+msgstr "三月十五日"
+
+msgid "Idiot's Delight"
+msgstr "白痴的喜悦"
+
+msgid "Idle Aces"
+msgstr "空闲王牌"
+
+msgid "Idle Year"
+msgstr "闲年"
+
+msgid "Imaginary Thirteen"
+msgstr "想象十三"
+
+msgid "Imperial Guards"
+msgstr "帝国卫队"
+
+msgid "Imperial Trump Yukon"
+msgstr "帝国特朗普育空地区"
+
+msgid "Imperial Trumps"
+msgstr "帝国王牌"
+
+msgid "Inazuma"
+msgstr "闪电"
+
+msgid "Inca"
+msgstr "印加"
+
+msgid "Incompatibility"
+msgstr "不兼容"
+
+msgid "Indefatigable"
+msgstr "不知疲倦"
+
+msgid "Indian"
+msgstr "印度人"
+
+msgid "Indian Patience"
+msgstr "印度接龙"
+
+msgid "Inner Circle"
+msgstr "内圈"
+
+msgid "Inquisitor"
+msgstr "审判官"
+
+msgid "Intelligence"
+msgstr "情报"
+
+msgid "Intelligence +"
+msgstr "智能+"
+
+msgid "Interchange"
+msgstr "交汇处"
+
+msgid "Interlock"
+msgstr "互锁"
+
+msgid "Interment"
+msgstr "安葬"
+
+msgid "Interregnum"
+msgstr "空位期"
+
+msgid "Intrigue"
+msgstr "阴谋"
+
+msgid "Iris"
+msgstr "鸢尾花"
+
+msgid "Irmgard"
+msgstr "伊姆加德"
+
+msgid "Isabel"
+msgstr "伊莎贝尔"
+
+msgid "Ishido"
+msgstr "石户"
+
+msgid "Ishido Relaxed"
+msgstr "石户放松"
+
+msgid "Ishido Scored"
+msgstr "石户进球"
+
+msgid "Isle of Capri"
+msgstr "卡普里岛"
+
+msgid "JPs"
+msgstr "太平绅士"
+
+msgid "Jacks in the Box"
+msgstr "盒子里的杰克"
+
+msgid "Jamestown"
+msgstr "詹姆斯敦"
+
+msgid "Jane"
+msgstr "简"
+
+msgid "Japan"
+msgstr "日本"
+
+msgid "Japanese Garden"
+msgstr "日本花园"
+
+msgid "Japanese Garden II"
+msgstr "日本花园二"
+
+msgid "Japanese Garden III"
+msgstr "日本花园III"
+
+msgid "Joke Klon"
+msgstr "笑话克隆"
+
+msgid "Joke Klon (Draw 3)"
+msgstr "笑话克隆（翻 3 张）"
+
+msgid "Joker"
+msgstr "小丑"
+
+msgid "Joker Bombs"
+msgstr "小丑炸弹"
+
+msgid "Josephine"
+msgstr "约瑟芬"
+
+msgid "Journey to Cuddapah"
+msgstr "古达帕之旅"
+
+msgid "Jumbo"
+msgstr "珍宝"
+
+msgid "Junction"
+msgstr "交界处"
+
+msgid "Jungle"
+msgstr "丛林"
+
+msgid "Just For Fun"
+msgstr "只是为了好玩"
+
+msgid "Juvenile"
+msgstr "少年"
+
+msgid "K 2"
+msgstr "乔戈里峰"
+
+msgid "K for Kyodai"
+msgstr "K代表共同大社"
+
+msgid "K for Kyodai Traditional"
+msgstr "K 代表 兄弟 传统"
+
+msgid "K.C."
+msgstr "凯西"
+
+msgid "KM"
+msgstr "凯姆"
+
+msgid "Kali's Game"
+msgstr "卡莉的游戏"
+
+msgid "Kali's Game Doubled"
+msgstr "Kali 的游戏加倍"
+
+msgid "Kali's Game Relaxed"
+msgstr "Kali 的游戏轻松"
+
+msgid "Kansas"
+msgstr "堪萨斯州"
+
+msgid "Katrina's Game"
+msgstr "卡特里娜飓风的游戏"
+
+msgid "Katrina's Game Doubled"
+msgstr "卡特里娜飓风的游戏加倍"
+
+msgid "Katrina's Game Relaxed"
+msgstr "卡特里娜飓风的游戏轻松"
+
+msgid "Kentish"
+msgstr "肯特郡"
+
+msgid "Kettle Hill"
+msgstr "凯特尔山"
+
+msgid "Khadga"
+msgstr "卡德加"
+
+msgid "Khedive"
+msgstr "赫迪夫"
+
+msgid "Kiev"
+msgstr "基辅（旧称）"
+
+msgid "Kilowatt"
+msgstr "千瓦"
+
+msgid "King Albert"
+msgstr "阿尔伯特国王"
+
+msgid "King Only Baker's Game"
+msgstr "King Only贝克的游戏"
+
+msgid "King Only Hex A Klon"
+msgstr "仅国王六角克隆"
+
+msgid "King Tut"
+msgstr "图坦卡蒙国王"
+
+msgid "King's Audience"
+msgstr "国王的观众"
+
+msgid "King's Captives"
+msgstr "国王的俘虏"
+
+msgid "King's Plume"
+msgstr "国王之羽"
+
+msgid "King's Secrets"
+msgstr "国王的秘密"
+
+msgid "King's Way"
+msgstr "国王之路"
+
+msgid "KingCell"
+msgstr "金赛尔"
+
+msgid "Kingdom"
+msgstr "王国"
+
+msgid "Kings"
+msgstr "国王队"
+
+msgid "Kings in the Corners"
+msgstr "角落里的国王"
+
+msgid "Kingsdown Eights"
+msgstr "金斯当八人组"
+
+msgid "Kingsley"
+msgstr "金斯利"
+
+msgid "Klondike"
+msgstr "经典接龙"
+
+msgid "Klondike (Draw 3)"
+msgstr "经典接龙（翻 3 张）"
+
+msgid "Klondike Mini"
+msgstr "迷你经典接龙"
+
+msgid "Klondike Nouveau"
+msgstr "新经典接龙"
+
+msgid "Klondike Plus 16"
+msgstr "经典接龙加 16"
+
+msgid "Klondike Territory"
+msgstr "经典接龙领地"
+
+msgid "Knockout"
+msgstr "淘汰赛"
+
+msgid "Knockout +"
+msgstr "淘汰赛+"
+
+msgid "Knotty Nines"
+msgstr "多节九九"
+
+msgid "Krebs"
+msgstr "克雷布斯"
+
+msgid "Kujaku"
+msgstr "九寂"
+
+msgid "Kumo"
+msgstr "云"
+
+msgid "Kurma"
+msgstr "库尔玛"
+
+msgid "Kyiv"
+msgstr "基辅"
+
+msgid "Kyodai 14"
+msgstr "共同14号"
+
+msgid "Kyodai 17"
+msgstr "共同17号"
+
+msgid "Kyodai 18"
+msgstr "共同18号"
+
+msgid "Kyodai 20"
+msgstr "共同20"
+
+msgid "Kyodai 23"
+msgstr "共同23"
+
+msgid "Kyodai 24"
+msgstr "共同24"
+
+msgid "Kyodai 25"
+msgstr "共同25"
+
+msgid "Kyodai 26"
+msgstr "共同26"
+
+msgid "Kyodai 27"
+msgstr "共同27"
+
+msgid "Kyodai 28"
+msgstr "共同28"
+
+msgid "Kyodai 41"
+msgstr "共同41"
+
+msgid "Kyodai 42"
+msgstr "共同42"
+
+msgid "La Belle Lucie"
+msgstr "美丽露西"
+
+msgid "La Chatelaine"
+msgstr "拉查特兰"
+
+msgid "La Demi-Lune"
+msgstr "半月形"
+
+msgid "La Francaise"
+msgstr "法国人"
+
+msgid "La Nivernaise"
+msgstr "尼韦尔内斯"
+
+msgid "La Parisienne"
+msgstr "巴黎女人"
+
+msgid "Labyrinth"
+msgstr "曲径迷宫"
+
+msgid "Ladies Battle"
+msgstr "女子之战"
+
+msgid "Lady Betty"
+msgstr "贝蒂夫人"
+
+msgid "Lady Jane"
+msgstr "简女士"
+
+msgid "Lady Palk"
+msgstr "帕克夫人"
+
+msgid "Lady of the Manor"
+msgstr "庄园夫人"
+
+msgid "Ladybug"
+msgstr "瓢虫"
+
+msgid "Lafayette"
+msgstr "拉斐特"
+
+msgid "Laggard Lady"
+msgstr "落后女士"
+
+msgid "Lanes"
+msgstr "车道"
+
+msgid "Lara's Game"
+msgstr "劳拉的游戏"
+
+msgid "Lara's Game Doubled"
+msgstr "劳拉的游戏加倍"
+
+msgid "Lara's Game Relaxed"
+msgstr "劳拉的游戏轻松"
+
+msgid "Las Vegas"
+msgstr "拉斯维加斯"
+
+msgid "Lasker"
+msgstr "拉斯克"
+
+msgid "Last Chance"
+msgstr "最后的机会"
+
+msgid "Lattice"
+msgstr "格子"
+
+msgid "Laying Siege"
+msgstr "围攻"
+
+msgid "Le Cadran"
+msgstr "勒卡德兰"
+
+msgid "Le Grande Teton"
+msgstr "大提顿"
+
+msgid "Le Parterre"
+msgstr "花坛"
+
+msgid "Legion"
+msgstr "军团"
+
+msgid "Leoni's Own"
+msgstr "莱奥尼自己的"
+
+msgid "Leprechaun"
+msgstr "妖精"
+
+msgid "Les Deux"
+msgstr "两人组"
+
+msgid "Les Huits"
+msgstr "莱斯休斯"
+
+msgid "Les Quatre Coins"
+msgstr "四枚硬币"
+
+msgid "Lesser Queue"
+msgstr "较小的队列"
+
+msgid "Lexington Harp"
+msgstr "列克星敦竖琴"
+
+msgid "Lights Out 10x10"
+msgstr "熄灯 10x10"
+
+msgid "Lights Out 3x3"
+msgstr "熄灯 3x3"
+
+msgid "Lights Out 4x4"
+msgstr "熄灯 4x4"
+
+msgid "Lights Out 5x5"
+msgstr "熄灯 5x5"
+
+msgid "Lights Out 6x6"
+msgstr "熄灯 6x6"
+
+msgid "Lights Out 7x7"
+msgstr "熄灯 7x7"
+
+msgid "Lights Out 8x8"
+msgstr "熄灯 8x8"
+
+msgid "Lights Out 9x9"
+msgstr "熄灯 9x9"
+
+msgid "Lightweight"
+msgstr "轻量级"
+
+msgid "Lily"
+msgstr "百合"
+
+msgid "Limited"
+msgstr "有限公司"
+
+msgid "Limpopo"
+msgstr "林波波省"
+
+msgid "Lion 1"
+msgstr "狮子1"
+
+msgid "Lion 2"
+msgstr "狮子2"
+
+msgid "Little Billie"
+msgstr "小比莉"
+
+msgid "Little Easy"
+msgstr "小容易"
+
+msgid "Little Forty"
+msgstr "小四十"
+
+msgid "Little Gate"
+msgstr "小门"
+
+msgid "Little Ishido"
+msgstr "小石户"
+
+msgid "Little Ishido Relaxed"
+msgstr "小石户放松"
+
+msgid "Little Napoleon"
+msgstr "小拿破仑"
+
+msgid "Lizard"
+msgstr "蜥蜴"
+
+msgid "Lobachevsky"
+msgstr "洛巴切夫斯基"
+
+msgid "Locked Cards"
+msgstr "锁定卡"
+
+msgid "Long Braid"
+msgstr "长辫子"
+
+msgid "Long Journey to Cuddapah"
+msgstr "前往古达帕的漫长旅程"
+
+msgid "Long Tail"
+msgstr "长尾"
+
+msgid "Long Trip"
+msgstr "长途旅行"
+
+msgid "Loose Ends"
+msgstr "未解决的问题"
+
+msgid "Lords and Ladies"
+msgstr "贵族们和女士们"
+
+msgid "Lost"
+msgstr "迷失"
+
+msgid "Louis"
+msgstr "路易斯"
+
+msgid "Love a Duck"
+msgstr "爱一只鸭子"
+
+msgid "Lovely Lucy"
+msgstr "可爱的露西"
+
+msgid "Lucas"
+msgstr "卢卡斯"
+
+msgid "Lucky Piles"
+msgstr "幸运桩"
+
+msgid "Lucky Thirteen"
+msgstr "幸运十三"
+
+msgid "Madame"
+msgstr "夫人"
+
+msgid "Mage's Game"
+msgstr "法师的游戏"
+
+msgid "Magic Montana"
+msgstr "魔术蒙大拿州"
+
+msgid "Mahjongg Altar"
+msgstr "麻将坛"
+
+msgid "Mahjongg Another Round"
+msgstr "麻将又一轮"
+
+msgid "Mahjongg Aqab's"
+msgstr "麻将阿卡布"
+
+msgid "Mahjongg Arena 1"
+msgstr "麻将馆1"
+
+msgid "Mahjongg Arena 2"
+msgstr "麻将竞技场2"
+
+msgid "Mahjongg Arrow"
+msgstr "麻将箭"
+
+msgid "Mahjongg Art Moderne"
+msgstr "现代麻将艺术"
+
+msgid "Mahjongg Axis"
+msgstr "麻将轴"
+
+msgid "Mahjongg Balance"
+msgstr "麻将平衡"
+
+msgid "Mahjongg Bat"
+msgstr "麻将棒"
+
+msgid "Mahjongg Beetle"
+msgstr "麻将甲虫"
+
+msgid "Mahjongg Big Hole"
+msgstr "麻将大洞"
+
+msgid "Mahjongg Big Mountain"
+msgstr "麻将大山"
+
+msgid "Mahjongg Big X"
+msgstr "麻将大X"
+
+msgid "Mahjongg Bizarre"
+msgstr "奇异麻将"
+
+msgid "Mahjongg Boar"
+msgstr "麻将野猪"
+
+msgid "Mahjongg Boat"
+msgstr "麻将船"
+
+msgid "Mahjongg Bridge 1"
+msgstr "麻将桥1"
+
+msgid "Mahjongg Bridge 2"
+msgstr "麻将桥2"
+
+msgid "Mahjongg Bug"
+msgstr "麻将虫"
+
+msgid "Mahjongg Butterfly 1"
+msgstr "蝴蝶麻将1"
+
+msgid "Mahjongg Butterfly 2"
+msgstr "蝴蝶麻将2"
+
+msgid "Mahjongg Candy"
+msgstr "麻将糖"
+
+msgid "Mahjongg Castle"
+msgstr "麻将城堡"
+
+msgid "Mahjongg Cat and Mouse"
+msgstr "猫和老鼠麻将"
+
+msgid "Mahjongg Ceremonial"
+msgstr "麻将仪式"
+
+msgid "Mahjongg Checkered"
+msgstr "麻将·棋盘格"
+
+msgid "Mahjongg ChessMania"
+msgstr "麻将国际象棋狂热"
+
+msgid "Mahjongg Chip"
+msgstr "麻将筹码"
+
+msgid "Mahjongg Cobweb"
+msgstr "麻将蜘蛛网"
+
+msgid "Mahjongg Columns"
+msgstr "麻将柱"
+
+msgid "Mahjongg Cross"
+msgstr "十字麻将"
+
+msgid "Mahjongg Crown"
+msgstr "麻将皇冠"
+
+msgid "Mahjongg Cupido's Heart"
+msgstr "麻将丘比特之心"
+
+msgid "Mahjongg Cupola"
+msgstr "麻将冲天炉"
+
+msgid "Mahjongg Deep Well"
+msgstr "麻将深井"
+
+msgid "Mahjongg Diamond"
+msgstr "麻将钻石"
+
+msgid "Mahjongg Dog"
+msgstr "麻将狗"
+
+msgid "Mahjongg Dragon 1"
+msgstr "麻将龙1"
+
+msgid "Mahjongg Dragon 2"
+msgstr "麻将龙2"
+
+msgid "Mahjongg Dude"
+msgstr "麻将哥"
+
+msgid "Mahjongg Eagle"
+msgstr "麻将鹰"
+
+msgid "Mahjongg Empty Pyramids"
+msgstr "麻将空金字塔"
+
+msgid "Mahjongg Enterprise"
+msgstr "麻将企业"
+
+msgid "Mahjongg Eye"
+msgstr "麻将眼"
+
+msgid "Mahjongg F-15 Eagle"
+msgstr "麻将 F-15 鹰"
+
+msgid "Mahjongg Farandole"
+msgstr "麻将法兰朵"
+
+msgid "Mahjongg Fish"
+msgstr "麻将鱼"
+
+msgid "Mahjongg Fish Face"
+msgstr "麻将鱼脸"
+
+msgid "Mahjongg Five Pyramids 1"
+msgstr "麻将五金字塔 1"
+
+msgid "Mahjongg Five Pyramids 2"
+msgstr "麻将五金字塔2"
+
+msgid "Mahjongg Floating City"
+msgstr "麻将浮城"
+
+msgid "Mahjongg Flowers 1"
+msgstr "麻将花1"
+
+msgid "Mahjongg Flowers 2"
+msgstr "麻将花2"
+
+msgid "Mahjongg Fortress Towers"
+msgstr "麻将堡垒塔"
+
+msgid "Mahjongg Full Vision 1"
+msgstr "麻将全视野1"
+
+msgid "Mahjongg Full Vision 2"
+msgstr "麻将全视野2"
+
+msgid "Mahjongg Full Vision 3"
+msgstr "麻将全视野3"
+
+msgid "Mahjongg Future"
+msgstr "麻将未来"
+
+msgid "Mahjongg Garden"
+msgstr "麻将花园"
+
+msgid "Mahjongg Gayle's"
+msgstr "盖尔麻将"
+
+msgid "Mahjongg Glade"
+msgstr "麻将林地"
+
+msgid "Mahjongg H for Haga"
+msgstr "哈加麻将 H"
+
+msgid "Mahjongg H for Haga Traditional"
+msgstr "Haga 传统麻将 H"
+
+msgid "Mahjongg Hare"
+msgstr "麻将野兔"
+
+msgid "Mahjongg Helios"
+msgstr "麻将赫利俄斯"
+
+msgid "Mahjongg Hidden Words"
+msgstr "麻将隐藏词"
+
+msgid "Mahjongg High and Low"
+msgstr "麻将高低"
+
+msgid "Mahjongg Horse"
+msgstr "麻将马"
+
+msgid "Mahjongg Hot Coffee"
+msgstr "麻将热咖啡"
+
+msgid "Mahjongg Hourglass"
+msgstr "麻将沙漏"
+
+msgid "Mahjongg Hovercraft"
+msgstr "麻将气垫船"
+
+msgid "Mahjongg Hurdles"
+msgstr "麻将跨栏"
+
+msgid "Mahjongg I Love U"
+msgstr "麻将我爱你"
+
+msgid "Mahjongg Inazuma"
+msgstr "麻将闪电"
+
+msgid "Mahjongg Inca"
+msgstr "印加麻将"
+
+msgid "Mahjongg Inner Circle"
+msgstr "麻将内圈"
+
+msgid "Mahjongg JPs"
+msgstr "麻将太平绅士"
+
+msgid "Mahjongg Japan"
+msgstr "日本麻将"
+
+msgid "Mahjongg Joker"
+msgstr "麻将小丑"
+
+msgid "Mahjongg K for Kyodai"
+msgstr "兄弟 麻将 K"
+
+msgid "Mahjongg K for Kyodai Traditional"
+msgstr "兄弟 传统麻将 K"
+
+msgid "Mahjongg KM"
+msgstr "麻将·凯姆"
+
+msgid "Mahjongg Krebs"
+msgstr "麻将克雷布斯"
+
+msgid "Mahjongg Kujaku"
+msgstr "麻将九字"
+
+msgid "Mahjongg Kumo"
+msgstr "云麻将"
+
+msgid "Mahjongg Kyodai 14"
+msgstr "麻将兄弟 14"
+
+msgid "Mahjongg Kyodai 17"
+msgstr "麻将兄弟 17"
+
+msgid "Mahjongg Kyodai 18"
+msgstr "麻将兄弟 18"
+
+msgid "Mahjongg Kyodai 20"
+msgstr "麻将界20"
+
+msgid "Mahjongg Kyodai 23"
+msgstr "麻将兄弟 23"
+
+msgid "Mahjongg Kyodai 24"
+msgstr "麻将兄弟 24"
+
+msgid "Mahjongg Kyodai 25"
+msgstr "麻将 兄弟 25"
+
+msgid "Mahjongg Kyodai 26"
+msgstr "麻将兄弟 26"
+
+msgid "Mahjongg Kyodai 27"
+msgstr "麻将 兄弟 27"
+
+msgid "Mahjongg Kyodai 28"
+msgstr "麻将界28"
+
+msgid "Mahjongg Kyodai 41"
+msgstr "麻将兄弟 41"
+
+msgid "Mahjongg Kyodai 42"
+msgstr "麻将 兄弟 42"
+
+msgid "Mahjongg Labyrinth"
+msgstr "麻将迷宫"
+
+msgid "Mahjongg Lattice"
+msgstr "麻将格子"
+
+msgid "Mahjongg Lion 1"
+msgstr "麻将狮子1"
+
+msgid "Mahjongg Lion 2"
+msgstr "麻将狮子2"
+
+msgid "Mahjongg Lizard"
+msgstr "麻将蜥蜴"
+
+msgid "Mahjongg Loose Ends"
+msgstr "麻将悬而未决"
+
+msgid "Mahjongg Lost"
+msgstr "麻将输了"
+
+msgid "Mahjongg Maya"
+msgstr "麻将玛雅"
+
+msgid "Mahjongg Mesh"
+msgstr "麻将网"
+
+msgid "Mahjongg Mini Traditional"
+msgstr "迷你传统麻将"
+
+msgid "Mahjongg Mini-Layout"
+msgstr "麻将迷你布局"
+
+msgid "Mahjongg Mission Impossible"
+msgstr "麻将不可能的任务"
+
+msgid "Mahjongg Monkey"
+msgstr "麻将猴"
+
+msgid "Mahjongg Moth"
+msgstr "麻将蛾"
+
+msgid "Mahjongg Multi X"
+msgstr "麻将多 X"
+
+msgid "Mahjongg N for Namida"
+msgstr "麻将 N 为 Namida"
+
+msgid "Mahjongg N for Namida Traditional"
+msgstr "Namida 传统麻将 N"
+
+msgid "Mahjongg Naoki Haga Traditional"
+msgstr "传统麻将 Naoki Haga"
+
+msgid "Mahjongg Okie's Nitemare"
+msgstr "麻将 Okie 的噩梦"
+
+msgid "Mahjongg Orbital"
+msgstr "麻将轨道"
+
+msgid "Mahjongg Order"
+msgstr "麻将顺序"
+
+msgid "Mahjongg Owl"
+msgstr "麻将猫头鹰"
+
+msgid "Mahjongg Ox"
+msgstr "麻将·牛"
+
+msgid "Mahjongg Pantheon"
+msgstr "麻将万神殿"
+
+msgid "Mahjongg Papillon"
+msgstr "麻将蝴蝶"
+
+msgid "Mahjongg Pattern"
+msgstr "麻将图案"
+
+msgid "Mahjongg Phoenix"
+msgstr "麻将凤凰"
+
+msgid "Mahjongg Portal"
+msgstr "麻将门户"
+
+msgid "Mahjongg Pyramid 1"
+msgstr "麻将金字塔 1"
+
+msgid "Mahjongg Pyramid 2"
+msgstr "麻将金字塔2"
+
+msgid "Mahjongg Pyramids"
+msgstr "麻将金字塔"
+
+msgid "Mahjongg Quad"
+msgstr "四人麻将"
+
+msgid "Mahjongg Ram"
+msgstr "麻将拉姆"
+
+msgid "Mahjongg Rat"
+msgstr "麻将鼠"
+
+msgid "Mahjongg Rectangle"
+msgstr "麻将长方形"
+
+msgid "Mahjongg Reindeer"
+msgstr "麻将驯鹿"
+
+msgid "Mahjongg Rings"
+msgstr "麻将戒指"
+
+msgid "Mahjongg River Bridge"
+msgstr "麻将河大桥"
+
+msgid "Mahjongg Rocket"
+msgstr "麻将火箭"
+
+msgid "Mahjongg Roman Arena"
+msgstr "麻将罗马竞技场"
+
+msgid "Mahjongg Rooster"
+msgstr "麻将公鸡"
+
+msgid "Mahjongg Rugby"
+msgstr "麻将橄榄球"
+
+msgid "Mahjongg Scorpion"
+msgstr "麻将蝎子"
+
+msgid "Mahjongg Screw Up"
+msgstr "麻将搞砸了"
+
+msgid "Mahjongg Seven"
+msgstr "麻将七"
+
+msgid "Mahjongg Seven Pyramids"
+msgstr "麻将七金字塔"
+
+msgid "Mahjongg Shapeshifter"
+msgstr "麻将变形金刚"
+
+msgid "Mahjongg Shield"
+msgstr "麻将盾"
+
+msgid "Mahjongg Siam"
+msgstr "暹罗麻将"
+
+msgid "Mahjongg Snake"
+msgstr "麻将蛇"
+
+msgid "Mahjongg Space Bridge"
+msgstr "麻将太空桥"
+
+msgid "Mahjongg Space Shuttle"
+msgstr "麻将航天飞机"
+
+msgid "Mahjongg Spider"
+msgstr "麻将蜘蛛"
+
+msgid "Mahjongg Square"
+msgstr "麻将·正方形"
+
+msgid "Mahjongg Squares"
+msgstr "麻将·方格阵"
+
+msgid "Mahjongg Squaring"
+msgstr "麻将平方"
+
+msgid "Mahjongg Stage 1"
+msgstr "麻将第一阶段"
+
+msgid "Mahjongg Stage 2"
+msgstr "麻将第二阶段"
+
+msgid "Mahjongg Stairs 1"
+msgstr "麻将楼梯1"
+
+msgid "Mahjongg Stairs 2"
+msgstr "麻将楼梯2"
+
+msgid "Mahjongg Stairs 3"
+msgstr "麻将楼梯3"
+
+msgid "Mahjongg Star Ship"
+msgstr "麻将星舰"
+
+msgid "Mahjongg Stargate"
+msgstr "麻将星际之门"
+
+msgid "Mahjongg Steps Pyramid"
+msgstr "麻将阶梯金字塔"
+
+msgid "Mahjongg Stonehenge"
+msgstr "麻将巨石阵"
+
+msgid "Mahjongg Sukis"
+msgstr "麻将苏吉斯"
+
+msgid "Mahjongg Sun and Moon"
+msgstr "麻将太阳和月亮"
+
+msgid "Mahjongg Taipei"
+msgstr "台北麻将"
+
+msgid "Mahjongg Temple 1"
+msgstr "麻将馆 1"
+
+msgid "Mahjongg Temple 2"
+msgstr "麻将寺2"
+
+msgid "Mahjongg Temple 3"
+msgstr "麻将馆3"
+
+msgid "Mahjongg Temple 4"
+msgstr "麻将寺4"
+
+msgid "Mahjongg Teotihucan"
+msgstr "特奥蒂胡坎麻将"
+
+msgid "Mahjongg The Door"
+msgstr "麻将门"
+
+msgid "Mahjongg The Great Wall"
+msgstr "麻将长城"
+
+msgid "Mahjongg Theater"
+msgstr "麻将剧场"
+
+msgid "Mahjongg Tiger"
+msgstr "麻将老虎"
+
+msgid "Mahjongg Tile Fighter"
+msgstr "麻将牌斗士"
+
+msgid "Mahjongg Tilepiles"
+msgstr "麻将牌"
+
+msgid "Mahjongg Time Tunnel"
+msgstr "麻将时光隧道"
+
+msgid "Mahjongg Tomb"
+msgstr "麻将墓"
+
+msgid "Mahjongg Tornado"
+msgstr "麻将龙卷风"
+
+msgid "Mahjongg Totally Random-Made"
+msgstr "麻将完全随机"
+
+msgid "Mahjongg Tower and Walls"
+msgstr "麻将塔和城墙"
+
+msgid "Mahjongg Traditional"
+msgstr "传统麻将"
+
+msgid "Mahjongg Traditional Reviewed"
+msgstr "传统麻将评论"
+
+msgid "Mahjongg Tree of Life"
+msgstr "麻将生命之树"
+
+msgid "Mahjongg Trika"
+msgstr "麻将三卡"
+
+msgid "Mahjongg Twin"
+msgstr "麻将双人"
+
+msgid "Mahjongg Twin Temples"
+msgstr "麻将双庙"
+
+msgid "Mahjongg Two Domes"
+msgstr "麻将二圆顶"
+
+msgid "Mahjongg Vagues"
+msgstr "麻将模糊"
+
+msgid "Mahjongg Vi"
+msgstr "麻将六"
+
+msgid "Mahjongg Victory Arrow"
+msgstr "麻将胜利箭"
+
+msgid "Mahjongg Wavelets"
+msgstr "麻将小波"
+
+msgid "Mahjongg Waves"
+msgstr "麻将波"
+
+msgid "Mahjongg Wedges"
+msgstr "麻将楔子"
+
+msgid "Mahjongg Well 1"
+msgstr "麻将井1"
+
+msgid "Mahjongg Well 2"
+msgstr "麻将井2"
+
+msgid "Mahjongg What a Pyramid"
+msgstr "麻将什么是金字塔"
+
+msgid "Mahjongg Whatever"
+msgstr "麻将随便"
+
+msgid "Mahjongg Wicker"
+msgstr "麻将柳条"
+
+msgid "Mahjongg Win"
+msgstr "麻将赢"
+
+msgid "Mahjongg X-Files"
+msgstr "麻将X档案"
+
+msgid "Mahjongg X-Shape"
+msgstr "麻将X型"
+
+msgid "Mahjongg Yummy"
+msgstr "麻将好吃"
+
+msgid "Mahjongg Zigzag"
+msgstr "锯齿麻将"
+
+msgid "Maine Coon"
+msgstr "缅因猫"
+
+msgid "Makara"
+msgstr "马卡拉"
+
+msgid "Malmaison"
+msgstr "马尔迈松"
+
+msgid "Mamy Susan"
+msgstr "苏珊妈妈"
+
+msgid "Mancunian"
+msgstr "曼彻斯特"
+
+msgid "Manx"
+msgstr "马恩岛"
+
+msgid "Marechal Saxe"
+msgstr "萨克斯元帅"
+
+msgid "Maria"
+msgstr "玛丽亚"
+
+msgid "Maria Luisa"
+msgstr "玛丽亚·路易莎"
+
+msgid "Marie Rose"
+msgstr "玛丽·罗斯"
+
+msgid "Marshal"
+msgstr "元帅"
+
+msgid "Martha"
+msgstr "玛莎"
+
+msgid "Master"
+msgstr "大师"
+
+msgid "Match Three 4 Colors 6x6"
+msgstr "匹配 3 4 种颜色 6x6"
+
+msgid "Match Three 4 Colors 7x7"
+msgstr "匹配 3 4 种颜色 7x7"
+
+msgid "Match Three 4 Colors 8x8"
+msgstr "匹配 3 4 种颜色 8x8"
+
+msgid "Match Three 5 Colors 6x6"
+msgstr "匹配 3 种 5 种颜色 6x6"
+
+msgid "Match Three 5 Colors 7x7"
+msgstr "匹配 3 种 5 种颜色 7x7"
+
+msgid "Match Three 5 Colors 8x8"
+msgstr "匹配 3 种 5 种颜色 8x8"
+
+msgid "Match Three 6 Colors 6x6"
+msgstr "匹配三个 6 色 6x6"
+
+msgid "Match Three 6 Colors 7x7"
+msgstr "匹配三 6 种颜色 7x7"
+
+msgid "Match Three 6 Colors 8x8"
+msgstr "匹配三个 6 色 8x8"
+
+msgid "Mathematics"
+msgstr "数学"
+
+msgid "Matriarchy"
+msgstr "母权制"
+
+msgid "Matrimony"
+msgstr "婚姻"
+
+msgid "Matrix 10x10"
+msgstr "矩阵 10x10"
+
+msgid "Matrix 3x3"
+msgstr "矩阵 3x3"
+
+msgid "Matrix 4x4"
+msgstr "矩阵 4x4"
+
+msgid "Matrix 5x5"
+msgstr "矩阵 5x5"
+
+msgid "Matrix 6x6"
+msgstr "矩阵 6x6"
+
+msgid "Matrix 7x7"
+msgstr "矩阵7x7"
+
+msgid "Matrix 8x8"
+msgstr "矩阵8x8"
+
+msgid "Matrix 9x9"
+msgstr "矩阵9x9"
+
+msgid "MatsuKiri"
+msgstr "松桐"
+
+msgid "MatsuKiri Strict"
+msgstr "松桐严格"
+
+msgid "Matsya"
+msgstr "马齐亚"
+
+msgid "Maverick"
+msgstr "特立独行"
+
+msgid "Maya"
+msgstr "玛雅人"
+
+msgid "Maze"
+msgstr "迷宫"
+
+msgid "McClellan"
+msgstr "麦克莱伦"
+
+msgid "Measure"
+msgstr "测量"
+
+msgid "Memory 16"
+msgstr "内存16"
+
+msgid "Memory 24"
+msgstr "记忆24"
+
+msgid "Memory 30"
+msgstr "记忆30"
+
+msgid "Memory 40"
+msgstr "记忆40"
+
+msgid "Memory 52"
+msgstr "记忆52"
+
+msgid "Memory Sequence"
+msgstr "记忆顺序"
+
+msgid "Merlin's Coil"
+msgstr "梅林的线圈"
+
+msgid "Merlin's Meander"
+msgstr "梅林的蜿蜒曲折"
+
+msgid "Mesh"
+msgstr "网格"
+
+msgid "Methuselah"
+msgstr "玛土撒拉"
+
+msgid "Microbe"
+msgstr "微生物"
+
+msgid "Midnight Oil"
+msgstr "午夜油"
+
+msgid "Midshipman"
+msgstr "见习官"
+
+msgid "Millie"
+msgstr "米莉"
+
+msgid "Milligan Cell"
+msgstr "米利根细胞"
+
+msgid "Milligan Harp"
+msgstr "米利根竖琴"
+
+msgid "Milligan Yukon"
+msgstr "米利根育空地区"
+
+msgid "Miner"
+msgstr "矿工"
+
+msgid "Minerva"
+msgstr "密涅瓦"
+
+msgid "Mini Traditional"
+msgstr "迷你传统"
+
+msgid "Mini-Layout"
+msgstr "迷你布局"
+
+msgid "Miss Milligan"
+msgstr "米利根小姐"
+
+msgid "Miss Muffet"
+msgstr "玛菲特小姐"
+
+msgid "Mission Impossible"
+msgstr "不可能的任务"
+
+msgid "Mississippi"
+msgstr "密西西比州"
+
+msgid "Mixtures"
+msgstr "混合物"
+
+msgid "Mod-3"
+msgstr "模组3"
+
+msgid "Monkey"
+msgstr "猴子"
+
+msgid "Montana"
+msgstr "蒙大拿州"
+
+msgid "Monte Carlo"
+msgstr "蒙特卡洛"
+
+msgid "Monte Carlo (2 Decks)"
+msgstr "蒙特卡洛（2 副牌）"
+
+msgid "Moojub"
+msgstr "穆朱布"
+
+msgid "Moonlight"
+msgstr "月光"
+
+msgid "Moosehide"
+msgstr "驼鹿皮"
+
+msgid "Morehead"
+msgstr "莫尔黑德"
+
+msgid "Morphy"
+msgstr "莫菲"
+
+msgid "Moth"
+msgstr "蛾"
+
+msgid "Mount Olympus"
+msgstr "奥林匹斯山"
+
+msgid "Moving Left"
+msgstr "向左移动"
+
+msgid "Mrs. Mop"
+msgstr "莫普太太"
+
+msgid "Mughal Circles"
+msgstr "莫卧儿圆圈"
+
+msgid "Multi X"
+msgstr "多X"
+
+msgid "Mumbai"
+msgstr "孟买"
+
+msgid "Munger"
+msgstr "芒格"
+
+msgid "Musical Patience"
+msgstr "音乐耐心"
+
+msgid "Mystique"
+msgstr "魔形女"
+
+msgid "N for Namida"
+msgstr "N 代表纳米达"
+
+msgid "N for Namida Traditional"
+msgstr "N 代表纳米达传统"
+
+msgid "Naoki Haga Traditional"
+msgstr "羽贺直树 传统"
+
+msgid "Napoleon"
+msgstr "拿破仑"
+
+msgid "Napoleon Leaves Moscow"
+msgstr "拿破仑离开莫斯科"
+
+msgid "Napoleon Takes Moscow"
+msgstr "拿破仑占领莫斯科"
+
+msgid "Napoleon at Friedland"
+msgstr "拿破仑在弗里德兰"
+
+msgid "Napoleon at St. Helena"
+msgstr "拿破仑在圣赫勒拿岛"
+
+msgid "Napoleon's Exile"
+msgstr "拿破仑流放"
+
+msgid "Napoleon's Favorite"
+msgstr "拿破仑的最爱"
+
+msgid "Napoleon's Flank"
+msgstr "拿破仑的侧翼"
+
+msgid "Napoleon's Folly"
+msgstr "拿破仑的愚蠢行为"
+
+msgid "Napoleon's Shoulder"
+msgstr "拿破仑的肩膀"
+
+msgid "Napoleon's Square"
+msgstr "拿破仑广场"
+
+msgid "Napoleon's Tomb"
+msgstr "拿破仑墓"
+
+msgid "Narasimha"
+msgstr "那拉辛哈"
+
+msgid "Narcotic"
+msgstr "麻醉剂"
+
+msgid "Narpati"
+msgstr "纳尔帕蒂"
+
+msgid "Nasty"
+msgstr "讨厌的"
+
+msgid "Nationale"
+msgstr "国民"
+
+msgid "Needle"
+msgstr "针"
+
+msgid "Neighbour"
+msgstr "邻居"
+
+msgid "Neptune"
+msgstr "海王星"
+
+msgid "Nestor"
+msgstr "内斯特"
+
+msgid "New British Constitution"
+msgstr "英国新宪法"
+
+msgid "New York"
+msgstr "纽约"
+
+msgid "Nine Across"
+msgstr "九横"
+
+msgid "Nines"
+msgstr "九号"
+
+msgid "Ninety-One"
+msgstr "九十一"
+
+msgid "Nomad"
+msgstr "游牧者"
+
+msgid "Nordic"
+msgstr "北欧"
+
+msgid "Normandy"
+msgstr "诺曼底"
+
+msgid "Northwest Territory"
+msgstr "西北地区"
+
+msgid "Not Shisen-Sho 14x6"
+msgstr "不是十仙翔 14x6"
+
+msgid "Not Shisen-Sho 18x8"
+msgstr "不是十仙翔 18x8"
+
+msgid "Not Shisen-Sho 24x12"
+msgstr "不是十仙翔 24x12"
+
+msgid "Noumea"
+msgstr "努美阿"
+
+msgid "Number Ten"
+msgstr "十号"
+
+msgid "Number Twelve"
+msgstr "十二号"
+
+msgid "Numerica"
+msgstr "点数组牌"
+
+msgid "Numerica (2 Decks)"
+msgstr "点数组牌（2 副牌）"
+
+msgid "Obstruction"
+msgstr "障碍"
+
+msgid "Ocean Towers"
+msgstr "海洋大厦"
+
+msgid "Octagon"
+msgstr "八边形"
+
+msgid "Octave"
+msgstr "八度"
+
+msgid "Odd and Even"
+msgstr "奇数和偶数"
+
+msgid "Odessa"
+msgstr "敖德萨"
+
+msgid "Okie's Nitemare"
+msgstr "奥基的噩梦"
+
+msgid "Old Fashioned"
+msgstr "老式"
+
+msgid "Old Mole"
+msgstr "老鼹鼠"
+
+msgid "Old Patience"
+msgstr "老耐心"
+
+msgid "One Away Three Away"
+msgstr "一客三客"
+
+msgid "One Foundation"
+msgstr "一个基金会"
+
+msgid "One-Handed"
+msgstr "单手"
+
+msgid "One234"
+msgstr "一个234"
+
+msgid "Oonsoo"
+msgstr "温秀"
+
+msgid "Oonsoo Open"
+msgstr "温秀公开赛"
+
+msgid "Oonsoo Strict"
+msgstr "温秀严格"
+
+msgid "Oonsoo Times Two"
+msgstr "温秀两倍"
+
+msgid "Oonsoo Too"
+msgstr "温洙太"
+
+msgid "Open Gargantua"
+msgstr "打开卡冈都亚"
+
+msgid "Open Jumbo"
+msgstr "打开珍宝"
+
+msgid "Open Osmium"
+msgstr "打开锇"
+
+msgid "Open Peek"
+msgstr "打开查看"
+
+msgid "Open Proils"
+msgstr "打开轮廓"
+
+msgid "Open Sly Fox"
+msgstr "打开狡猾的狐狸"
+
+msgid "Open Spider"
+msgstr "打开蜘蛛"
+
+msgid "Opera"
+msgstr "歌剧"
+
+msgid "Opus"
+msgstr "作品"
+
+msgid "Orbital"
+msgstr "轨道"
+
+msgid "Order"
+msgstr "订单"
+
+msgid "Order of Precedence"
+msgstr "优先顺序"
+
+msgid "Osmium"
+msgstr "锇"
+
+msgid "Osmium II"
+msgstr "锇II"
+
+msgid "Osmosis"
+msgstr "渗透接龙"
+
+msgid "Outback Patience"
+msgstr "内陆地区的耐心"
+
+msgid "Owl"
+msgstr "猫头鹰"
+
+msgid "Ox"
+msgstr "牛"
+
+msgid "Pack of Thieves"
+msgstr "盗贼群"
+
+msgid "Paganini"
+msgstr "帕格尼尼"
+
+msgid "Paganini II"
+msgstr "帕格尼尼二世"
+
+msgid "Pagat"
+msgstr "帕加特"
+
+msgid "Pagoda"
+msgstr "宝塔"
+
+msgid "Palace"
+msgstr "宫殿"
+
+msgid "Panopticon"
+msgstr "圆形监狱"
+
+msgid "Pantagruel"
+msgstr "庞大固埃"
+
+msgid "Pantheon"
+msgstr "万神殿"
+
+msgid "Papillon"
+msgstr "巴比龙"
+
+msgid "Parallels"
+msgstr "相似之处"
+
+msgid "Parashurama"
+msgstr "帕茹阿舒拉玛"
+
+msgid "Parisian"
+msgstr "巴黎客"
+
+msgid "Parisienne"
+msgstr "巴黎女士"
+
+msgid "Park and Ride"
+msgstr "停车换乘"
+
+msgid "Parliament"
+msgstr "议会"
+
+msgid "Partners"
+msgstr "合作伙伴"
+
+msgid "Pas Seul"
+msgstr "帕斯苏尔"
+
+msgid "Pas de Deux"
+msgstr "双人舞"
+
+msgid "Patience"
+msgstr "接龙"
+
+msgid "Patient Pairs"
+msgstr "患者对"
+
+msgid "Patient Pairs (Open)"
+msgstr "患者对（明牌）"
+
+msgid "Patriarchs"
+msgstr "族长"
+
+msgid "Pattern"
+msgstr "图案"
+
+msgid "Paulownia"
+msgstr "泡桐"
+
+msgid "Peek"
+msgstr "偷看"
+
+msgid "Pegged 6x6"
+msgstr "独立钻石棋 6×6"
+
+msgid "Pegged 7x7"
+msgstr "独立钻石棋 7×7"
+
+msgid "Pegged Cross 1"
+msgstr "独立钻石棋 Cross 1"
+
+msgid "Pegged Cross 2"
+msgstr "独立钻石棋 Cross 2"
+
+msgid "Pegged Diamond"
+msgstr "独立钻石棋 Diamond"
+
+msgid "Pegged Hexagon"
+msgstr "独立钻石棋 He×agon"
+
+msgid "Pegged Octagon"
+msgstr "独立钻石棋 Octagon"
+
+msgid "Pegged Star"
+msgstr "独立钻石棋 Star"
+
+msgid "Pegged Triangle 1"
+msgstr "独立钻石棋 Triangle 1"
+
+msgid "Pegged Triangle 2"
+msgstr "独立钻石棋 Triangle 2"
+
+msgid "Pelmanism"
+msgstr "佩尔曼主义"
+
+msgid "Penelope's Web"
+msgstr "佩内洛普的网"
+
+msgid "Penguin"
+msgstr "企鹅接龙"
+
+msgid "Peony"
+msgstr "牡丹"
+
+msgid "Perpetual Motion"
+msgstr "永动机"
+
+msgid "Perseverance"
+msgstr "毅力"
+
+msgid "Persian Patience"
+msgstr "波斯人的耐心"
+
+msgid "Petal"
+msgstr "花瓣"
+
+msgid "Phalanx"
+msgstr "方阵"
+
+msgid "Phantom Blockade"
+msgstr "幻影封锁"
+
+msgid "Pharaohs"
+msgstr "法老王"
+
+msgid "Phoenix"
+msgstr "凤凰城"
+
+msgid "Picture Gallery"
+msgstr "图片库"
+
+msgid "Picture Matrix 10x10"
+msgstr "图片矩阵 10x10"
+
+msgid "Picture Matrix 3x3"
+msgstr "图片矩阵 3x3"
+
+msgid "Picture Matrix 4x4"
+msgstr "图片矩阵 4x4"
+
+msgid "Picture Matrix 5x5"
+msgstr "图片矩阵 5x5"
+
+msgid "Picture Matrix 6x6"
+msgstr "图片矩阵 6x6"
+
+msgid "Picture Matrix 7x7"
+msgstr "图片矩阵 7x7"
+
+msgid "Picture Matrix 8x8"
+msgstr "图片矩阵 8x8"
+
+msgid "Picture Matrix 9x9"
+msgstr "图片矩阵 9x9"
+
+msgid "Picture Patience"
+msgstr "图片耐心"
+
+msgid "Pigtail"
+msgstr "尾纤"
+
+msgid "PileOn"
+msgstr "堆上"
+
+msgid "Pine"
+msgstr "松树"
+
+msgid "Pirate Gold"
+msgstr "海盗金"
+
+msgid "Pitchfork"
+msgstr "干草叉"
+
+msgid "Pitt the Younger"
+msgstr "小皮特"
+
+msgid "Plait"
+msgstr "编辫"
+
+msgid "Plus Belle"
+msgstr "加贝儿"
+
+msgid "Pluto"
+msgstr "冥王星"
+
+msgid "Poker Shuffle"
+msgstr "扑克洗牌"
+
+msgid "Poker Square"
+msgstr "扑克广场"
+
+msgid "Poker Square (1 Reserve)"
+msgstr "扑克广场（1 个备用格）"
+
+msgid "Poker Square (2 Reserves)"
+msgstr "扑克广场（2 个备用格）"
+
+msgid "Poker Square (Waste)"
+msgstr "扑克广场（废物）"
+
+msgid "Ponytail"
+msgstr "马尾辫"
+
+msgid "Portal"
+msgstr "门户网站"
+
+msgid "Portuguese Solitaire"
+msgstr "葡萄牙纸牌"
+
+msgid "Precedence"
+msgstr "优先级"
+
+msgid "Precedence (No King)"
+msgstr "优先（无国王）"
+
+msgid "Preference"
+msgstr "偏好"
+
+msgid "President's Cabinet"
+msgstr "总统内阁"
+
+msgid "Pretzel"
+msgstr "椒盐卷饼"
+
+msgid "Prime Minister"
+msgstr "首相"
+
+msgid "Primrose"
+msgstr "报春花"
+
+msgid "Princess Patience"
+msgstr "耐心公主"
+
+msgid "Prisoners"
+msgstr "囚犯"
+
+msgid "Private Lane"
+msgstr "私人巷道"
+
+msgid "Progression"
+msgstr "进展"
+
+msgid "Propeller"
+msgstr "螺旋桨"
+
+msgid "Provisions"
+msgstr "规定"
+
+msgid "Push Pin"
+msgstr "图钉"
+
+msgid "Puss in the Corner"
+msgstr "角落里的猫"
+
+msgid "Putt Putt"
+msgstr "推杆推杆"
+
+msgid "Pyramid"
+msgstr "金字塔接龙"
+
+msgid "Pyramid 1"
+msgstr "金字塔1号"
+
+msgid "Pyramid 2"
+msgstr "金字塔2号"
+
+msgid "Pyramid Clear"
+msgstr "金字塔清除"
+
+msgid "Pyramid Dozen"
+msgstr "金字塔十二"
+
+msgid "Pyramid Golf"
+msgstr "金字塔高尔夫"
+
+msgid "Pyramid Thirteen"
+msgstr "金字塔十三号"
+
+msgid "Pyramid's Stones"
+msgstr "金字塔的石头"
+
+msgid "Pyramids"
+msgstr "群金字塔"
+
+msgid "Pythagor"
+msgstr "毕达哥拉斯"
+
+msgid "Q.C."
+msgstr "丘西接龙"
+
+msgid "Quad"
+msgstr "四联"
+
+msgid "Quadrangle"
+msgstr "四合院"
+
+msgid "Quadrille"
+msgstr "四方曲"
+
+msgid "Quadruple Alliance"
+msgstr "四方联盟"
+
+msgid "Quadruple Canfield"
+msgstr "坎菲尔德四人间"
+
+msgid "Quadruple Klondike"
+msgstr "经典接龙四人间"
+
+msgid "Quadruple Klondike (Draw 3)"
+msgstr "经典接龙四人间（翻 3 张）"
+
+msgid "Quadruple Yukon"
+msgstr "育空地区四人间"
+
+msgid "Quads"
+msgstr "四边形"
+
+msgid "Quads +"
+msgstr "四边形+"
+
+msgid "Quartets"
+msgstr "四重奏"
+
+msgid "Quasar"
+msgstr "类星体"
+
+msgid "Quatorze"
+msgstr "夸托泽"
+
+msgid "Queen Victoria"
+msgstr "维多利亚女王"
+
+msgid "Queen of Italy"
+msgstr "意大利女王"
+
+msgid "Queen's Audience"
+msgstr "女王的观众"
+
+msgid "Queenie"
+msgstr "奎妮"
+
+msgid "Queens"
+msgstr "皇后区"
+
+msgid "Queensland"
+msgstr "昆士兰州"
+
+msgid "Quilt"
+msgstr "被子"
+
+msgid "Rachel"
+msgstr "雷切尔"
+
+msgid "Racing Aces"
+msgstr "赛车王牌"
+
+msgid "Raglan"
+msgstr "拉格伦"
+
+msgid "Rainbow"
+msgstr "彩虹"
+
+msgid "Rainbow Fan"
+msgstr "彩虹扇"
+
+msgid "Rainfall"
+msgstr "降雨量"
+
+msgid "Ram"
+msgstr "拉姆"
+
+msgid "Rambling"
+msgstr "漫布林"
+
+msgid "Rangoon"
+msgstr "仰光"
+
+msgid "Rank and File"
+msgstr "军衔和档案"
+
+msgid "Rat"
+msgstr "鼠"
+
+msgid "Raw Prawn"
+msgstr "生虾"
+
+msgid "Realm"
+msgstr "境界"
+
+msgid "Rectangle"
+msgstr "矩形"
+
+msgid "Red Moon"
+msgstr "红月"
+
+msgid "Red and Black"
+msgstr "红与黑"
+
+msgid "Regal Family"
+msgstr "富豪家族"
+
+msgid "Regiment"
+msgstr "团"
+
+msgid "Reindeer"
+msgstr "驯鹿"
+
+msgid "Reinforcements"
+msgstr "援军"
+
+msgid "Relax"
+msgstr "放松"
+
+msgid "Relaxed Accordion"
+msgstr "轻松的手风琴"
+
+msgid "Relaxed Clock"
+msgstr "轻松的时钟"
+
+msgid "Relaxed Cruel"
+msgstr "轻松 残酷"
+
+msgid "Relaxed Exit"
+msgstr "轻松退出"
+
+msgid "Relaxed FreeCell"
+msgstr "宽松空当接龙"
+
+msgid "Relaxed Golf"
+msgstr "轻松高尔夫"
+
+msgid "Relaxed PileOn"
+msgstr "轻松的堆积"
+
+msgid "Relaxed Pyramid"
+msgstr "宽松金字塔"
+
+msgid "Relaxed Raglan"
+msgstr "轻松的拉格伦"
+
+msgid "Relaxed Seahaven Towers"
+msgstr "轻松的 Seahaven 塔楼"
+
+msgid "Relaxed Spider"
+msgstr "宽松蜘蛛纸牌"
+
+msgid "Relaxed Three Fir-trees"
+msgstr "轻松的三棵枞树"
+
+msgid "Reno"
+msgstr "里诺"
+
+msgid "Repair"
+msgstr "修复"
+
+msgid "Reserves"
+msgstr "备用格"
+
+msgid "Retinue"
+msgstr "随从"
+
+msgid "Retinue of Kings"
+msgstr "国王的随从"
+
+msgid "Ricochet"
+msgstr "跳弹"
+
+msgid "Right Triangle"
+msgstr "直角三角形"
+
+msgid "Right and Left"
+msgstr "右和左"
+
+msgid "Rings"
+msgstr "戒指"
+
+msgid "Ripple Fan"
+msgstr "波纹风扇"
+
+msgid "Rittenhouse"
+msgstr "里滕豪斯"
+
+msgid "River Bridge"
+msgstr "河桥"
+
+msgid "Roaming Proils"
+msgstr "漫游轮廓"
+
+msgid "Robert"
+msgstr "罗伯特"
+
+msgid "Robin"
+msgstr "罗宾"
+
+msgid "Rocket"
+msgstr "火箭"
+
+msgid "Roll Call"
+msgstr "点名"
+
+msgid "Roman Arena"
+msgstr "罗马竞技场"
+
+msgid "Roosevelt"
+msgstr "罗斯福"
+
+msgid "Roosevelt at San Juan"
+msgstr "罗斯福在圣胡安"
+
+msgid "Roost"
+msgstr "栖息处"
+
+msgid "Rooster"
+msgstr "公鸡"
+
+msgid "Rosamund"
+msgstr "罗莎蒙德"
+
+msgid "Rosamund's Bower"
+msgstr "罗莎蒙德的凉亭"
+
+msgid "Roslin"
+msgstr "罗斯林村"
+
+msgid "Roslyn"
+msgstr "罗斯琳"
+
+msgid "Rouge et Noir"
+msgstr "红黑接龙"
+
+msgid "Round Dozen"
+msgstr "十二回合"
+
+msgid "Rows"
+msgstr "行数"
+
+msgid "Rows of Four"
+msgstr "四排"
+
+msgid "Royal Aids"
+msgstr "皇家爱滋病"
+
+msgid "Royal Appointment"
+msgstr "皇家任命"
+
+msgid "Royal Cotillion"
+msgstr "皇家歌舞舞会"
+
+msgid "Royal East"
+msgstr "皇家东方"
+
+msgid "Royal Family"
+msgstr "王室成员"
+
+msgid "Royal Marriage"
+msgstr "皇室联姻"
+
+msgid "Royal Parade"
+msgstr "皇家巡游"
+
+msgid "Royal Rendezvous"
+msgstr "皇家约会"
+
+msgid "Royal Secrets"
+msgstr "皇家秘密"
+
+msgid "Rugby"
+msgstr "橄榄球"
+
+msgid "Rushdike"
+msgstr "拉什代克"
+
+msgid "Russian Aces"
+msgstr "俄罗斯王牌"
+
+msgid "Russian Cell"
+msgstr "俄罗斯细胞"
+
+msgid "Russian Patience"
+msgstr "俄罗斯人的耐心"
+
+msgid "Russian Point"
+msgstr "俄罗斯点"
+
+msgid "Russian Solitaire"
+msgstr "俄罗斯接龙"
+
+msgid "Russian Spider"
+msgstr "俄罗斯蜘蛛"
+
+msgid "S Patience"
+msgstr "S 形接龙"
+
+msgid "Salic Law"
+msgstr "萨利克定律"
+
+msgid "Samegame 3 Colors 15x10"
+msgstr "同色消除（3 色，15×10）"
+
+msgid "Samegame 3 Colors 20x10"
+msgstr "同色消除（3 色，20×10）"
+
+msgid "Samegame 3 Colors 25x15"
+msgstr "同色消除（3 色，25×15）"
+
+msgid "Samegame 4 Colors 15x10"
+msgstr "同色消除（4 色，15×10）"
+
+msgid "Samegame 4 Colors 20x10"
+msgstr "同色消除（4 色，20×10）"
+
+msgid "Samegame 4 Colors 25x15"
+msgstr "同色消除（4 色，25×15）"
+
+msgid "Samegame 5 Colors 15x10"
+msgstr "同色消除（5 色，15×10）"
+
+msgid "Samegame 5 Colors 20x10"
+msgstr "同色消除（5 色，20×10）"
+
+msgid "Samegame 5 Colors 25x15"
+msgstr "同色消除（5 色，25×15）"
+
+msgid "Samegame 6 Colors 15x10"
+msgstr "同色消除（6 色，15×10）"
+
+msgid "Samegame 6 Colors 20x10"
+msgstr "同色消除（6 色，20×10）"
+
+msgid "Samegame 6 Colors 25x15"
+msgstr "同色消除（6 色，25×15）"
+
+msgid "Samuri"
+msgstr "武士"
+
+msgid "San Juan Hill"
+msgstr "圣胡安山"
+
+msgid "Sanibel"
+msgstr "萨尼贝尔"
+
+msgid "Saratoga"
+msgstr "萨拉托加"
+
+msgid "Sarlacc"
+msgstr "沙拉克"
+
+msgid "Saxony"
+msgstr "萨克森"
+
+msgid "Scarab"
+msgstr "圣甲虫"
+
+msgid "Scarp"
+msgstr "斯卡普"
+
+msgid "Scheidungsgrund"
+msgstr "规定原则"
+
+msgid "School"
+msgstr "学校"
+
+msgid "Scorpion"
+msgstr "蝎子接龙"
+
+msgid "Scorpion Head"
+msgstr "蝎子头"
+
+msgid "Scorpion II"
+msgstr "天蝎二号"
+
+msgid "Scorpion Tail"
+msgstr "蝎尾"
+
+msgid "Scorpion Towers"
+msgstr "蝎子塔"
+
+msgid "Scotch Patience"
+msgstr "苏格兰耐心"
+
+msgid "Screw Up"
+msgstr "搞砸了"
+
+msgid "Scuffle"
+msgstr "混战"
+
+msgid "Sea Spider"
+msgstr "海蜘蛛"
+
+msgid "Sea Towers"
+msgstr "海塔"
+
+msgid "Seahaven Towers"
+msgstr "海港塔"
+
+msgid "Selective Castle"
+msgstr "选择性城堡"
+
+msgid "Senate"
+msgstr "参议院"
+
+msgid "Senate +"
+msgstr "参议院+"
+
+msgid "Senior Wrangler"
+msgstr "高级牧马人"
+
+msgid "Serpent"
+msgstr "巨蛇"
+
+msgid "Sevastopol"
+msgstr "塞瓦斯托波尔"
+
+msgid "Seven"
+msgstr "七"
+
+msgid "Seven Devils"
+msgstr "七魔"
+
+msgid "Seven Pyramids"
+msgstr "七金字塔"
+
+msgid "Seven Up"
+msgstr "七上"
+
+msgid "Seven by Five"
+msgstr "七乘五"
+
+msgid "Seven by Four"
+msgstr "七乘四"
+
+msgid "Seven to Ace"
+msgstr "七对王牌"
+
+msgid "Seventh Wonder"
+msgstr "第七大奇迹"
+
+msgid "Shady Lanes"
+msgstr "阴凉小巷"
+
+msgid "Sham Battle"
+msgstr "假战"
+
+msgid "Shamrocks"
+msgstr "三叶草"
+
+msgid "Shamrocks II"
+msgstr "三叶草二号"
+
+msgid "Shamsher"
+msgstr "沙姆谢尔"
+
+msgid "Shanka"
+msgstr "尚卡"
+
+msgid "Shapeshifter"
+msgstr "变形者"
+
+msgid "Shield"
+msgstr "盾牌"
+
+msgid "Shifting"
+msgstr "变速"
+
+msgid "Shisen-Sho (No Gravity) 14x6"
+msgstr "Shisen-Sho（无重力）14x6"
+
+msgid "Shisen-Sho (No Gravity) 18x8"
+msgstr "Shisen-Sho（无重力）18x8"
+
+msgid "Shisen-Sho (No Gravity) 24x12"
+msgstr "Shisen-Sho（无重力）24x12"
+
+msgid "Shisen-Sho 14x6"
+msgstr "十仙翔 14x6"
+
+msgid "Shisen-Sho 18x8"
+msgstr "十仙翔 18x8"
+
+msgid "Shisen-Sho 24x12"
+msgstr "十仙翔 24x12"
+
+msgid "Short Tail"
+msgstr "短尾"
+
+msgid "Siam"
+msgstr "暹罗"
+
+msgid "Sieben bis As"
+msgstr "西本二阿斯"
+
+msgid "Siegecraft"
+msgstr "攻城技术"
+
+msgid "Signora"
+msgstr "意大利夫人"
+
+msgid "Simon Jester"
+msgstr "西蒙杰斯特"
+
+msgid "Simple Carlo"
+msgstr "简单的卡罗"
+
+msgid "Simple Pairs"
+msgstr "简单对"
+
+msgid "Simple Simon"
+msgstr "简单西蒙"
+
+msgid "Simple Spark"
+msgstr "简单火花"
+
+msgid "Simple Tens"
+msgstr "简单十位"
+
+msgid "Simplex"
+msgstr "单纯形"
+
+msgid "Simplicity"
+msgstr "简单性"
+
+msgid "Single Rail"
+msgstr "单轨"
+
+msgid "Single Spark"
+msgstr "单火花"
+
+msgid "Sir Tommy"
+msgstr "汤米爵士"
+
+msgid "Six Sages"
+msgstr "六贤"
+
+msgid "Six Tengus"
+msgstr "六天狗"
+
+msgid "Six by Six"
+msgstr "六乘六"
+
+msgid "Sixes and Sevens"
+msgstr "六人制和七人制"
+
+msgid "Sixty Thieves"
+msgstr "六十大盗"
+
+msgid "Skippy"
+msgstr "斯基皮"
+
+msgid "Skiz"
+msgstr "斯基兹"
+
+msgid "Sly Fox"
+msgstr "狡猾的狐狸"
+
+msgid "Small Backbone"
+msgstr "小骨干"
+
+msgid "Small Harp"
+msgstr "小竖琴"
+
+msgid "Small PileOn"
+msgstr "小堆"
+
+msgid "Small Triangle"
+msgstr "小三角形"
+
+msgid "Smile"
+msgstr "微笑"
+
+msgid "Smokey"
+msgstr "斯莫基"
+
+msgid "Snake"
+msgstr "蛇"
+
+msgid "Snakestone"
+msgstr "蛇石"
+
+msgid "Solid Square"
+msgstr "实心正方形"
+
+msgid "Solitairot"
+msgstr "塔罗接龙"
+
+msgid "Solstice"
+msgstr "至日"
+
+msgid "Somerset"
+msgstr "萨默塞特"
+
+msgid "Soother"
+msgstr "安抚奶嘴"
+
+msgid "Souter"
+msgstr "苏特"
+
+msgid "Space Bridge"
+msgstr "太空桥"
+
+msgid "Space Shuttle"
+msgstr "航天飞机"
+
+msgid "Spaces"
+msgstr "空间"
+
+msgid "Spaces and Aces"
+msgstr "空格和 A"
+
+msgid "Spanish Patience"
+msgstr "西班牙人的耐心"
+
+msgid "Spanish Patience II"
+msgstr "西班牙耐心 II"
+
+msgid "Sphere"
+msgstr "球体"
+
+msgid "Spider"
+msgstr "蜘蛛"
+
+msgid "Spider (1 Suit)"
+msgstr "单色蜘蛛纸牌"
+
+msgid "Spider (2 Suits)"
+msgstr "双色蜘蛛纸牌"
+
+msgid "Spider (4 Decks)"
+msgstr "蜘蛛（4 副牌）"
+
+msgid "Spider 3x3"
+msgstr "蜘蛛 3x3"
+
+msgid "Spider Web"
+msgstr "蜘蛛网"
+
+msgid "Spidercells"
+msgstr "蜘蛛细胞"
+
+msgid "Spiderette"
+msgstr "小蜘蛛纸牌"
+
+msgid "Spiderwort"
+msgstr "紫露草"
+
+msgid "Spidike"
+msgstr "蜘蛛经典接龙"
+
+msgid "Spike"
+msgstr "斯派克"
+
+msgid "Spoilt"
+msgstr "被宠坏了"
+
+msgid "Squadron"
+msgstr "中队"
+
+msgid "Square"
+msgstr "广场"
+
+msgid "Squares"
+msgstr "正方形"
+
+msgid "Squaring"
+msgstr "平方"
+
+msgid "St. Helena"
+msgstr "圣赫勒拿岛"
+
+msgid "Stage 1"
+msgstr "第一阶段"
+
+msgid "Stage 2"
+msgstr "第二阶段"
+
+msgid "Stairs 1"
+msgstr "楼梯1"
+
+msgid "Stairs 2"
+msgstr "楼梯2"
+
+msgid "Stairs 3"
+msgstr "楼梯3"
+
+msgid "Stalactites"
+msgstr "钟乳石"
+
+msgid "Star"
+msgstr "明星"
+
+msgid "Star Ship"
+msgstr "星舰"
+
+msgid "Stargate"
+msgstr "星际之门"
+
+msgid "Station"
+msgstr "车站"
+
+msgid "Steel Wheels"
+msgstr "钢轮"
+
+msgid "Step-Up"
+msgstr "升级"
+
+msgid "Steps"
+msgstr "步骤"
+
+msgid "Steps Pyramid"
+msgstr "阶梯金字塔"
+
+msgid "Steve"
+msgstr "史蒂夫"
+
+msgid "Stewart"
+msgstr "斯图尔特"
+
+msgid "Sticko"
+msgstr "粘纸"
+
+msgid "Stonehenge"
+msgstr "巨石阵"
+
+msgid "Stonewall"
+msgstr "石墙"
+
+msgid "Storehouse"
+msgstr "仓库"
+
+msgid "Straight Up"
+msgstr "直线上升"
+
+msgid "Strata"
+msgstr "地层"
+
+msgid "Strategerie"
+msgstr "策略"
+
+msgid "Strategy"
+msgstr "技巧"
+
+msgid "Strategy +"
+msgstr "策略+"
+
+msgid "Streets"
+msgstr "街道"
+
+msgid "Streets and Alleys"
+msgstr "街巷接龙"
+
+msgid "Strip"
+msgstr "地带"
+
+msgid "Striptease"
+msgstr "脱衣舞"
+
+msgid "Stronghold"
+msgstr "坚固据点"
+
+msgid "Succession"
+msgstr "继承"
+
+msgid "Suit Elevens"
+msgstr "花色十一"
+
+msgid "Suits Up"
+msgstr "适合"
+
+msgid "Sukis"
+msgstr "苏基斯"
+
+msgid "Sultan"
+msgstr "苏丹"
+
+msgid "Sultan +"
+msgstr "苏丹+"
+
+msgid "Sultan of Turkey"
+msgstr "土耳其苏丹"
+
+msgid "Sumo"
+msgstr "相扑"
+
+msgid "Sun and Moon"
+msgstr "太阳和月亮"
+
+msgid "Sundial"
+msgstr "日晷"
+
+msgid "Super Challenge FreeCell"
+msgstr "空当接龙超级挑战"
+
+msgid "Super Flower Garden"
+msgstr "超级花园"
+
+msgid "Super Samuri"
+msgstr "超级武士"
+
+msgid "Superior Canfield"
+msgstr "高级坎菲尔德"
+
+msgid "Surprise"
+msgstr "惊喜"
+
+msgid "Surukh"
+msgstr "苏鲁克"
+
+msgid "Sweet Sixteen"
+msgstr "甜蜜十六岁"
+
+msgid "Swiss Patience"
+msgstr "瑞士人的耐心"
+
+msgid "Tabby Cat"
+msgstr "虎斑猫"
+
+msgid "Taipei"
+msgstr "台北"
+
+msgid "Take Away"
+msgstr "带走"
+
+msgid "Take Away 8"
+msgstr "带走 8"
+
+msgid "Take Fourteen"
+msgstr "采取十四"
+
+msgid "Take Ten"
+msgstr "拿十"
+
+msgid "Taking Silk"
+msgstr "取丝绸"
+
+msgid "Tam O'Shanter"
+msgstr "塔姆·奥尚特"
+
+msgid "Tarantula"
+msgstr "狼蛛"
+
+msgid "Tasmanian Patience"
+msgstr "塔斯马尼亚的耐心"
+
+msgid "Temple 1"
+msgstr "寺庙 1"
+
+msgid "Temple 2"
+msgstr "寺庙2"
+
+msgid "Temple 3"
+msgstr "寺庙3"
+
+msgid "Temple 4"
+msgstr "寺庙 4"
+
+msgid "Ten Across"
+msgstr "十横"
+
+msgid "Ten Avatars"
+msgstr "十个头像"
+
+msgid "Ten Twenty Thirty"
+msgstr "十点二十分三十"
+
+msgid "Ten by One"
+msgstr "十乘一"
+
+msgid "Tens"
+msgstr "十"
+
+msgid "Teotihucan"
+msgstr "特奥蒂胡坎"
+
+msgid "Terrace"
+msgstr "露台"
+
+msgid "The Bogey"
+msgstr "柏忌"
+
+msgid "The Bouquet"
+msgstr "花束"
+
+msgid "The Door"
+msgstr "房门"
+
+msgid "The Familiar"
+msgstr "熟悉的人"
+
+msgid "The Four Continents"
+msgstr "四大洲"
+
+msgid "The Garden"
+msgstr "花园"
+
+msgid "The Great Wall"
+msgstr "长城"
+
+msgid "The Jolly Roger"
+msgstr "海盗旗"
+
+msgid "The Last Monarch"
+msgstr "最后的君主"
+
+msgid "The Last Monarch II"
+msgstr "最后的君主II"
+
+msgid "The Little Corporal"
+msgstr "小下士"
+
+msgid "The Lucky Number"
+msgstr "幸运数字"
+
+msgid "The Magic Seven"
+msgstr "魔法七人组"
+
+msgid "The Plot"
+msgstr "情节"
+
+msgid "The Red and the Black"
+msgstr "红牌与黑牌"
+
+msgid "The Reserve"
+msgstr "保护区"
+
+msgid "The Spark"
+msgstr "火花"
+
+msgid "The Wish"
+msgstr "愿望"
+
+msgid "The Wish (Open)"
+msgstr "愿望（明牌）"
+
+msgid "Theater"
+msgstr "剧院"
+
+msgid "Thieves"
+msgstr "盗贼"
+
+msgid "Thieves of Egypt"
+msgstr "埃及的盗贼"
+
+msgid "Thirteen Down"
+msgstr "十三下"
+
+msgid "Thirteen Packs"
+msgstr "十三包"
+
+msgid "Thirteen Up"
+msgstr "十三上"
+
+msgid "Thirteens"
+msgstr "十三号"
+
+msgid "Thirty"
+msgstr "三十"
+
+msgid "Thirty-Nine Steps"
+msgstr "三十九级台阶"
+
+msgid "Thirty-Six"
+msgstr "三十六"
+
+msgid "Thirty-Six Card Tableau"
+msgstr "三十六张牌画面"
+
+msgid "Thirty-Two Cards"
+msgstr "三十二张牌"
+
+msgid "Thornq"
+msgstr "索恩克"
+
+msgid "Thoughtful"
+msgstr "体贴"
+
+msgid "Three Blind Mice"
+msgstr "三只瞎老鼠"
+
+msgid "Three Card Fan"
+msgstr "三卡扇"
+
+msgid "Three Fir-trees"
+msgstr "三棵枞树"
+
+msgid "Three Peaks"
+msgstr "三座山峰"
+
+msgid "Three Peaks (Open)"
+msgstr "三座山峰（明牌）"
+
+msgid "Three Peaks (Scored)"
+msgstr "三峰（已评分）"
+
+msgid "Three Peaks (Scored/Open)"
+msgstr "三峰（得分/公开赛）"
+
+msgid "Three Pharaohs"
+msgstr "三个法老"
+
+msgid "Three Pirates"
+msgstr "三海盗"
+
+msgid "Three Shuffles and a Draw"
+msgstr "三个洗牌和一个平局"
+
+msgid "Three Up"
+msgstr "三上"
+
+msgid "Thumb and Pouch"
+msgstr "拇指和小袋"
+
+msgid "Tiger"
+msgstr "虎"
+
+msgid "Tile Fighter"
+msgstr "瓷砖战士"
+
+msgid "Tile Puzzle 10x10"
+msgstr "拼图 10×10"
+
+msgid "Tile Puzzle 3x3"
+msgstr "拼图 3×3"
+
+msgid "Tile Puzzle 4x4"
+msgstr "拼图 4×4"
+
+msgid "Tile Puzzle 5x5"
+msgstr "拼图 5×5"
+
+msgid "Tile Puzzle 6x6"
+msgstr "拼图 6×6"
+
+msgid "Tile Puzzle 7x7"
+msgstr "拼图 7×7"
+
+msgid "Tile Puzzle 8x8"
+msgstr "拼图 8×8"
+
+msgid "Tile Puzzle 9x9"
+msgstr "拼图 9×9"
+
+msgid "Tilepiles"
+msgstr "瓦片桩"
+
+msgid "Time Tunnel"
+msgstr "时光隧道"
+
+msgid "Tipati"
+msgstr "蒂帕蒂"
+
+msgid "Toad"
+msgstr "蟾蜍"
+
+msgid "Toad in the Hole"
+msgstr "洞里的蟾蜍"
+
+msgid "Tomb"
+msgstr "墓"
+
+msgid "Toni"
+msgstr "托尼"
+
+msgid "Topsy-Turvy Queens"
+msgstr "颠倒皇后"
+
+msgid "Tornado"
+msgstr "龙卷风"
+
+msgid "Totally Random-Made"
+msgstr "完全随机制作"
+
+msgid "Tournament"
+msgstr "锦标赛"
+
+msgid "Tours du Alice"
+msgstr "爱丽丝之旅"
+
+msgid "Tower and Walls"
+msgstr "塔楼和城墙"
+
+msgid "Tower of Babel"
+msgstr "巴别塔"
+
+msgid "Tower of Hanoi"
+msgstr "河内塔"
+
+msgid "Tower of Hanoy"
+msgstr "汉诺塔"
+
+msgid "Towers"
+msgstr "塔楼"
+
+msgid "Traditional"
+msgstr "传统"
+
+msgid "Traditional Reviewed"
+msgstr "传统审查"
+
+msgid "Trapdoor"
+msgstr "活板门"
+
+msgid "Trapdoor Spider"
+msgstr "活板门蜘蛛"
+
+msgid "Travellers"
+msgstr "旅行者"
+
+msgid "Treasure Hunt"
+msgstr "寻宝"
+
+msgid "Treasure Trove"
+msgstr "宝藏"
+
+msgid "Tree of Life"
+msgstr "生命之树"
+
+msgid "Trefoil"
+msgstr "三叶"
+
+msgid "Tri Peaks"
+msgstr "三峰接龙"
+
+msgid "Triangle"
+msgstr "三角形"
+
+msgid "Trigon"
+msgstr "三角函数"
+
+msgid "Trika"
+msgstr "特里卡"
+
+msgid "Trillium"
+msgstr "延龄草"
+
+msgid "Triple Alliance"
+msgstr "三方联盟"
+
+msgid "Triple Alliance (2 Decks)"
+msgstr "三方联盟（2 副牌）"
+
+msgid "Triple Canfield"
+msgstr "三重坎菲尔德"
+
+msgid "Triple Easthaven"
+msgstr "三重东港"
+
+msgid "Triple FreeCell"
+msgstr "三重空当接龙"
+
+msgid "Triple Interchange"
+msgstr "三重交汇处"
+
+msgid "Triple Klondike"
+msgstr "三副经典接龙"
+
+msgid "Triple Klondike (Draw 3)"
+msgstr "三副经典接龙（翻 3 张）"
+
+msgid "Triple Line"
+msgstr "三线"
+
+msgid "Triple Rail"
+msgstr "三轨"
+
+msgid "Triple Russian Solitaire"
+msgstr "三重俄罗斯纸牌"
+
+msgid "Triple Scorpion"
+msgstr "三重蝎子"
+
+msgid "Triple Yukon"
+msgstr "三重育空地区"
+
+msgid "Triplets"
+msgstr "三胞胎"
+
+msgid "Troika"
+msgstr "三驾马车"
+
+msgid "Trumps Row"
+msgstr "王牌街"
+
+msgid "Trusty Twelve"
+msgstr "值得信赖的十二人"
+
+msgid "Try Again"
+msgstr "再试一次"
+
+msgid "Turncoats"
+msgstr "叛徒"
+
+msgid "Tut's Tomb"
+msgstr "图坦卡蒙墓"
+
+msgid "Tuxedo"
+msgstr "燕尾服"
+
+msgid "Tvete's Grandfather"
+msgstr "特维特的祖父"
+
+msgid "Twelve Sleeping Maids"
+msgstr "十二个沉睡的女仆"
+
+msgid "Twenty"
+msgstr "二十"
+
+msgid "Twilight Zone"
+msgstr "暮光之城"
+
+msgid "Twin"
+msgstr "双床间"
+
+msgid "Twin Picks"
+msgstr "双镐"
+
+msgid "Twin Queens"
+msgstr "双人大号床间"
+
+msgid "Twin Temples"
+msgstr "双庙"
+
+msgid "Two Domes"
+msgstr "两个圆顶"
+
+msgid "Two Familiars"
+msgstr "两个熟人"
+
+msgid "Two Pyramids"
+msgstr "两个金字塔"
+
+msgid "Two Rings"
+msgstr "两环"
+
+msgid "Two Squares"
+msgstr "两个正方形"
+
+msgid "Twos"
+msgstr "两两"
+
+msgid "Uintah"
+msgstr "尤因塔"
+
+msgid "Ukrainian Solitaire"
+msgstr "乌克兰纸牌"
+
+msgid "Uncle Walter's"
+msgstr "沃尔特叔叔的"
+
+msgid "Under Siege"
+msgstr "围攻之下"
+
+msgid "Union Square"
+msgstr "联合广场"
+
+msgid "Unlimited"
+msgstr "无限"
+
+msgid "Unusual"
+msgstr "不寻常"
+
+msgid "Up and Down"
+msgstr "上下"
+
+msgid "Up and Up"
+msgstr "向上又向上"
+
+msgid "Usk"
+msgstr "乌斯克"
+
+msgid "Vacancies"
+msgstr "职位空缺"
+
+msgid "Vague"
+msgstr "模糊"
+
+msgid "Vagues"
+msgstr "瓦格斯"
+
+msgid "Vajra"
+msgstr "金刚杵"
+
+msgid "Valentine"
+msgstr "情人节"
+
+msgid "Vamana"
+msgstr "瓦玛那"
+
+msgid "Vanishing Cross"
+msgstr "消失的十字架"
+
+msgid "Varaha"
+msgstr "瓦拉哈"
+
+msgid "Variegated Canfield"
+msgstr "杂色坎菲尔德"
+
+msgid "Vassal"
+msgstr "附庸国"
+
+msgid "Vegas Klondike"
+msgstr "拉斯维加斯经典接龙"
+
+msgid "Vertical"
+msgstr "垂直"
+
+msgid "Very Big Divorce"
+msgstr "非常大的离婚"
+
+msgid "Vi"
+msgstr "维"
+
+msgid "Victory Arrow"
+msgstr "胜利之箭"
+
+msgid "Vincent"
+msgstr "文森特"
+
+msgid "Vineyard"
+msgstr "葡萄园"
+
+msgid "Virginia Reel"
+msgstr "维吉尼亚·瑞尔"
+
+msgid "Voracious"
+msgstr "贪婪的"
+
+msgid "Wading Pool"
+msgstr "浅水池"
+
+msgid "Wake-Robin"
+msgstr "唤醒罗宾"
+
+msgid "Wake-Robin (3 Decks)"
+msgstr "唤醒罗宾（3 副牌）"
+
+msgid "Wall"
+msgstr "墙"
+
+msgid "Waning Moon"
+msgstr "残月"
+
+msgid "Wasatch"
+msgstr "瓦萨奇"
+
+msgid "Washington's Favorite"
+msgstr "华盛顿的最爱"
+
+msgid "Wasp"
+msgstr "黄蜂"
+
+msgid "Wasp II"
+msgstr "黄蜂二号"
+
+msgid "Watch"
+msgstr "手表"
+
+msgid "Waterfall"
+msgstr "瀑布"
+
+msgid "Waterloo"
+msgstr "滑铁卢"
+
+msgid "Wave"
+msgstr "波"
+
+msgid "Wave Motion"
+msgstr "波动"
+
+msgid "Wavelets"
+msgstr "小波"
+
+msgid "Waves"
+msgstr "波浪"
+
+msgid "Weavers"
+msgstr "织工"
+
+msgid "Weddings"
+msgstr "婚礼"
+
+msgid "Wedges"
+msgstr "挖起杆"
+
+msgid "Well"
+msgstr "水井"
+
+msgid "Well 1"
+msgstr "井1"
+
+msgid "Well 2"
+msgstr "井2"
+
+msgid "Westcliff"
+msgstr "西崖接龙"
+
+msgid "Westhaven"
+msgstr "韦斯特黑文"
+
+msgid "What a Pyramid"
+msgstr "什么是金字塔"
+
+msgid "Whatever"
+msgstr "无论如何"
+
+msgid "Wheatsheaf"
+msgstr "惠特谢夫"
+
+msgid "Wheel of Fortune"
+msgstr "命运之轮"
+
+msgid "Whitehead"
+msgstr "怀特黑德"
+
+msgid "Whitehorse"
+msgstr "怀特霍斯"
+
+msgid "Wicked"
+msgstr "邪恶的"
+
+msgid "Wicker"
+msgstr "柳条"
+
+msgid "Wildcards"
+msgstr "通配符"
+
+msgid "Wildflower"
+msgstr "野花"
+
+msgid "Will o' the Wisp"
+msgstr "鬼火接龙"
+
+msgid "Win"
+msgstr "赢"
+
+msgid "Windmill"
+msgstr "风车接龙"
+
+msgid "Wisteria"
+msgstr "紫藤"
+
+msgid "Wizard's Castle"
+msgstr "巫师的城堡"
+
+msgid "Wizard's Storeroom"
+msgstr "巫师的储藏室"
+
+msgid "Wolfpack"
+msgstr "狼群"
+
+msgid "Wood"
+msgstr "木头"
+
+msgid "X-Files"
+msgstr "X档案"
+
+msgid "X-Shape"
+msgstr "X型"
+
+msgid "XV"
+msgstr "罗马十五"
+
+msgid "Xantia"
+msgstr "仙蒂亚"
+
+msgid "Xerxes"
+msgstr "薛西斯"
+
+msgid "Yeast Dough"
+msgstr "酵母面团"
+
+msgid "Yield"
+msgstr "产量"
+
+msgid "York"
+msgstr "约克"
+
+msgid "Yukon"
+msgstr "育空地区"
+
+msgid "Yukon Cells"
+msgstr "育空细胞"
+
+msgid "Yukon Kings"
+msgstr "育空国王队"
+
+msgid "Yukon Nouveau"
+msgstr "新育空地区"
+
+msgid "Yukonic Plague"
+msgstr "育空鼠疫"
+
+msgid "Yummy"
+msgstr "好吃"
+
+msgid "Zebra"
+msgstr "斑马"
+
+msgid "Zerline"
+msgstr "泽林"
+
+msgid "Zerline (3 Decks)"
+msgstr "泽林（3 副牌）"
+
+msgid "Zeus"
+msgstr "宙斯"
+
+msgid "Zigzag"
+msgstr "之字形"
+
+msgid "Zigzag Course"
+msgstr "之字形路线"
+
+msgid "Zingara"
+msgstr "津加拉"
+
+msgid "Zodiac"
+msgstr "十二生肖"

@@ -1,0 +1,167 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<html lang="zh-CN">
+<head>
+<title>PySol - 卡组定制</title>
+<meta name="license" content="GNU General Public License">
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+</head>
+<body text="#000000" bgcolor="#F7F3FF" link="#0000FF" vlink="#660099"
+alink="#FF0000">
+<img src="../html/images/pysollogo03.png" alt="皮索尔纸牌合集图标">
+<br>
+
+    <h1>卡组定制教程</h1>
+      <h2>设置卡组</h2>
+          <p>创建卡片集的最简单方法是复制卡片集目录中相同类型的现有卡片集文件夹。所有卡组都需要许多文件才能工作。
+          <ul>
+          <li>每张卡的图像 - 这些图像应具有相同的格式和相同的大小，如 config.txt 文件中所定义（如下所述）。这些文件的名称应类似于 01s.png（代表黑桃 A）。前两位（或更多）数字代表等级，后面的字母代表花色。这些花色在法国套牌或使用法国套牌的套牌（即 Hex A 或 Tarock 套牌）中被标记为 hcd，而其他套牌的花色则按字母顺序排列。花色字母 z 用于表示王牌或王牌。</li>
+          <li>阴影文件 - 例如，shade.png。</li>
+          <li>至少一张背面图像，如下面的 config.txt 文件中所定义。</li>
+          <li>config.txt 文件，格式如下所述。</li>
+          <li>版权文件，包含版权信息。</li>
+          </ul>
+          <p>还可以添加以下可选文件，但仅在某些情况下使用。
+          <ul>
+          <li>底部图像。堆栈底部的许多图像。除非您的 PySol 安装不支持生成堆栈底部，或者您手动启用它们（当前只能通过编辑 options.cfg 文件），否则不会使用它们。使用哪种底部取决于卡片组类型。每个底部都有一个带有后缀 -n 的版本，表示启用适当选项后使用的负底部。</li>
+          <li>阴影图像。仅当您的 PySol 安装不支持自动生成的阴影时才会使用这些。</li>
+          </ul>
+      <h2>配置.txt模板</h2>
+            <pre>PySolFC 纸牌卡组;$A;$FMT;$B;$C;$D,$E;$F;$G;$H &lt;内部名称&gt;;&lt;卡组名称&gt; X Y D XOFF YOFF SXOFF SYOFF back01.ext back01.ext;back02.ext;back03.ext</pre>
+      <h2>1号线</h2>
+          <p><b>$A:</b> 由“;”划分的字段数所属的卡组版本号在第一行（例如 <code>.gif;1;78;8,1016</code> → <code>$A=4</code>)</p>
+          <p>(<b>WARNING:</b> 对于麻将，$A 必须始终为 6 或 7，并且 $F 字段必须包含在该行中；但是，你可以把 <code>0</code> 在 <code>$F</code> 如果你愿意的话，在这种情况下。）</p>
+          <p>(<b>NOTE:</b> $D 和 $E 以逗号分隔并计为一个字段）</p>
+          <p><b>$FMT：</b> 支持所用图像的格式 - .gif、.png、.jpg、.ppm 和 .bmp</p>
+          <p><b>$B：</b> 卡组的类型（参见下面的类型）</p>
+          <h3>卡组类型：</h3>
+            <ul>
+              <li>法语 = 1</li>
+              <li>花札 = 2</li>
+              <li>塔罗克 = 3</li>
+              <li>麻将 = 4</li>
+              <li>六角 A 甲板 = 5</li>
+              <li>莫卧儿甘吉法 = 6</li>
+              <li>Navagraha Ganjiga = 7</li>
+              <li>达沙瓦塔拉干吉法 = 8</li>
+              <li>仅王牌 = 9</li>
+              <li>匹配 = 10</li>
+              <li>谜题 = 11</li>
+              <li>石户 = 12</li>
+            </ul>
+            <p><b>$C:</b> 卡组中的卡牌数量，一般为 42、48、52、68、78、96 或 120</p>
+            <p><b>$D:</b> 卡组的样式（此字段可以保存一个或多个逗号分隔值）</p>
+          <h3>卡组样式：</h3>
+            <ul>
+              <li>摘要 = 35</li>
+              <li>成人 = 1</li>
+              <li>动物 = 2</li>
+              <li>动漫=3</li>
+              <li>艺术 = 4</li>
+              <li>卡通= 5</li>
+              <li>儿童 = 6</li>
+              <li>经典外观 = 7</li>
+              <li>收藏家 = 8</li>
+              <li>电脑 = 9</li>
+              <li>占卜 = 36</li>
+              <li>发动机 = 10</li>
+              <li>幻想 = 11</li>
+              <li>四色 = 37</li>
+              <li>赶集法=30</li>
+              <li>花札 = 12</li>
+              <li>六角 A 甲板 = 29</li>
+              <li>假期 = 13</li>
+              <li>石户 = 34</li>
+              <li>麻将 = 28</li>
+              <li>匹配 = 32</li>
+              <li>单色 = 38</li>
+              <li>电影 = 14</li>
+              <li>矩阵=31</li>
+              <li>音乐=15</li>
+              <li>自然 = 16</li>
+              <li>操作系统 = 17</li>
+              <li>人数 = 19</li>
+              <li>名额 = 20</li>
+              <li>普通 = 21</li>
+              <li>产品 = 22</li>
+              <li>谜题 = 33</li>
+              <li>圆形卡组 = 18</li>
+              <li>科幻小说 = 23</li>
+              <li>体育 = 24</li>
+              <li>塔罗克 = 27</li>
+              <li>车辆 = 25</li>
+              <li>电子游戏 = 26</li>
+            </ul>
+            <p><b>$E:</b> 卡片组的原产地（国家）</p>
+          <h3>卡组起源：</h3>
+            <ul>
+              <li>澳大利亚 = 1021</li>
+              <li>奥地利=1001</li>
+              <li>比利时 = 1019</li>
+              <li>加拿大 = 1010</li>
+              <li>中国=1011</li>
+              <li>捷克共和国 = 1012</li>
+              <li>丹麦 = 1013</li>
+              <li>英格兰 = 1003</li>
+              <li>法国 = 1004</li>
+              <li>德国=1006</li>
+              <li>英国 = 1014</li>
+              <li>匈牙利=1015</li>
+              <li>印度=1020</li>
+              <li>意大利=1005</li>
+              <li>日本=1016</li>
+              <li>荷兰 = 1002</li>
+              <li>葡萄牙 = 1022</li>
+              <li>俄罗斯 = 1007</li>
+              <li>西班牙 = 1008</li>
+              <li>瑞典=1017</li>
+              <li>瑞士 = 1009</li>
+              <li>美国 = 1018</li>
+            </ul>
+            <p><b>$F:</b> 卡组的创建年份（范围为 1000 到 2299）</p>
+            <p><b>$G：</b> 卡组的子类型。通常为 0 - 对于法式卡片组，如果有小丑，则使用值 1。对于拼图类型的卡片组，它是每行/列的片数。</p>
+            <p><b>$H：</b> 该卡组是否为 3D 麻将卡组 - 如果是，则为 1，如果不是，则为 0。对于版本低于 7 的卡组，版本 6 的卡组将此值视为 1，而旧版本的卡组将其视为 0。</p>
+      <h2>2号线</h2>
+          <p><code>&lt;内部名称&gt;</code>：PySolFC 的名称，用于识别您的卡组（不带空格）</p>
+          <p>(<b>TIP:</b> 您可以添加数字前缀（例如 123-cardset-name) ）</p>
+          <p><code>&lt;卡组名称&gt;</code>：您的卡组名称应显示在卡组管理器中。请注意，超过 50 个字符的卡组名称将被截断。</p>
+      <h2>3号线</h2>
+          <ul>
+            <li><b>X:</b> 卡片宽度（卡片图像宽度）</li>
+            <li><b>Y:</b> 卡片高度（卡片图像高度）</li>
+            <li><b>D:</b> 颜色深度（大多为8）</li>
+          </ul>
+      <h2>4号线</h2>
+          <ul>
+            <li><b>XOFF:</b> 卡片的水平偏移</li>
+            <li><b>YOFF:</b> 卡片的垂直偏移</li>
+            <li><b>SXOFF:</b> 水平阴影的偏移量（多为7）</li>
+            <li><b>SYOFF:</b> 垂直阴影的偏移量（大多是7）</li>
+          </ul>
+      <h2>5号线</h2>
+          <p><code>back01.ext</code>：默认背景图片的名称（其中 <code>分机</code> 表示文件扩展名，例如： <code>PNG</code> 或 <code>动图</code>.)</p>
+      <h2>6号线</h2>
+          <p><code>back01.ext;back02.ext;back03.ext;…`</code>：其他后台图片的名称，包括默认图片。</p>
+      <h2>关于本文档：</h2>
+           <p><b>NOTE:</b> 本教程可能不完整。它按原样提供，没有任何保证，以帮助玩家定制自己的卡组。欢迎您将任何建议发送至： <a href="mailto:neelix570@gmail.com">作者的电子邮件</a>,
+            <a href="https://github.com/shlomif/PySolFC/issues">PySol FC 的 GitHub 问题跟踪器</a>            或
+            <a href="https://sourceforge.net/p/pysolfc/_list/tickets">PySol FC 的 Sourceforge 问题跟踪器</a>.</p>
+          <p><b>NOTE 2:</b> 您还应该放置一个名为 <code>COPYRIGHT</code> 在同一目录中 <code>配置.txt</code>，包含可以通过以下方式访问的文本 <code>信息/设置</code>.</p>
+        <h3>许可证：</h3>
+            <p>本教程是根据 GNU 通用公共许可证版本 3 或更高版本的条款创建的。您可以按原样重新分发它和/或修改它。</p>
+            <p>Shlomi Fish，特此将他对本文档的修改放在
+              <a href="https://github.com/shlomif/shlomif-computer-settings/blob/master/shlomif-settings/git/commit-messages/cc0-copyright-disclaimer.txt">CC0/公共领域/MIT 许可证/GPL 条款</a></p>
+          <h3>学分：</h3>
+            <p>学分转到：</p>
+            <ul>
+            <li><a href="mailto:andsa@web.de">安德烈亚斯·绍尔</a> 为了澄清某些问题</li>
+            <li><a href="https://www.shlomifish.org/">什洛米鱼</a> 对本教程进行一些改进</li>
+            </ul>
+
+
+<p>
+<br>
+<a href="index.html">返回索引</a>
+<hr>
+<i>皮索尔纸牌合集帮助 · 3.6.1</i>
+</body>
+</html>

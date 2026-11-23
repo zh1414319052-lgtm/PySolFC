@@ -43,17 +43,22 @@ pot:
 	xgettext --keyword=n_ --keyword=pgettext:1c,2 --add-comments=TRANSLATORS: -o po/pysol.pot \
 		pysollib/*.py pysollib/*/*.py pysollib/*/*/*.py data/pysolfc.glade
 	set -e; \
-	for lng in de fr pl it ru pt_BR; do \
+	for lng in de fr pl it ru pt_BR zh_CN; do \
 		msgmerge --update --quiet --backup=none po/$${lng}_pysol.po po/pysol.pot; \
 		msgmerge --update --quiet --backup=none po/$${lng}_games.po po/games.pot; \
 	done
 
 mo:
 	set -e; \
-	for lang in de fr pl it ru pt_BR; do \
+	for lang in de fr pl it ru pt_BR zh_CN; do \
 		mkdir -p locale/$${lang}/LC_MESSAGES; \
-		msgcat --use-first po/$${lang}_games.po po/$${lang}_pysol.po > po/$${lang}.po; \
-		msgfmt --check -o locale/$${lang}/LC_MESSAGES/pysol.mo po/$${lang}.po; \
+		if [ "$${lang}" = zh_CN ]; then \
+			msgfmt --check -o locale/$${lang}/LC_MESSAGES/pysol.mo po/$${lang}_pysol.po; \
+			msgfmt --check -o locale/$${lang}/LC_MESSAGES/pysol-games.mo po/$${lang}_games.po; \
+		else \
+			msgcat --use-first po/$${lang}_games.po po/$${lang}_pysol.po > po/$${lang}.po; \
+			msgfmt --check -o locale/$${lang}/LC_MESSAGES/pysol.mo po/$${lang}.po; \
+		fi; \
 	done
 
 pretest:

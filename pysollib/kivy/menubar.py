@@ -39,6 +39,7 @@ from pysollib.kivy.LApp import LTopLevel
 from pysollib.kivy.LApp import LTreeNode
 from pysollib.kivy.LApp import LTreeRoot
 from pysollib.kivy.LApp import LTreeSliderNode
+from pysollib.kivy.LApp import get_platform
 from pysollib.kivy.LObjWrap import LBoolWrap
 from pysollib.kivy.LObjWrap import LListWrap
 from pysollib.kivy.LObjWrap import LNumWrap
@@ -157,11 +158,11 @@ class LTreeGenerator(LMenuBase):
         def process(dt):
             try:
                 gen.send(None)
-                Clock.schedule_once(process, 0.2)
+                Clock.schedule_once(process)
             except StopIteration:
                 print('generator: all jobs done')
 
-        Clock.schedule_once(process, 0.2)
+        Clock.schedule_once(process)
         return tv
 
     def buildTree(self, tv, node):
@@ -675,33 +676,36 @@ class LOptionsMenuGenerator(LTreeGenerator):
         # -------------------------------------------
         # Language options
 
-        rg = tv.add_node(
-            LTreeNode(text=_('Language')))
-        if rg:
-            self.addRadioNode(tv, rg,
-                              _('Default'),
-                              self.menubar.tkopt.language, '',
-                              self.menubar.mOptLanguage)
-            self.addRadioNode(tv, rg,
-                              _('English'),
-                              self.menubar.tkopt.language, 'en',
-                              self.menubar.mOptLanguage)
-            self.addRadioNode(tv, rg,
-                              _('German'),
-                              self.menubar.tkopt.language, 'de',
-                              self.menubar.mOptLanguage)
-            self.addRadioNode(tv, rg,
-                              _('Italian'),
-                              self.menubar.tkopt.language, 'it',
-                              self.menubar.mOptLanguage)
-            self.addRadioNode(tv, rg,
-                              _('Polish'),
-                              self.menubar.tkopt.language, 'pl',
-                              self.menubar.mOptLanguage)
-            self.addRadioNode(tv, rg,
-                              _('Russian'),
-                              self.menubar.tkopt.language, 'ru',
-                              self.menubar.mOptLanguage)
+        if get_platform() == 'android':
+            tv.add_node(LTreeNode(text=_('Language follows Android')))
+        else:
+            rg = tv.add_node(
+                LTreeNode(text=_('Language')))
+            if rg:
+                self.addRadioNode(tv, rg,
+                                  _('Default'),
+                                  self.menubar.tkopt.language, '',
+                                  self.menubar.mOptLanguage)
+                self.addRadioNode(tv, rg,
+                                  _('English'),
+                                  self.menubar.tkopt.language, 'en',
+                                  self.menubar.mOptLanguage)
+                self.addRadioNode(tv, rg,
+                                  _('German'),
+                                  self.menubar.tkopt.language, 'de',
+                                  self.menubar.mOptLanguage)
+                self.addRadioNode(tv, rg,
+                                  _('Italian'),
+                                  self.menubar.tkopt.language, 'it',
+                                  self.menubar.mOptLanguage)
+                self.addRadioNode(tv, rg,
+                                  _('Polish'),
+                                  self.menubar.tkopt.language, 'pl',
+                                  self.menubar.mOptLanguage)
+                self.addRadioNode(tv, rg,
+                                  _('Russian'),
+                                  self.menubar.tkopt.language, 'ru',
+                                  self.menubar.mOptLanguage)
 
         yield
         # -------------------------------------------
@@ -868,7 +872,7 @@ class LOptionsMenuGenerator(LTreeGenerator):
                     i = cst[0]
                     cs = cst[1]
                     rg2 = self.addRadioNode(
-                        tv,rg1,cs.name,self.menubar.tkopt.cardset, # noqa
+                        tv,rg1,_(cs.name),self.menubar.tkopt.cardset, # noqa
                         i,self.menubar.mOptCardset)                # noqa
 
                     if rg2:
@@ -876,16 +880,15 @@ class LOptionsMenuGenerator(LTreeGenerator):
                         self.menubar.tkopt.cardbacks[i] = LNumWrap(None)
                         self.menubar.tkopt.cardbacks[i].value = cs.backindex
 
-                        bcnt = len(cbs)
-                        bi = 0
-                        while 1:
-                            if bi == bcnt: break  # noqa
-                            cb = cbs[bi]
-                            self.addRadioNode(tv,rg2,cb,             # noqa
-                                self.menubar.tkopt.cardbacks[i],bi,  # noqa
-                                self.make_vars_command(              # noqa
+                        for bi, cb in enumerate(cbs):
+                            label = _('Card back %d') % (bi + 1)
+                            if cs.name == 'Standard' and cb == 'back111.png':
+                                label = _('Green and gold')
+                            self.addRadioNode(
+                                tv, rg2, label,
+                                self.menubar.tkopt.cardbacks[i], bi,
+                                self.make_vars_command(
                                     self.menubar.mOptSetCardback, i))
-                            bi += 1
         yield
         # -------------------------------------------
         # Table background settings
@@ -1021,12 +1024,12 @@ class LOptionsMenuGenerator(LTreeGenerator):
                     i = ti.index
                     if ti.save_aspect == 0 and ti.stretch == 0 and rg1:
                         self.addRadioNode(tv, rg1,
-                                          ti.name,
+                                          _(ti.name),
                                           self.menubar.tkopt.tabletile, i,
                                           self.menubar.mOptTileSet)
                     if (ti.save_aspect == 1 or ti.stretch == 1) and rg2:
                         self.addRadioNode(tv, rg2,
-                                          ti.name,
+                                          _(ti.name),
                                           self.menubar.tkopt.tabletile, i,
                                           self.menubar.mOptTileSet)
 
@@ -1689,6 +1692,8 @@ class PysolMenubarTk:
 
         # LMainMenuDialog()
         LMenuItem(self.__menubar.menu,
+                  text=_("Games"), command=self.mSelectGameDialog)
+        LMenuItem(self.__menubar.menu,
                   text=_("Menu"), command=self.mMainMenuDialog)
 
         MfxMenubar.addPath = None
@@ -2121,8 +2126,8 @@ class PysolMenubarTk:
         return
 
     def setToolbarState(self, state, path):
-        # LB: not used
-        return
+        if self.app.toolbar and path in ('undo', 'redo', 'hint'):
+            self.app.toolbar.buttond[path].disabled = not state
 
     def _setPauseMenu(self, v):
         self.tkopt.pause.value = v

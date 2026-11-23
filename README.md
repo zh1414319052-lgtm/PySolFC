@@ -1,3 +1,22 @@
+<p align="center"><img src="data/android-icon/launcher.png" alt="皮索尔纸牌合集 Android 图标" width="112"></p>
+
+# 皮索尔纸牌合集 · PySolFC Android
+
+这里是 PySolFC 的浩科 Android 分支。3.6.1 为 Android 5.0 及更高版本提供简中界面、玩法名称与规则。标准扑克牌采用重新绘制的象牙色牌面和绿金牌背，应用使用新的启动图标并修复了 SDL 冷启动闪退。
+
+The Haoke Android edition of PySolFC 3.6.1 provides a Simplified Chinese interface and rules, a redesigned standard deck, a new launcher icon, and an SDL cold-start fix. It supports Android 5.0 or later on `arm64-v8a` and `armeabi-v7a`. Its package ID is `org.haoke.pysolfc`.
+
+| Android 3.6.1 | 校验信息 · Verification |
+| --- | --- |
+| 版本号 · Version code | `102130608` |
+| APK 大小 · APK size | 83,655,325 bytes |
+| APK SHA-256 | `03cca75bcd42b93b689a9bc48a583d8c9220f15ef9920805f30ab051f62d65e9` |
+| 签名证书 · Certificate SHA-256 | `13ea44b975c48845883d171e8f642d3c00d59fd54b2f17ca50ef05e57bcf2a69` |
+
+[构建、对应源码与授权说明 · Build and corresponding source](buildozer/README-haoke.md) · [GitHub 源码版本 · Source release](https://github.com/zh1414319052-lgtm/PySolFC/releases/tag/android-3.6.1-haoke.1)
+
+## 上游说明 · Upstream documentation
+
 <p align="center"><img src="html-src/images/high_res/logo_horizontal.png" alt="PySol FC logo" height="180px"></p>
 
 # PySol Fan Club edition

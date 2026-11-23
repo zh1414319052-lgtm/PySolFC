@@ -22,10 +22,11 @@
 # ---------------------------------------------------------------------------##
 
 
-# imports
+import os
 
 # PySol imports
 from pysollib.mygettext import _
+from pysollib.mygettext import myGettext
 from pysollib.pysoltk import HTMLViewer
 from pysollib.pysoltk import MfxMessageDialog
 from pysollib.pysoltk import PysolAboutDialog
@@ -115,6 +116,16 @@ help_html_viewer = None
 help_html_index = None
 
 
+def _find_help_document(app, document, directory):
+    if myGettext.language == 'zh_CN':
+        localized = os.path.join('html-zh', os.path.relpath(directory, 'html'))
+        try:
+            return app.dataloader.findFile(document, localized)
+        except EnvironmentError:
+            pass
+    return app.dataloader.findFile(document, directory)
+
+
 def help_html(app, document, dir_, top=None):
     global help_html_viewer, help_html_index
     if not document:
@@ -122,10 +133,10 @@ def help_html(app, document, dir_, top=None):
     if top is None:
         top = app.top
     try:
-        doc = app.dataloader.findFile(document, dir_)
+        doc = _find_help_document(app, document, dir_)
         if help_html_index is None:
             document, dir_ = "index.html", "html"
-            help_html_index = app.dataloader.findFile(document, dir_)
+            help_html_index = _find_help_document(app, document, dir_)
     except EnvironmentError:
         MfxMessageDialog(app.top, title=_("%s HTML Problem") % TITLE,
                          text=_("Cannot find help document\n%s") % document,

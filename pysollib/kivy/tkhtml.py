@@ -27,6 +27,8 @@ import sys
 from kivy.uix.boxlayout import BoxLayout
 from kivy.uix.button import Button
 from kivy.uix.label import Label
+from kivy.metrics import dp, sp
+from pysollib.kivy import boardstyle as style
 
 import pysollib.formatter
 import pysollib.htmllib2 as htmllib
@@ -286,12 +288,20 @@ class tkHTMLParser(htmllib.HTMLParser):
 
 
 class HTMLButton(Button):
+    def __init__(self, **kwargs):
+        super().__init__(background_normal='',
+                         background_color=style.rgba(style.CHROME),
+                         color=style.rgba(style.SHEET), **kwargs)
+
     def config(self, **kw):
         pass
 
 
 class HTMLLabel(Label):
     def __init__(self, **kw):
+        kw.setdefault('color', style.rgba(style.INK))
+        kw.setdefault('font_size', sp(15))
+        kw.setdefault('padding', (dp(19), 0))
         super().__init__(**kw)
 
         self.bind(size=self.onUpdate)
@@ -660,7 +670,7 @@ class HTMLViewer:
         if 0.0 <= yview <= 1.0:
             self.text.yview_moveto(yview)
         # self.parent.wm_title(parser.title)
-        self.window.titleline.text = parser.title
+        self.window.titleline.text = f'‹   {parser.title}'
         self.parent.wm_iconname(parser.title)
         self.defcursor, self.handcursor = old_c1, old_c2
         self.text.config(cursor=self.defcursor)

@@ -7,7 +7,7 @@ title = PySolFC
 package.name = pysolfc
 
 # (str) Package domain (needed for android/ios packaging)
-package.domain = org.lufebe16
+package.domain = org.haoke
 
 # (str) Source code where the main.py live
 source.dir = ./tmp
@@ -46,11 +46,11 @@ requirements = python3,kivy,pysol-cards,configobj,attrs
 
 # (str) Presplash of the application
 #presplash.filename = %(source.dir)s/data/presplash.png
-presplash.filename = %(source.dir)s/data/images/logo-with-margin-1024.png
+presplash.filename = %(source.dir)s/data/android-icon/presplash.png
 
 # (str) Icon of the application
 #icon.filename = %(source.dir)s/data/icon.png
-icon.filename = %(source.dir)s/data/images/icons/48x48/pysol.png
+icon.filename = %(source.dir)s/data/android-icon/launcher.png
 
 # (str) Supported orientation (one of landscape, sensorLandscape, portrait or all)
 orientation = portrait, landscape
@@ -83,7 +83,7 @@ fullscreen = 0
 # red, blue, green, black, white, gray, cyan, magenta, yellow, lightgray,
 # darkgray, grey, lightgrey, darkgrey, aqua, fuchsia, lime, maroon, navy,
 # olive, purple, silver, teal.
-android.presplash_color = #101010
+android.presplash_color = #102F27
 
 # (string) Presplash animation using Lottie format.
 # see https://lottiefiles.com/ for examples and https://airbnb.design/lottie/
@@ -92,12 +92,12 @@ android.presplash_color = #101010
 #android.presplash_lottie = "path/to/lottie/file.json"
 
 # (str) Adaptive icon of the application (used if Android API level is 26+ at runtime)
-#icon.adaptive_foreground.filename = %(source.dir)s/data/icon_fg.png
-#icon.adaptive_background.filename = %(source.dir)s/data/icon_bg.png
+icon.adaptive_foreground.filename = %(source.dir)s/data/android-icon/foreground.png
+icon.adaptive_background.filename = %(source.dir)s/data/android-icon/background.png
 
 # (list) Permissions
 #android.permissions = INTERNET
-android.permissions = WRITE_EXTERNAL_STORAGE, MANAGE_EXTERNAL_STORAGE
+android.permissions =
 
 # (list) features (adds uses-feature -tags to manifest)
 #android.features = android.hardware.usb.host
@@ -276,7 +276,7 @@ android.archs = arm64-v8a, armeabi-v7a
 
 # (int) overrides automatic versionCode computation (used in build.gradle)
 # this is not the same as app version and should only be edited if you know what you're doing
-# android.numeric_version = 1
+android.numeric_version = 102130608
 
 # (bool) enables Android auto backup feature (Android API >=23)
 android.allow_backup = True
@@ -443,4 +443,6 @@ warn_on_root = 1
 
 [app@test]
 title = PySolFC.test
-package.name = pysolfc.test
+package.name = pysolfc.qa
+android.permissions =
+android.allow_backup = False

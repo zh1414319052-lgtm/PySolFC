@@ -110,7 +110,10 @@ class LImage(Widget, LBase):
 
     def make_format(self, size, pos):
         if hasattr(self, "rect"):
-            if self.texture is None:
+            if min(size) <= 0:
+                self.rect.size = (0, 0)
+                self.rect.pos = pos
+            elif self.texture is None:
                 self.rect.size = size
                 self.rect.pos = pos
             elif self.fit_num == self.CONTAIN:

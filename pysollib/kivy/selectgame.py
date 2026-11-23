@@ -24,6 +24,7 @@
 from collections import UserList
 
 from kivy.clock import Clock
+from kivy.utils import escape_markup
 
 from pysollib.gamedb import GI
 from pysollib.kivy.LApp import LScrollView
@@ -156,7 +157,7 @@ class SelectGameData(SelectDialogTreeData):
             if name is None or not list(filter(
                     select_func, self.all_games_gi)):
                 continue
-            gg.append(SelectGameNode(None, name, select_func))
+            gg.append(SelectGameNode(None, _(name), select_func))
         if gg:
             s_by_compatibility = SelectGameNode(None, _("by Compatibility"),
                                                 tuple(gg))
@@ -181,7 +182,7 @@ class SelectGameData(SelectDialogTreeData):
             if name is None or not list(filter(
                     select_func, self.all_games_gi)):
                 continue
-            gg.append(SelectGameNode(None, name, select_func))
+            gg.append(SelectGameNode(None, _(name), select_func))
         if gg:
             s_by_inventors = SelectGameNode(None, _("by Inventors"),
                                             tuple(gg))
@@ -338,6 +339,13 @@ class LGameNode(LTreeNode):
 
     # benutzer interaktion.
 
+    def show_current(self, game_id):
+        name = escape_markup(self.gamenode.text)
+        if self.gamenode.key == game_id:
+            self.text = f"[b]{name}[/b]  ·  {_('Current game')}"
+        else:
+            self.text = name
+
     def on_released(self, v):
         if self.gamenode.key:
             if self.command:
@@ -384,13 +392,24 @@ class SelectGameDialog:
 
     # Dialog, einmal erzeugt, wird rezykliert.
     SingleInstance = None
+    selecting = False
+    featured_order = {2: 0, 8: 1, 11: 2, 38: 3}
 
     def onClick(self, event):
         print('LTopLevel: onClick')
         SelectGameDialog.SingleInstance.parent.popWork('SelectGame')
 
     def selectCmd(self, gameid):
-        self.app.menubar._mSelectGame(gameid)
+        if self.selecting or self.parent.getWork('SelectGame') is None:
+            return
+        # Dealing can pump the Kivy event loop before the switch returns.
+        self.selecting = True
+        try:
+            self.app.menubar._mSelectGame(gameid)
+            if self.app.game and self.app.game.id == gameid:
+                self.parent.popWork('SelectGame')
+        finally:
+            self.selecting = False
 
     def __init__(self, parent, title, app, gameid, **kw):
         super().__init__()
@@ -407,7 +426,11 @@ class SelectGameDialog:
         if si and si.parent.workStack.peek('SelectGame') is not None:
             parent.popWork('SelectGame')
             return
-        if (si):
+        if si:
+            if app.game:
+                for node in si.tvroot.iterate_all_nodes():
+                    if isinstance(node, LGameNode) and node.gamenode.key:
+                        node.show_current(app.game.id)
             si.parent.pushWork('SelectGame', si.window)
             return
 
@@ -450,13 +473,17 @@ class SelectGameDialog:
 
                 nodes = n.getContents()
                 if isinstance(nodes, list):
-                    # Blaetter
+                    if n.text == _("Popular Games"):
+                        nodes = sorted(nodes, key=lambda item:
+                                       self.featured_order.get(item.key, 4))
                     for node in nodes:
                         # print ('**game=%s' % node.text)
-                        yield LGameNode(
-                            node, v, text=node.text,
-                            is_leaf=True,
+                        item = LGameNode(
+                            node, v, text=escape_markup(node.text), is_leaf=True,
                             command=self.selectCmd)
+                        if self.app.game:
+                            item.show_current(self.app.game.id)
+                        yield item
 
                 if isinstance(nodes, tuple):
                     # Knoten

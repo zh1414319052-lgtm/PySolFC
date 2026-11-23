@@ -28,9 +28,13 @@ from kivy.core.window import Window
 from kivy.properties import BooleanProperty
 from kivy.uix.behaviors import ButtonBehavior
 from kivy.uix.boxlayout import BoxLayout
+from kivy.uix.label import Label
+from kivy.uix.widget import Widget
+from kivy.metrics import dp, sp
 
 # PySol kivy imports
 from pysollib.kivy.LBase import LBase
+from pysollib.kivy import boardstyle as style
 from pysollib.kivy.LImage import LImage
 from pysollib.kivy.toast import Toast
 
@@ -42,26 +46,50 @@ from pysollib.winsystems import TkSettings
 # ************************************************************************
 
 
-class MyButtonBase(ButtonBehavior, LImage, LBase):
+class MyButtonBase(ButtonBehavior, BoxLayout, LBase):
     shown = BooleanProperty(True)
     enabled = BooleanProperty(True)
     config = BooleanProperty(True)
 
     def __init__(self, **kwargs):
-        super().__init__(**kwargs)
-        self.src = None
-        if ('image' in kwargs):
-            self.src = kwargs['image'].source
-        self.command = None
-        if ('command' in kwargs):
-            self.command = kwargs['command']
-        self.name = ""
-        if ('name' in kwargs):
-            self.name = kwargs['name']
+        super().__init__(orientation='vertical', padding=(dp(4), dp(6)),
+                         spacing=dp(2), **kwargs)
+        self.command = kwargs.get('command')
+        self.name = kwargs.get('name', '')
+        self.symbol = None
+        icon = kwargs.get('image')
+        if icon is not None:
+            self.symbol = LImage(texture=CoreImage(icon.source).texture)
+            self.add_widget(self.symbol)
+        else:
+            menu = Widget()
+            style.menu_icon(menu, style.SHEET)
+            self.add_widget(menu)
+        self.caption = Label(
+            text=kwargs.get('text', ''), color=style.rgba(style.SHEET),
+            font_size=sp(11), halign='center', valign='middle',
+            size_hint_y=None, height=dp(18), shorten=True,
+            shorten_from='right')
+        self.caption.bind(size=self.caption.setter('text_size'))
+        self.add_widget(self.caption)
+        self.bind(width=self._fit_caption, disabled=self._fade_disabled)
 
-        image = CoreImage(self.src)
-        self.texture = image.texture
-        self.fit_mode = "contain"
+    @property
+    def fit_mode(self):
+        return self.symbol.fit_mode if self.symbol is not None else 'contain'
+
+    @fit_mode.setter
+    def fit_mode(self, mode):
+        if self.symbol is not None:
+            self.symbol.fit_mode = mode
+
+    def _fit_caption(self, *args):
+        wide_enough = self.width >= dp(44)
+        self.caption.opacity = int(wide_enough)
+        self.caption.height = dp(18) if wide_enough else 0
+
+    def _fade_disabled(self, *args):
+        self.opacity = 0.45 if self.disabled else 1.0
 
     def set_enabled(self, instance, value):
         # print ('** set enabled (',self.name ,') called', value)
@@ -234,6 +262,11 @@ class PysolToolbarTk(BoxLayout):
         self.win.setTool(self, 3)
         self.buttons = []
         self.buttond = {}
+        style.backing(self, style.CHROME)
+        self.menu_button = MyButton(
+            name='menu', text=_('Menu'), command=menubar.mMainMenuDialog)
+        self.menu_button.enabled = True
+        self.menu_button.config = True
 
         # This is called only once after program start. Configurations
         # have to take place elsewhere.
@@ -308,18 +341,14 @@ class PysolToolbarTk(BoxLayout):
         self.win.setTool(None, side)
 
         # size_hint dependent on screen orientation:
-        if side in [1, 2]:
+        if side in (1, 2):
             self.orientation = "horizontal"
-            if landscape:
-                self.size_hint = (1.0, 0.09)
-            else:
-                self.size_hint = (1.0, 0.06)
+            self.size_hint = (1, None)
+            self.height = dp(66)
         else:
             self.orientation = "vertical"
-            if landscape:
-                self.size_hint = (0.06, 1.0)
-            else:
-                self.size_hint = (0.09, 1.0)
+            self.size_hint = (None, 1)
+            self.width = dp(64)
         return False
 
     def mHoldAndQuit(self, *args):
@@ -339,6 +368,7 @@ class PysolToolbarTk(BoxLayout):
             # print(b.name,b.config,b.shown,b.enabled)
             if b.shown and b.enabled and b.config:
                 self.add_widget(b)
+        self.add_widget(self.menu_button)
 
     def changed_state(self, instance, value):
         self.redraw()

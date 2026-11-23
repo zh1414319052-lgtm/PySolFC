@@ -1,0 +1,61 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<html lang="zh-CN">
+<head>
+<title>常见问题 · 皮索尔纸牌合集</title>
+<meta name="license" content="GNU General Public License">
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+</head>
+<body text="#000000" bgcolor="#F7F3FF" link="#0000FF" vlink="#660099"
+alink="#FF0000">
+<img src="../html/images/pysollogo03.png" alt="皮索尔纸牌合集图标">
+<br>
+
+<h1>常见问题</h1>
+<h2>动画太慢了……</h2>
+<p>
+不幸的是，Tcl/Tk 工具包缺乏精灵概念，因此在拖动卡片时会发生大量（不可见的双缓冲）重绘。
+<p>
+禁用 <i>卡影</i>, <i>遮蔽合法举动</i>、背景表图块和声音会在一定程度上提高显示速度。
+
+<h2>桌子的瓷砖看起来很奇怪</h2>
+<p>
+仅当使用真彩色视频模式时才应启用背景表图块 - 否则它们可能会因抖动而看起来很糟糕。
+<p>
+顺便说一句，您可以通过将图像复制到主窗口来添加自己的背景图块 <i>数据/图块</i> 或你的家 <i>〜/.PySolFC/tiles</i> 目录。您还可以使用“选择图块”窗口上的“导入文件”选项卡从应用程序内部执行此操作。
+
+<h2>我的防病毒应用程序显示 Windows 安装程序包含病毒。</h2>
+<p>
+我们被问及一些防病毒软件（包括那些在 <a href="https://www.virustotal.com/">病毒总数</a>，已将 Microsoft Windows 下载识别为包含恶意软件。我们所知道的是，它们是从 <a href="https://en.wikipedia.org/wiki/Free_and_open-source_software">开源</a>
+源代码由 <a href="https://www.appveyor.com/">应用程序载体</a>，在上传之前使用 VirusTotal 进行检查，此时被认为是恶意软件清除的。
+<p>
+然而，随着时间的推移，他们似乎积累了包含恶意软件的分类，这些似乎是 <a href="https://en.wikipedia.org/wiki/False_positives_and_false_negatives">误报</a>。因此，我们相信下载内容仍然安全且不含恶意软件。
+<p>
+此外，请注意，我们认为许多反恶意软件应用程序本身是有害的，并且它们都是针对不存在的问题的不完整（非）解决方案。 <a href="https://en.wikipedia.org/wiki/Linux#Desktop">Linux</a> 和 <a href="https://en.wikipedia.org/wiki/List_of_BSD_operating_systems">BSD 操作系统</a>.
+<p>
+有关更多信息，请参阅：
+<ol>
+<li><a href="https://sourceforge.net/p/pysolfc/discussion/503709/thread/d841b6a1/">论坛讨论</a></li>
+<li><a href="http://linuxmafia.com/~rick/faq/">Linux 上的病毒</a></li>
+<li><a href="https://www.mail-archive.com/wikimedia-l@lists.wikimedia.org/msg30001.html">关于抗病毒的讨论。</a></li>
+</ol>
+
+<h2>我收到一条错误消息，指出没有名为“formatter”的模块。</h2>
+<p>
+如果您尝试使用 Python 3.10 运行旧版本的 PySolFC，则会出现此错误。如果您使用的是 Python 3.10 或更高版本，请将 PySolFC 版本升级到 2.14.0 或更高版本 - 旧版本与 Python 3.10 不兼容。
+<p>
+如果您从 Linux 发行版的软件包管理器获取副本，请联系维护您的发行版软件包的人员。您始终可以从 PySolFC 网站或 Flathub 获取最新版本。
+
+<h2>它不会让我在 Spider 中发更多牌。</h2>
+<p>
+玩蜘蛛时，如果有空牌堆，您将无法再发牌。如果剩下的牌不够多，无法在每一堆中放入一张，则游戏失败。游戏的一部分是提前计划何时发更多牌以避免这种情况。
+<p>
+如果您想要没有此规则的变体，您可以玩“轻松蜘蛛”。
+
+
+<p>
+<br>
+<a href="index.html">返回索引</a>
+<hr>
+<i>皮索尔纸牌合集帮助 · 3.6.1</i>
+</body>
+</html>

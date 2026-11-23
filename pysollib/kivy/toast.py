@@ -10,6 +10,7 @@ from kivy.uix.label import Label
 from kivy.uix.widget import Widget
 
 from pysollib.kivy.LBase import LBase
+from pysollib.kivy import boardstyle as style
 
 # ================================================================
 
@@ -23,7 +24,7 @@ class Toast(Label, LBase):
         self.rsize = [2, ]
         self.hook = None
         with self.canvas.before:
-            Color(0.2, 0.2, 0.2, 0.85)
+            Color(*style.rgba(style.CHROME))
             self.rect = RoundedRectangle()
         self.bind(texture_size=self.eval_size)
         self.bind(size=self._update_rect)

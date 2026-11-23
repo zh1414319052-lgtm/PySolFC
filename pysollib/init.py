@@ -22,6 +22,7 @@
 # ---------------------------------------------------------------------------##
 
 import gettext
+import json
 import locale
 import os
 import subprocess
@@ -81,8 +82,22 @@ def init():
     locale_dir = _find_locale_dir()
     if locale_dir:
         gettext.bindtextdomain('pysol', locale_dir)
+        gettext.bindtextdomain('pysol-games', locale_dir)
 
     gettext.textdomain('pysol')
+
+    if hasattr(sys, 'getandroidapilevel'):
+        from pysollib.androidlocale import language_for_primary
+        from pysollib.androidlocale import system_primary_language
+        from pysollib.mygettext import myGettext
+
+        myGettext.language = language_for_primary(system_primary_language())
+        pysollib.settings.TITLE = gettext.ugettext('PySolFC')
+        if myGettext.language == 'zh_CN':
+            font = os.path.abspath(os.path.join(
+                'data', 'fonts', 'NotoSansSC-Regular.ttf'))
+            os.environ['KCFG_KIVY_DEFAULT_FONT'] = json.dumps(
+                ['Roboto', font])
 
     # debug
     if 'PYSOL_CHECK_GAMES' in os.environ or 'PYSOL_DEBUG' in os.environ:

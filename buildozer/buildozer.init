@@ -31,6 +31,7 @@ echo '### prepare cardsets'
 ./resize4k ${tmpdir}/data/tiles
 
 cp -a cardsets/* ${tmpdir}/data
+cp -a ../data/cardset-standard-png/. "${tmpdir}/data/cardset-standard-png/"
 
 echo '### eval version'
 

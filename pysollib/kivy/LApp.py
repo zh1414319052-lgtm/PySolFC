@@ -38,6 +38,7 @@ from kivy.graphics import Color
 from kivy.graphics import Line
 from kivy.graphics import Rectangle
 from kivy.graphics import Triangle
+from kivy.metrics import dp, sp
 from kivy.properties import NumericProperty
 from kivy.properties import StringProperty
 from kivy.uix.actionbar import ActionButton
@@ -53,13 +54,15 @@ from kivy.uix.treeview import TreeView
 from kivy.uix.treeview import TreeViewLabel
 from kivy.uix.treeview import TreeViewNode
 from kivy.uix.widget import Widget
-from kivy.utils import platform
+from kivy.utils import escape_markup, platform
 
 from pysollib.kivy.LBase import LBase
 from pysollib.kivy.LTask import LTask, LTaskQ
+from pysollib.kivy import boardstyle as style
 from pysollib.kivy.androidperms import requestStoragePerm
 from pysollib.kivy.androidrot import AndroidScreenRotation
 from pysollib.kivy.tkconst import EVENT_HANDLED, EVENT_PROPAGATE
+from pysollib.mygettext import _
 from pysollib.resource import CSI
 
 if platform != 'android':
@@ -934,6 +937,8 @@ class LTreeRoot(TreeView, LBase):
     def __init__(self, **kw):
         super().__init__(**kw)
         self.kw = kw
+        self.indent_start = dp(24)
+        self.indent_level = dp(18)
 
     def closeLastNode(self):
         ret = False
@@ -965,7 +970,7 @@ class LTreeSliderNode(Slider, TreeViewNode, LBase):
 
         super().__init__(markup=True, **kw)
         self.value = self.variable.value
-        self.height = '24sp'
+        self.height = dp(48)
         self.background_width = '12sp'
         self.background_height = '12sp'
         self.cursor_height = '12sp'
@@ -992,6 +997,16 @@ class LTreeNode(ButtonBehavior, TreeViewLabel, LBase):
             self.title = kw['text']
 
         super().__init__(markup=True, **kw)
+        self.color = style.rgba(style.INK)
+        self.color_selected = style.rgba(style.MINT)
+        self.odd_color = style.rgba(style.PAPER)
+        self.even_color = style.rgba(style.SHEET)
+        self.halign = 'left'
+        self.padding = (dp(13), dp(8))
+        self.size_hint_x = 1
+        self.font_size = sp(16)
+        self.bind(texture_size=self._row_height)
+        self._row_height()
 
         if self.variable:
             self.variable.bind(value=self.onVarChange)
@@ -1006,6 +1021,9 @@ class LTreeNode(ButtonBehavior, TreeViewLabel, LBase):
         self.bind(on_release=self.on_released)
         self.bind(is_selected=self.onSelect)
         self.bind(is_open=self.onOpen)
+
+    def _row_height(self, *args):
+        self.height = max(dp(52), self.texture_size[1] + dp(8))
 
     def onVarChange(self, instance, value):
         # print('LTreeNode: onVarChange(%s, %s, %s)'
@@ -1023,9 +1041,9 @@ class LTreeNode(ButtonBehavior, TreeViewLabel, LBase):
         # print('LTreeNode: setCheck(%s)' % value)
         if value:
             # self.text = '+ '+self.title
-            self.text = '[b]+[/b] ' + self.title
+            self.text = '[b]✓[/b] ' + self.title
         else:
-            self.text = '- ' + self.title
+            self.text = '○ ' + self.title
         self.texture_update()
 
     def setVal(self, value):
@@ -1035,11 +1053,10 @@ class LTreeNode(ButtonBehavior, TreeViewLabel, LBase):
             # print ('%s.%s' % (self.font_size, fs))
             # self.text = '[size='+fs+'][b]'+self.title+'[/b][/size]'
             # self.text = 'o '+self.title
-            self.text = '[b]o[/b] ' + self.title
+            self.text = '[b]●[/b] ' + self.title
             # self.text = u'\u25cf '+self.title  # unicode filled circle
         else:
-            self.text = self.title
-            self.text = '    ' + self.title
+            self.text = '○ ' + self.title
             # self.text = u'\u25cb  '+self.title # unicode open circle
         self.texture_update()
 
@@ -1135,15 +1152,7 @@ class LTopLevelContent(BoxLayout, LBase):
         super().__init__(**kw)
 
         # Macht die Hintergrundfarbe der TopLevel (Dialog-) Fenster.
-        with self.canvas.before:
-            Color(0.45, 0.5, 0.5, 1.0)
-            self.rect = Rectangle(pos=self.pos, size=self.size)
-        self.bind(pos=self.update_rect)
-        self.bind(size=self.update_rect)
-
-    def update_rect(self, *args):
-        self.rect.pos = self.pos
-        self.rect.size = self.size
+        style.backing(self, style.SHEET)
 
     def wm_minsize(self, w, h):
         pass
@@ -1155,18 +1164,14 @@ class LTopLine(ButtonBehavior, Label, LBase):
 
     def __init__(self, **kw):
         super().__init__(**kw)
-        with self.canvas.before:
-            Color(0.45, 0.3, 0.3, 1.0)
-            self.rect = Rectangle(pos=self.pos, size=self.size)
-        self.bind(pos=self.update_rect)
-        self.bind(size=self.update_rect)
-        self.maxlines = 0
-        self.halign = 'center'
+        style.backing(self, style.PAPER)
+        self.color = style.rgba(style.INK)
+        self.padding = (dp(20), 0)
+        self.font_size = sp(21)
+        self.bold = True
+        self.halign = 'left'
         self.valign = 'center'
-
-    def update_rect(self, *args):
-        self.rect.pos = self.pos
-        self.rect.size = self.size
+        self.shorten = True
 
     def on_size(self, o, s):
         self.text_size = s
@@ -1184,7 +1189,8 @@ class LTopLevelBase(BoxLayout, LBase):
     def __init__(self, title='', **kw):
         super().__init__(orientation="vertical", **kw)
         self.title = title
-        self.titleline = LTopLine(text=title, size_hint=[1.0, 0.15])
+        self.titleline = LTopLine(
+            text=f'‹   {title}', size_hint_y=None, height=dp(58))
         self.content = LTopLevelContent(orientation="vertical", **kw)
         self.add_widget(self.titleline)
         self.add_widget(self.content)
@@ -1238,7 +1244,9 @@ class LMenuBar(BoxLayout, LBase):
     def __init__(self, **kw):
         super().__init__(**kw)
         self.menu = None
-        self.size_hint = (1.0, 0.08)
+        self.size_hint_y = None
+        self.height = dp(68)
+        style.backing(self, style.CHROME)
 
     def setMenu(self, menu):
         print('LMenuBar: setMenu %s, %s' % (self, menu))
@@ -1268,10 +1276,18 @@ class LMenu(ActionView, LBase):
         class MyActionPrev(ActionPrevious, LBase):
             pass
 
+        self.background_image = ''
+        self.background_color = style.rgba(style.CHROME)
         kw['app_icon'] = 'data/images/icons/48x48/pysol.png'
+        kw['app_icon_width'] = dp(34)
+        kw['app_icon_height'] = dp(34)
+        kw['color'] = style.rgba(style.SHEET)
+        kw['markup'] = True
         kw['with_previous'] = prev
         kw['size_hint'] = (.01, 1)
         self.ap = MyActionPrev(**kw)
+        self.ap.ids.title.shorten = False
+        self.ap.ids.title.max_lines = 2
         self.add_widget(self.ap)
         self.bar = None
         self.uppermenu = None
@@ -1333,7 +1349,10 @@ class LMenuItem(ActionButton, LBase):
         self.submenu = None
         self.menu = menu
         self.menu.addItem(self)
-        self.minimum_width = '200sp'
+        self.minimum_width = dp(64)
+        self.background_normal = ''
+        self.background_color = style.rgba(style.CHROME)
+        self.color = style.rgba(style.GOLD)
         if 'command' in kw:
             self.setCommand(kw['command'])
         if 'submenu' in kw:
@@ -1444,7 +1463,13 @@ class LTkBase:
         logging.info("LTkBase: wm_title %s", strg)
         if (self.app):
             # self.app.top.topLine.text = strg
-            self.app.top.getMenu().ap.title = strg
+            name, separator, game = strg.partition(" - ")
+            title = escape_markup(strg)
+            if separator:
+                title = (f"[size=20sp][b]{escape_markup(game)}[/b][/size]\n"
+                         f"[size=11sp][color={style.NAV_MUTED}]"
+                         f"{escape_markup(name)}[/color][/size]")
+            self.app.top.getMenu().ap.title = title
 
     def wm_iconname(self, strg):
         self.icontitle = strg
@@ -1637,6 +1662,7 @@ class LMainWindow(BoxLayout, LTkBase):
         self.workContainerO.add_widget(self.workContainer)
 
         self.workStack = LStack()
+        self.visible_panel = None
         self.app = None
 
         '''
@@ -1648,7 +1674,7 @@ class LMainWindow(BoxLayout, LTkBase):
         # self.touches = []
 
         with self.canvas.before:
-            Color(0.15, 0.15, 0.15, 1)
+            Color(*style.rgba(style.CHROME))
             self.rect = Rectangle(pos=self.pos, size=self.size)
         self.bind(pos=self.update_rect)
         self.bind(size=self.update_rect)
@@ -1765,24 +1791,37 @@ class LMainWindow(BoxLayout, LTkBase):
         self.workContainer1.clear_widgets()
 
     def buildContainer(self):
-        # (hbox)
-        if self.toolBar is not None and self.toolBarPos == 3:
-            self.workContainerO.add_widget(self.toolBar)
-        self.workContainerO.add_widget(self.workContainer1)
-        if self.toolBar is not None and self.toolBarPos == 4:
-            self.workContainerO.add_widget(self.toolBar)
-        # (vbox)
-        if self.toolBar is not None and self.toolBarPos == 1:
-            self.workContainer1.add_widget(self.toolBar)
-        self.workContainer1.add_widget(self.workContainer)
-        if self.toolBar is not None and self.toolBarPos == 2:
-            self.workContainer1.add_widget(self.toolBar)
-        # (workcontainer)
-        for w in self.workStack.items:
-            self.workContainer.add_widget(w[1])
+        self.removeContainer()
+        stack = self.workStack.items
+        panel = stack[-1][1] if stack and stack[-1][0] != 'playground' else None
+        compact = Window.width < Window.height
+        if compact and panel is not None:
+            self.workContainerO.add_widget(self.workContainer1)
+            self.workContainer1.add_widget(self.workContainer)
+            self.workContainer.add_widget(panel)
+        else:
+            for pos in (3, 1):
+                if self.toolBar is not None and self.toolBarPos == pos:
+                    host = self.workContainerO if pos == 3 else self.workContainer1
+                    host.add_widget(self.toolBar)
+            self.workContainerO.add_widget(self.workContainer1)
+            self.workContainer1.add_widget(self.workContainer)
+            for pos in (4, 2):
+                if self.toolBar is not None and self.toolBarPos == pos:
+                    host = self.workContainerO if pos == 4 else self.workContainer1
+                    host.add_widget(self.toolBar)
+            for _, widget in stack:
+                self.workContainer.add_widget(widget)
+        if self.visible_panel is not panel:
+            if self.visible_panel is not None:
+                Animation.cancel_all(self.visible_panel, 'opacity')
+                self.visible_panel.opacity = 1
+            self.visible_panel = panel
+            if panel is not None and self.app and self.app.opt.animations:
+                panel.opacity = 0.7
+                Animation(opacity=1, duration=style.PANEL_ENTER, t='out_cubic').start(panel)
 
     def rebuildContainer(self):
-        LAfterAnimation(self.removeContainer)
         LAfterAnimation(self.buildContainer)
 
     def pushWork(self, key, widget):
@@ -1833,9 +1872,8 @@ class LApp(App):
     def key_input(self, window, key, scancode, codepoint, modifier):
         if key == 27:
             # Back key of Android.
-            lapp = App.get_running_app()
-            app = lapp.app
-            if app is None:
+            app = self.app
+            if self.stopping or app is None or app.game is None:
                 return False  # delegate
 
             # redirect to mainwindow to close popups, tree nodes
@@ -1851,8 +1889,12 @@ class LApp(App):
     def __init__(self, args):
         super().__init__()
         self.args = args
-        self.title = "PySolFC"
+        self.title = _("PySolFC")
         self.baseWindow = FloatLayout()
+        self.app = None
+        self.startCode = 0
+        self.stopping = False
+        self.language_change_notified = False
 
     def build(self):
         class MyLabel(Label, LBase):
@@ -1882,7 +1924,6 @@ class LApp(App):
         Cache.append('LAppCache', 'baseWindow', self.baseWindow, timeout=0)
         Cache.append('LAppCache', 'mainWindow', self.mainWindow, timeout=0)
         Cache.append('LAppCache', 'mainApp', self, timeout=0)
-        self.startCode = 0
         Window.bind(on_keyboard=self.key_input)
 
         from pysollib.app import Application
@@ -1965,29 +2006,19 @@ class LApp(App):
         # removed.
 
     def on_stop(self):
-        # Achtung wird u.U. 2 mal aufgerufen !!!
         logging.info("LApp: on_stop")
-        if self.startCode > 0:
+        app = self.app
+        if self.stopping or self.startCode > 0 or app is None or app.game is None:
             return
-        # lapp: erweiterte klasse dieser (mit pysolfc app members).
-        lapp = App.get_running_app()
-        lapp.app.menubar.mHoldAndQuit()
+        # Kivy can dispatch on_stop again while the game loop is closing.
+        self.stopping = True
+        app.menubar.mHoldAndQuit()
 
     def on_pause(self):
         logging.info("LApp: on_pause")
-        # return True: wenn wir wirklich in pause gehen. Dann wird auch
-        # resume aufgerufen falls die app wieder aktiviert wird.
-        # return False: app wird gestoppt (on_stop wird aufgerufen)
-        if self.startCode > 0:
+        app = self.app
+        if self.stopping or self.startCode > 0 or app is None or app.game is None:
             return False
-
-        pauseSupport = True
-        # True ist die bessere Variante.
-
-        lapp = App.get_running_app()
-        app = lapp.app
-        if app is None:
-            return
 
         logging.info("LApp: on_pause - pause on")
         # set pause
@@ -2017,17 +2048,18 @@ class LApp(App):
 
         logging.info("LApp: on_pause, Window.size=%s", str(Window.size))
 
-        return pauseSupport
+        return True
 
     def on_resume(self):
         logging.info("LApp: on_resume")
 
-        lapp = App.get_running_app()
-        app = lapp.app
-        if app is None:
+        app = self.app
+        if self.stopping or app is None or app.game is None:
             return
 
         AndroidScreenRotation.unlock(toaster=False)
+        if platform == 'android':
+            self.notify_language_change()
 
         so = get_screen_ori()
         go = so  # flake8: F841 nonsense!
@@ -2060,6 +2092,21 @@ class LApp(App):
         # Pause modus abschalten nach resume:
         if app.game.pause:
             Clock.schedule_once(self.makeEndPauseCmd(app), 3.0)
+
+    def notify_language_change(self):
+        from pysollib.androidlocale import language_for_primary
+        from pysollib.androidlocale import system_primary_language
+        from pysollib.kivy.androidtoast import AndroidToaster
+        from pysollib.mygettext import myGettext
+
+        primary = system_primary_language()
+        if primary is None:
+            return
+        changed = language_for_primary(primary) != myGettext.language
+        if changed and not self.language_change_notified:
+            AndroidToaster.toastLong(
+                _("System language changed. Reopen the app to apply it."))
+        self.language_change_notified = changed
 
     def makeEndPauseCmd(self, app):
         def endPauseCmd(dt):

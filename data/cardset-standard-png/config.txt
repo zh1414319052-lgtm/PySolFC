@@ -1,0 +1,6 @@
+PySolFC solitaire cardset;7;.png;1;54;7;0;1;0
+0010;Standard
+144 244 8
+28 90 10 14
+back111.png
+back041.png;back101.png;back102.png;back111.png;back121.png;back122.png;back131.png;back132.png;back191.png;back192.png

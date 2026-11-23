@@ -35,6 +35,9 @@ from kivy.clock import Clock
 from kivy.uix.anchorlayout import AnchorLayout
 from kivy.uix.boxlayout import BoxLayout
 from kivy.uix.label import Label
+from kivy.uix.button import Button
+from kivy.metrics import dp, sp
+from pysollib.kivy import boardstyle as style
 
 from pysollib.kivy.LApp import LBoxLayout
 from pysollib.kivy.LApp import LScrollView
@@ -139,6 +142,9 @@ class MfxToolTip:
 
 class FLabel(Label):
     def __init__(self, **kw):
+        kw.setdefault('color', style.rgba(style.INK))
+        kw.setdefault('font_size', sp(16))
+        kw.setdefault('padding', (dp(22), dp(14)))
         super().__init__(**kw)
 
         self.bind(size=self.onUpdate)
@@ -169,8 +175,13 @@ class MfxMessageDialog(MfxDialog):
             image = LImage(texture=kw.image.texture, size_hint=(1, 1))
             self.top.add_widget(image)
 
-        label = FText(text=kw.text, halign='center')
+        label = FText(text=kw.text, halign='left')
         self.top.add_widget(label)
+        self.top.add_widget(Button(
+            text=_("Close"), size_hint_y=None, height=dp(52),
+            background_normal='', background_color=style.rgba(style.CHROME),
+            color=style.rgba(style.SHEET),
+            on_release=self.window.onClick))
 
         # LB
         # nicht automatisch ein neues spiel laden.
@@ -227,8 +238,8 @@ class PysolAboutDialog:
         text = text + '\n' + self._url
         logging.info('PysolAboutDialog: txt=%s', text)
 
-        text = text + '\n\n' + 'Adaptation to Kivy/Android\n' + \
-            ' Copyright (C) (2016-24) LB'
+        text += '\n\n' + _('Adaptation to Kivy/Android') + '\n'
+        text += 'Copyright (C) (2016-24) LB'
 
         self.parent = parent
         self.app = app

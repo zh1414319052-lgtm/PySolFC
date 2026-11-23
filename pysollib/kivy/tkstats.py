@@ -29,6 +29,8 @@
 from kivy.graphics import Color
 from kivy.graphics import Line
 from kivy.uix.label import Label
+from kivy.metrics import dp, sp
+from pysollib.kivy import boardstyle as style
 from kivy.uix.widget import Widget
 
 # PySol imports
@@ -186,7 +188,9 @@ class SingleGame_StatsDialog(MfxDialog):
 
 #        createChart(app, won, lost, _("Current session"))
 
-        self.top.add_widget(Label(text=text1 + text2))
+        self.top.add_widget(Label(
+            text=text1 + text2, font_size=sp(16), halign='left',
+            color=style.rgba(style.INK), padding=(dp(24), dp(16))))
 
         # self.top.add_widget(Button(text='reset', size_hint=(1, 0.15)))
         #

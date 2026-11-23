@@ -51,6 +51,8 @@ class ImageStacker(StackLayout):
     def on_size(self, instance, value):
         hint_x = 1.0 / self.dx
         hint_y = 1.0 / self.dx
+        if min(value) <= 0:
+            return
         vasp = value[0]/value[1]
         # adjust width or height
         if vasp < self.asp:

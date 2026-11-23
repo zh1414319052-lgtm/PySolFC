@@ -6,8 +6,9 @@ class myLocalGettext:
     def __init__(self, lang):
         self.language = lang
 
-    def translation(self):
-        domain = gettext._current_domain
+    def translation(self, domain=None):
+        if domain is None:
+            domain = gettext._current_domain
         localedir = gettext._localedirs.get(domain, None)
         if self.language == "":
             t = gettext.translation(domain, localedir)
@@ -69,3 +70,11 @@ def pgettext(context, message):
     key = "%s\x04%s" % (context, message)
     translated = _(key)
     return message if translated == key else translated
+
+
+def game_name(message):
+    """Use the game catalog when available, and support combined catalogs."""
+    try:
+        return myGettext.translation('pysol-games').gettext(message)
+    except OSError:
+        return _(message)

@@ -37,5 +37,8 @@ buildozer/tmp
 buildozer/support*
 buildozer/ENV
 buildozer/VENV
+/buildozer/upstream/*.tar.gz
+/design/*.collab.sqlite3*
+/design/*.haoke-ui.json.lock
 venv*
 local-comments
