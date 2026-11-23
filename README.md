@@ -13,6 +13,8 @@ The Haoke Android edition of PySolFC 3.6.1 provides a Simplified Chinese interfa
 | APK SHA-256 | `03cca75bcd42b93b689a9bc48a583d8c9220f15ef9920805f30ab051f62d65e9` |
 | 签名证书 · Certificate SHA-256 | `13ea44b975c48845883d171e8f642d3c00d59fd54b2f17ca50ef05e57bcf2a69` |
 
+[下载 Android 正式版 · Download the Haoke Android edition](https://www.haoke.org/software/51c7e11a1f8d6559)
+
 [构建、对应源码与授权说明 · Build and corresponding source](buildozer/README-haoke.md) · [GitHub 源码版本 · Source release](https://github.com/zh1414319052-lgtm/PySolFC/releases/tag/android-3.6.1-haoke.1)
 
 ## 上游说明 · Upstream documentation
