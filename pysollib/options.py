@@ -629,16 +629,16 @@ class Options:
                                   6: ("Hokusai Ukiyo E (6x6)", ""),
                                   7: ("Blaren (7x7)", ""),
                                   8: ("Mid Winter's Eve (8x8)", ""),
-                                  9: ("The Card Players (9x9)", ""),
-                                  10: ("Players Trumps (10x10)", "")},
-                CSI.TYPE_ISHIDO: {0: ("Simple Ishido XL", "")},
+                                  9: ("Hofamterspiel (9x9)", ""),
+                                  10: ("Eternal Dragon (10x10)", "")},
+                CSI.TYPE_ISHIDO: {0: ("Simple Ishido", "")},
             }
         else:
             self.cardset = {
                 # game_type:        (cardset_name, back_file)
                 0:                  {0: (c, "")},
-                CSI.TYPE_FRENCH:    {0: (c, ""), 1: (c, "")},
-                CSI.TYPE_HANAFUDA:  {0: ("Kintengu", "")},
+                CSI.TYPE_FRENCH:    {0: (c, ""), 1: ("Standard", "")},
+                CSI.TYPE_HANAFUDA:  {0: ("Louie Mantia Hanafuda", "")},
                 CSI.TYPE_MAHJONGG:  {0: (m, "")},
                 CSI.TYPE_TAROCK:    {0: ("Vienna 2K", "")},
                 CSI.TYPE_HEXADECK:  {0: ("Hex A Deck", "")},
@@ -654,8 +654,8 @@ class Options:
                                   6: ("Hokusai Ukiyo E (6x6)", ""),
                                   7: ("Blaren (7x7)", ""),
                                   8: ("Mid Winter's Eve (8x8)", ""),
-                                  9: ("The Card Players (9x9)", ""),
-                                  10: ("Players Trumps (10x10)", "")},
+                                  9: ("Hofamterspiel (9x9)", ""),
+                                  10: ("Eternal Dragon (10x10)", "")},
                 CSI.TYPE_ISHIDO: {0: ("Simple Ishido", "")},
             }
 

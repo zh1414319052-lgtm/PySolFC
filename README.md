@@ -2,20 +2,28 @@
 
 # 皮索尔纸牌合集 · PySolFC Android
 
-这里是 PySolFC 的浩科 Android 分支。3.6.1 为 Android 5.0 及更高版本提供简中界面、玩法名称与规则。标准扑克牌采用重新绘制的象牙色牌面和绿金牌背，应用使用新的启动图标并修复了 SDL 冷启动闪退。
+这里是 PySolFC 的浩科 Android 分支。当前浩科版本 **3.6.1-haoke.2** 基于 F-Droid Android 3.6.1，支持 Android 5.0 及以上、`arm64-v8a` 和 `armeabi-v7a`，包名为 `org.haoke.pysolfc`。保留简中界面、玩法名称与规则、象牙色标准扑克牌、绿金牌背、启动图标及 SDL 冷启动保护。
 
-The Haoke Android edition of PySolFC 3.6.1 provides a Simplified Chinese interface and rules, a redesigned standard deck, a new launcher icon, and an SDL cold-start fix. It supports Android 5.0 or later on `arm64-v8a` and `armeabi-v7a`. Its package ID is `org.haoke.pysolfc`.
+本次修复花札切换闪退、缺失默认牌组及历史保存状态中牌组与玩法不匹配的问题；有效的用户牌组选择继续读取。新增签名更新检查：在主菜单或帮助页安全检查，帮助菜单提供手动入口。游戏本身可离线使用；检查更新需要联网，不发送牌局数据，不自动下载或安装 APK。
 
-| Android 3.6.1 | 校验信息 · Verification |
+The Haoke Android edition **3.6.1-haoke.2**, based on F-Droid Android 3.6.1, fixes Hanafuda switching crashes, missing default decks, and incompatible persisted decks on startup or saved-game restoration. Compatible user choices remain intact. It retains the Chinese interface and rules, redesigned standard deck, launcher icon, and SDL cold-start protection. Signed update checks run in the foreground on safe menu pages, with a manual Help entry. Games work offline; update checks use the network, send no game data, and never download or install an APK automatically.
+
+| Android 3.6.1-haoke.2 | 校验信息 · Verification |
 | --- | --- |
-| 版本号 · Version code | `102130608` |
-| APK 大小 · APK size | 83,655,325 bytes |
-| APK SHA-256 | `03cca75bcd42b93b689a9bc48a583d8c9220f15ef9920805f30ab051f62d65e9` |
+| 版本号 · Version code | `102130610` |
+| APK 大小 · APK size | 83,663,517 bytes |
+| APK SHA-256 | `6d1271fbbd51cfe41a1581252ca5c95150797de1048685a90d61d7b0c9d25459` |
 | 签名证书 · Certificate SHA-256 | `13ea44b975c48845883d171e8f642d3c00d59fd54b2f17ca50ef05e57bcf2a69` |
 
 [下载 Android 正式版 · Download the Haoke Android edition](https://www.haoke.org/software/51c7e11a1f8d6559)
 
-[构建、对应源码与授权说明 · Build and corresponding source](buildozer/README-haoke.md) · [GitHub 源码版本 · Source release](https://github.com/zh1414319052-lgtm/PySolFC/releases/tag/android-3.6.1-haoke.1)
+[构建与对应源码 · Build and corresponding source](buildozer/README-haoke.md) · [更新检查与隐私 · Updates and privacy](docs/haoke-client-updates.md) · [本版源码 Release · Source release](https://github.com/zh1414319052-lgtm/PySolFC/releases/tag/android-3.6.1-haoke.2)
+
+已通过上游 18 项和本次 37 项聚焦测试（14 项牌组恢复、23 项更新检查）。USB 真机 QA 已逐屏验证用户要求的花札、塔罗克、圆牌、将牌、记忆、3×3 至 10×10 拼图、石道、麻将与连连看，以及经典接龙操作、错乱配置恢复和冷启动持久化；新增更新检查也已在同一手机读取并验签真实服务响应。正式签名包已在同一 USB 手机保留数据、同签升级，并通过实际版本显示、签名更新检查、麻将→花札→经典接龙、移牌、撤销重做、提示、演示、后台切回及两次冷启动恢复；手机安装文件哈希与本页一致。
+
+18 upstream tests and 37 focused tests pass (14 deck/recovery, 23 updater tests). Physical-device QA covers the requested deck families, all puzzle sizes from 3×3 through 10×10, Klondike interactions, corrupted-state recovery, persistence, and the real signed update service. The formal artifact also passed an in-place same-signature upgrade on that phone, version/update checks, Mahjong-to-Hanafuda-to-Klondike switching, move/undo/redo/hint/demo, background return, and two cold-start restorations. The installed APK hash matches this page. QA-device and formal-device evidence are recorded separately.
+
+横屏仍使用上游保持比例的纵向牌桌，宽屏利用不足；本版未修改横屏布局，用户自行实测。未声明覆盖所有玩法或其他 Android 机型。Landscape retains the existing proportional portrait-board layout and can leave unused space. No landscape-layout fix is claimed; physical landscape acceptance is assigned to the user. Other devices and every individual game are outside the verified scope.
 
 ## 上游说明 · Upstream documentation
 

@@ -1347,6 +1347,14 @@ class HelpMenuDialog(LMenuDialog):
         super().__init__(menubar, parent, title, app, **kw)
 
     def buildTree(self, tv, node):
+        if get_platform() == 'android':
+            def check_updates():
+                from kivy.app import App
+                updates = getattr(App.get_running_app(), 'haoke_updates', None)
+                if updates:
+                    updates.check(manual=True)
+            tv.add_node(LTreeNode(text=_('Check for Haoke updates'),
+                                 command=check_updates))
         tv.add_node(
             LTreeNode(
                 text=_('Contents'),

@@ -4903,3 +4903,55 @@ msgstr "xpat2 接龙"
 msgctxt "size"
 msgid "Medium"
 msgstr "中等"
+
+#. Haoke signed version notifications.
+msgid "Check for Haoke updates"
+msgstr "检查浩科版更新"
+
+#. Haoke signed version notifications.
+msgid "Checking for Haoke updates..."
+msgstr "正在检查浩科版更新…"
+
+#. Haoke signed version notifications.
+msgid "No newer compatible Haoke version is available."
+msgstr "当前已是最新的兼容浩科版本。"
+
+#. Haoke signed version notifications.
+msgid "Check the device date and time, then try again."
+msgstr "请校准手机日期和时间后重试。"
+
+#. Haoke signed version notifications.
+msgid "Update check failed. Please try again later."
+msgstr "更新检查失败，请稍后重试。"
+
+#. Haoke signed version notifications.
+msgid "Current version: %s"
+msgstr "当前版本：%s"
+
+#. Haoke signed version notifications.
+msgid "Update checks connect to haoke.org. No game data is sent."
+msgstr "更新检查会连接浩科工具站，不发送牌局数据。"
+
+#. Haoke signed version notifications.
+msgid "New Haoke version: %s"
+msgstr "发现浩科新版：%s"
+
+#. Haoke signed version notifications.
+msgid "Could not save the update preference."
+msgstr "无法保存更新提醒设置，请重试。"
+
+#. Haoke signed version notifications.
+msgid "View update"
+msgstr "查看更新"
+
+#. Haoke signed version notifications.
+msgid "Later"
+msgstr "稍后提醒"
+
+#. Haoke signed version notifications.
+msgid "Ignore this version"
+msgstr "忽略此版本"
+
+#. Haoke signed version notifications.
+msgid "Haoke version: %s"
+msgstr "浩科版本：%s"

@@ -48,6 +48,12 @@ def help_about(app, timeout=0, sound=True):
     if timeout:
         strings = (_("&Enjoy"),)
     version = _("Version %s") % VERSION
+    if TOOLKIT == 'kivy':
+        try:
+            from pysollib.haokeupdates import android_identity
+            version += '\n' + _('Haoke version: %s') % android_identity()['versionName']
+        except Exception:
+            pass  # Desktop Kivy and upstream identities keep upstream attribution.
     d = PysolAboutDialog(app, app.top, title=_("About %s") % TITLE,
                          timeout=timeout,
                          text=_('''PySol Fan Club edition

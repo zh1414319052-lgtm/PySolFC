@@ -403,6 +403,10 @@ class Application:
         return self._main_loop()
 
     def runGame(self, id_, random=None):
+        # A restored game can differ from the startup selection. Validate at
+        # the common creation boundary, before any cards/stacks are created.
+        if self.nextgame.loadedgame is not None:
+            id_ = self.nextgame.loadedgame.id
         self.top.connectApp(self)
         # create game instance
         g = self.getGameClass(id_)
@@ -416,6 +420,8 @@ class Application:
                 g = self.getGameClass(id_)
         gi = self.getGameInfo(id_)
         assert gi is not None and gi.id == id_
+        if self.requestCompatibleCardsetType(id_, self.intro.progress) < 0:
+            raise ValueError("No loadable compatible cardset for %s" % gi.name)
         self.game = self.constructGame(id_)
         self.gdb.setSelected(id_)
         self.game.busy = 1
@@ -894,7 +900,7 @@ class Application:
                 t1 = t0
         elif gc == GI.GC_MATCHING:
             t0 = "Matching"
-            if cs.ncards < (gi.ncards / 2):    # not enough cards
+            if cs is None or cs.ncards < (gi.ncards / 2):
                 t1 = t0
         elif gc == GI.GC_PUZZLE:
             t0 = "Puzzle"
@@ -914,7 +920,7 @@ class Application:
             return cs, 1, None
         t = self.checkCompatibleCardsetType(gi, cs)
         # try current
-        if cs:
+        if cs and not cs.error:
             if not t[1]:
                 return cs, 1, t
         if trychange:
@@ -927,12 +933,29 @@ class Application:
                 if not c2 or len(c2) != 2:
                     continue
                 cs = self.cardset_manager.getByName(c2[0])
-                if not cs:
+                if not cs or cs.error:
                     continue
                 t = self.checkCompatibleCardsetType(gi, cs)
                 if not t[1]:
                     cs.updateCardback(backname=c2[1])
                     return cs, flag, t
+            # Saved choices remain untouched. Old installations can remember
+            # missing names or an incompatible deck after an interrupted switch.
+            defaults = Options()
+            defaults.setDefaults(self.top)
+            choice = defaults.cardset.get(gi.category, {}).get(gi.subcategory)
+            if choice:
+                cs = self.cardset_manager.getByName(choice[0])
+                if cs and not cs.error:
+                    t = self.checkCompatibleCardsetType(gi, cs)
+                    if not t[1]:
+                        return cs, 1, t
+            for cs in self.cardset_manager.getAll():
+                if cs.error:
+                    continue
+                t = self.checkCompatibleCardsetType(gi, cs)
+                if not t[1]:
+                    return cs, 1, t
         # ask
         return None, 0, t
 
@@ -940,11 +963,18 @@ class Application:
         gi = self.getGameInfo(id)
         #
         cs, cs_update_flag, t = self.getCompatibleCardset(gi, self.cardset)
-        if cs is self.cardset:
+        if cs is not None and cs is self.cardset:
             return 0
         if cs is not None:
-            self.loadCardset(cs, update=1, progress=progress)
-            return 1
+            if self.loadCardset(cs, id=id, update=1, progress=progress):
+                return 1
+            # loadCardset marks a damaged deck; try another compatible one.
+            return self.requestCompatibleCardsetType(id, progress=progress)
+
+        # During startup/switching there is no game to pause, and Kivy's
+        # selection dialog depends on a live game. Never enter it here.
+        if self.game is None:
+            return -1
 
         self.requestCompatibleCardsetTypeDialog(self.cardset, gi, t)
 
@@ -996,17 +1026,19 @@ class Application:
                 gi.category == GI.GC_MATCHING)
 
     def selectCardset(self, title, key, initial_tab=None):
+        game = self.game
         wasPaused = False
-        if not self.game.pause:
-            self.game.doPause()
+        if game is not None and not game.pause:
+            game.doPause()
             wasPaused = True
-        d = SelectCardsetDialogWithPreview(
-            self.top, title=title, app=self,
-            manager=self.cardset_manager, key=key,
-            initial_tab=initial_tab)
-        if self.game.pause:
-            if wasPaused:
-                self.game.doPause()
+        try:
+            d = SelectCardsetDialogWithPreview(
+                self.top, title=title, app=self,
+                manager=self.cardset_manager, key=key,
+                initial_tab=initial_tab)
+        finally:
+            if (wasPaused and self.game is game and game.pause):
+                game.doPause()
         cs = self.cardset_manager.get(d.key)
         if d.status != 0 or d.button != 0 or d.key < 0 or cs is None:
             return None
@@ -1018,7 +1050,7 @@ class Application:
                 d.scale_values or \
                     (cs.CARD_XOFFSET, cs.CARD_YOFFSET) != d.cardset_values:
                 changed = True
-        if d.key == self.cardset.index and not changed:
+        if self.cardset and d.key == self.cardset.index and not changed:
             return None
         if USE_PIL:
             (self.opt.scale_x,

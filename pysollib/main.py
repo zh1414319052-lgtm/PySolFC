@@ -428,21 +428,16 @@ Cardsets package is up to date.
 
     progress = app.intro.progress
     # load cardset
-    if startgameid != app.opt.last_gameid and app.opt.game_holded == 0:
-        success = app.requestCompatibleCardsetType(startgameid,
-                                                   progress=progress)
-    else:
-        success = app.loadCardset(cardset, progress=progress, id=startgameid)
-    if not success and not cardset:
-        for cardset in app.cardset_manager.getAll():
-            progress.reset()
-
-            if app.loadCardset(cardset, progress=progress,
-                               id=startgameid):
-                break
-        else:
-            fatal_no_cardsets(app)
-            return 3
+    # Validate even when restoring the same game. A crash during switching can
+    # leave the global deck pointing at the previous game's category.
+    gi = app.getGameInfo(startgameid) or app.getGameInfo(2)
+    cardset, update_flag, compatibility = app.getCompatibleCardset(gi, cardset)
+    success = app.loadCardset(cardset, progress=progress, id=gi.id, update=1)
+    if not success:
+        success = app.requestCompatibleCardsetType(gi.id, progress=progress)
+    if success < 0:
+        fatal_no_cardsets(app)
+        return 3
 
     # ok
     return 0

@@ -27,11 +27,11 @@ UPSTREAM_HASH = (
 )
 PACKAGE = "org.lufebe16.pysolfc"
 QA_PACKAGE = PACKAGE + ".qa"
-VERSION_NAME = "3.6.1-qa.6"
-VERSION_CODE = "102130607"
+VERSION_NAME = "3.6.1-qa.8"
+VERSION_CODE = "102130610"
 RELEASE_PACKAGE = "org.haoke.pysolfc"
-RELEASE_VERSION = "3.6.1"
-RELEASE_VERSION_CODE = "102130608"
+RELEASE_VERSION = "3.6.1-haoke.2"
+RELEASE_VERSION_CODE = "102130610"
 STORE_PASS_ENV = "PYSOLFC_RELEASE_STORE_PASS"
 KEY_PASS_ENV = "PYSOLFC_RELEASE_KEY_PASS"
 ANDROID = "{http://schemas.android.com/apk/res/android}"
@@ -181,6 +181,15 @@ def configure_resources(decoded, digest, formal=False):
     manifest = manifest.replace(f'package="{PACKAGE}"', f'package="{package}"')
     manifest = manifest.replace(f'{PACKAGE}.androidx-startup', f'{package}.androidx-startup')
     manifest = manifest.replace('android:allowBackup="true"', 'android:allowBackup="false"')
+    # Signed version checks only; no storage or installation permissions.
+    if 'android.permission.INTERNET' not in manifest:
+        manifest = manifest.replace('<application ',
+                                    '<uses-permission android:name="android.permission.INTERNET" />\n    <application ', 1)
+    if not formal:
+        # Permit adb run-as for synthetic configuration/recovery QA only.
+        manifest = re.sub(r' android:debuggable="[^"]*"', '', manifest)
+        manifest = manifest.replace('<application ',
+                                    '<application android:debuggable="true" ', 1)
     manifest = re.sub(
         r'^\s*<uses-permission android:name="android.permission.'
         r'(?:WRITE_EXTERNAL_STORAGE|MANAGE_EXTERNAL_STORAGE)"\s*/>\n',

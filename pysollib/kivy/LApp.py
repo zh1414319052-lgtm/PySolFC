@@ -1820,6 +1820,9 @@ class LMainWindow(BoxLayout, LTkBase):
             if panel is not None and self.app and self.app.opt.animations:
                 panel.opacity = 0.7
                 Animation(opacity=1, duration=style.PANEL_ENTER, t='out_cubic').start(panel)
+        owner = App.get_running_app()
+        if owner and getattr(owner, 'haoke_updates', None):
+            owner.haoke_updates.route_changed()
 
     def rebuildContainer(self):
         LAfterAnimation(self.buildContainer)
@@ -1895,6 +1898,7 @@ class LApp(App):
         self.startCode = 0
         self.stopping = False
         self.language_change_notified = False
+        self.haoke_updates = None
 
     def build(self):
         class MyLabel(Label, LBase):
@@ -1946,6 +1950,9 @@ class LApp(App):
         anim = Animation(opacity=1,duration=0.7) # noqa
         Clock.schedule_once(lambda dt: anim.start(self.baseWindow),0.3) # noqa
         Clock.schedule_once(lambda dt: set_fullscreen(True),0.0) # noqa
+        if platform == 'android':
+            from pysollib.kivy.haokeupdates import HaokeUpdates
+            self.haoke_updates = HaokeUpdates(self)
 
     def on_start(self):
         logging.info("LApp: on_start")
@@ -2007,6 +2014,8 @@ class LApp(App):
 
     def on_stop(self):
         logging.info("LApp: on_stop")
+        if self.haoke_updates:
+            self.haoke_updates.dispose()
         app = self.app
         if self.stopping or self.startCode > 0 or app is None or app.game is None:
             return
@@ -2016,6 +2025,8 @@ class LApp(App):
 
     def on_pause(self):
         logging.info("LApp: on_pause")
+        if self.haoke_updates:
+            self.haoke_updates.set_foreground(False)
         app = self.app
         if self.stopping or self.startCode > 0 or app is None or app.game is None:
             return False
@@ -2052,6 +2063,8 @@ class LApp(App):
 
     def on_resume(self):
         logging.info("LApp: on_resume")
+        if self.haoke_updates:
+            self.haoke_updates.set_foreground(True)
 
         app = self.app
         if self.stopping or app is None or app.game is None:
